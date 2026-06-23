@@ -19,7 +19,7 @@ O **Bússola LGPD** é uma **ferramenta de apoio à gestão** da conformidade co
 
 ## Responsabilidade
 
-A **responsabilidade jurídica por tudo o que for produzido, publicado e tratado** com o auxílio desta ferramenta é **integralmente da Organização da Sociedade Civil que a utiliza** (o controlador dos dados). A **RIT — Rede de Inovação e Transformação** e a **V3RTECH** atuam apenas como **fornecedoras de uma ferramenta** que ajuda a OSC a gerenciar suas obrigações de proteção de dados; não assumem, em nenhuma hipótese, a posição de controladoras dos dados da OSC nem responsabilidade pelas decisões de tratamento, pelo conteúdo das políticas ou pela adequação da OSC à legislação.
+A **responsabilidade jurídica por tudo o que for produzido, publicado e tratado** com o auxílio desta ferramenta é **integralmente da Organização da Sociedade Civil que a utiliza** (o controlador dos dados). A **RIT — Rede de Inovação e Transformação** e a **[V3RTECH](https://v3rtech.com.br/){:target="_blank" rel="noopener"}** atuam apenas como **fornecedoras de uma ferramenta** que ajuda a OSC a gerenciar suas obrigações de proteção de dados; não assumem, em nenhuma hipótese, a posição de controladoras dos dados da OSC nem responsabilidade pelas decisões de tratamento, pelo conteúdo das políticas ou pela adequação da OSC à legislação.
 
 Os textos, modelos, checklists e indicadores oferecidos pelo plugin e por este guia são **materiais de apoio de caráter geral** e **não constituem aconselhamento jurídico**. Cada OSC tem um contexto próprio: as decisões finais sobre bases legais, conteúdo das políticas, prazos de retenção e medidas de segurança devem ser tomadas pela organização, preferencialmente com apoio jurídico especializado.
 
@@ -31,4 +31,4 @@ O **Índice de Conformidade** e demais indicadores exibidos no painel servem **a
 
 Use o Bússola LGPD como aliado do seu trabalho de adequação — e busque orientação jurídica para validar as decisões que envolvem responsabilidade legal da sua OSC.
 
-> 📚 Para se aprofundar, conheça a [formação em LGPD da RIT](https://cursos.rit.org.br/){:target="_blank" rel="noopener"}.
+> 📚 Para se aprofundar, conheça a [formação em LGPD da RIT](https://cursos.rit.org.br/){:target="_blank" rel="noopener"} — **gratuita para as organizações integradas à RIT**.

@@ -93,4 +93,4 @@ Este guia foi pensado também para quem nunca estudou a LGPD. Os módulos explic
 
 > 📚 **Aprofunde com a RIT**
 >
-> A RIT oferece formação em LGPD voltada a OSCs. Depois de ler este guia, capacite sua equipe: <a href="https://cursos.rit.org.br/" target="_blank" rel="noopener noreferrer">cursos.rit.org.br</a>.
+> A RIT oferece formação em LGPD voltada a OSCs — **gratuita para as organizações integradas à RIT**. Depois de ler este guia, capacite sua equipe: <a href="https://cursos.rit.org.br/" target="_blank" rel="noopener noreferrer">cursos.rit.org.br</a>.

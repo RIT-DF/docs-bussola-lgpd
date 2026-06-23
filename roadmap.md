@@ -20,4 +20,4 @@ Direções em estudo para as próximas versões do Bússola LGPD. É um plano vi
 
 Sua experiência de uso ajuda a priorizar. Leve dúvidas, dificuldades e ideias à equipe da RIT/V3RTECH responsável pela sua implantação — feedback de quem opera no dia a dia de uma OSC é o que mais move o produto.
 
-> 📚 E para crescer junto: conheça a [formação em LGPD da RIT](https://cursos.rit.org.br/){:target="_blank" rel="noopener"}.
+> 📚 E para crescer junto: conheça a [formação em LGPD da RIT](https://cursos.rit.org.br/){:target="_blank" rel="noopener"} — **gratuita para as organizações integradas à RIT**.

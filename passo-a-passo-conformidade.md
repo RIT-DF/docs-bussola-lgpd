@@ -95,7 +95,7 @@ A maioria dos incidentes começa em erro humano: senha fraca, planilha compartil
 
 > 📚 **Aprofunde com a RIT**
 >
-> A [formação em LGPD da RIT](https://cursos.rit.org.br/){:target="_blank" rel="noopener"} é desenhada para a realidade de OSCs e ajuda exatamente nessa etapa.
+> A [formação em LGPD da RIT](https://cursos.rit.org.br/){:target="_blank" rel="noopener"} é desenhada para a realidade de OSCs e ajuda exatamente nessa etapa — e é **gratuita para as organizações integradas à RIT**.
 
 ## Etapa 10 — Monitore e revise
 

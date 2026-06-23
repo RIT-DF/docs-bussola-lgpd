@@ -28,6 +28,12 @@ A lei é fiscalizada pela **ANPD — Autoridade Nacional de Proteção de Dados*
 >
 > Subconjunto que merece proteção redobrada: origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato, dados de saúde, vida sexual, dados genéticos ou biométricos. **Muitas OSCs tratam dados sensíveis sem perceber** — um projeto de saúde, de assistência a um grupo religioso ou a uma minoria, por exemplo. Esses dados exigem cuidado e base legal específica.
 
+> 📖 **Tratamento de dados pessoais**
+>
+> Esse é o termo que aparece em todo lugar e quase ninguém explica. **Tratamento é qualquer coisa que sua OSC faça com um dado pessoal** — do momento em que ele entra até o momento em que some. A lei lista (Art. 5º, X): coletar, receber, registrar, organizar, usar, acessar, consultar, compartilhar, transmitir, armazenar, arquivar, atualizar, copiar e **eliminar**. Ou seja: digitar o nome de um voluntário numa planilha é tratamento; mandar a newsletter é tratamento; guardar a ficha no armário é tratamento; apagar o cadastro também é tratamento.
+>
+> A consequência prática é grande: **se é tratamento, precisa de uma [base legal](#as-bases-legais-art-7º-e-11) e de finalidade clara.** Não existe "só estou guardando, não estou usando" — guardar já é tratar. É por isso que o [Inventário (ROPA)](/modulos/inventario-ropa/) mapeia cada operação: cada forma de tratar um dado é uma linha a justificar.
+
 > 📖 **Titular**
 >
 > É a **pessoa a quem os dados se referem** — o voluntário, o doador, o beneficiário. É ela que tem direitos (acessar, corrigir, excluir) e em nome de quem a lei foi escrita.
@@ -92,5 +98,4 @@ No Bússola LGPD, esses pedidos chegam pelo módulo de **[Atendimentos (DSAR)](/
 
 - [Texto da LGPD (Lei nº 13.709/2018)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm){:target="_blank" rel="noopener"}
 - [ANPD — Autoridade Nacional de Proteção de Dados](https://www.gov.br/anpd/pt-br){:target="_blank" rel="noopener"}
-- [Guias e orientações da ANPD](https://www.gov.br/anpd/pt-br/documentos-e-publicacoes){:target="_blank" rel="noopener"}
-- [Formação em LGPD para OSCs — RIT](https://cursos.rit.org.br/){:target="_blank" rel="noopener"}
+- [Formação em LGPD para OSCs — RIT](https://cursos.rit.org.br/){:target="_blank" rel="noopener"} — **gratuita para as organizações integradas à RIT**.
