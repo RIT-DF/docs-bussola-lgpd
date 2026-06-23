@@ -1,6 +1,6 @@
 # Manual externo — Bússola LGPD
 
-Site Jekyll ([just-the-docs](https://just-the-docs.com/)) do **Manual do Usuário / Guia da LGPD** do Bússola LGPD. Publicado em **https://docs.bsolidaria.rit.org.br/** via GitHub Pages.
+Site Jekyll ([just-the-docs](https://just-the-docs.com/)) do **Manual do Usuário / Guia da LGPD** do Bússola LGPD. Publicado em **https://docs-blgpd.rit.org.br/** via GitHub Pages.
 
 > Frente NOSSA (RIT/V3RTECH) — desacoplada do plugin. O plugin apenas **linka** para este endereço. Método em `dev-history/manual-externo-metodo.md`. Backlog: BL-025 (#10).
 
