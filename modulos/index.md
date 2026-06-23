@@ -16,6 +16,8 @@ Esta seção é a referência de consulta: uma página por módulo do plugin, ex
 - [Consentimento & Cookies](/modulos/consentimento/) — banner e consentimento em formulários.
 - [Incidentes](/modulos/incidentes/) — registro e comunicação de incidentes.
 - [Inventário (ROPA)](/modulos/inventario-ropa/) — operações de tratamento.
+- [Mapeamento de Formulários](/modulos/formularios/) — vincular cada formulário do site a uma atividade do ROPA.
+- [Retenção & Expurgo](/modulos/retencao/) — ciclo de vida dos dados: anonimização automática ao fim do prazo.
 - [Relatórios & Backup](/modulos/relatorios/) — relatório de conformidade e exportação total.
 
 > 💡 **Dica de leitura**

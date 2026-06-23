@@ -2,11 +2,14 @@
 title: "Primeiros Passos"
 nav_order: 2
 permalink: /primeiros-passos/
+screenshots: [blgpd-01-dashboard, blgpd-40-onboarding-card, blgpd-41-onboarding-roteiro, blgpd-07-manual]
+last_verified: 2026-06-23
+status: publicado
 ---
 
 # Primeiros Passos
 
-Esta página leva sua OSC do "plugin recém-instalado" ao "pronto para atender a LGPD" em poucos passos. Você não precisa ser advogado nem técnico — só seguir a ordem.
+Esta página leva sua OSC do "plugin recém-instalado" ao "pronto para atender a LGPD" em poucos passos. Você não precisa ser advogado nem técnico — só seguir a ordem. E, desde a versão 1.2, o próprio plugin **conduz você por esse roteiro** com um assistente de Primeiros Passos.
 
 > 💡 **Por que isso importa**
 >
@@ -14,12 +17,43 @@ Esta página leva sua OSC do "plugin recém-instalado" ao "pronto para atender a
 
 ## Onde fica o Bússola LGPD
 
-Depois de instalado e ativado no seu site WordPress, o plugin aparece no menu lateral do painel administrativo como **Bússola LGPD**. Ao abrir, você vê o **Painel de Conformidade e Privacidade**, com a navegação do produto no topo: Dashboard, Políticas, Atendimentos, Incidentes, Inventário (ROPA), Manual e Configurações.
+Depois de instalado e ativado no seu site WordPress, o plugin aparece no menu lateral do painel administrativo como **Bússola LGPD**. Ao abrir, você vê o **Painel de Conformidade e Privacidade**, com a navegação do produto no topo: Dashboard, Políticas, Atendimentos, Incidentes, Inventário (ROPA), Formulários, Retenção, Configurações e Manual.
 
 [![Painel do Bússola LGPD](/assets/screenshots/blgpd-01-dashboard.png)](/assets/screenshots/blgpd-01-dashboard.png)
 *O Dashboard é o cockpit da conformidade da sua OSC.*
 
-## Roteiro recomendado
+## O assistente de Primeiros Passos
+
+Assim que você instala o plugin, o Dashboard exibe um **card de Primeiros Passos** mostrando quantas etapas básicas já estão prontas (ex.: "2 de 6 passos concluídos") e um botão **Continuar**.
+
+[![Card de Primeiros Passos no Dashboard](/assets/screenshots/blgpd-40-onboarding-card.png)](/assets/screenshots/blgpd-40-onboarding-card.png)
+*O card resume seu progresso e leva ao roteiro completo.*
+
+Clicar em **Continuar** abre o **roteiro guiado**: uma lista de etapas, cada uma com uma explicação curta do "porquê", o estado (✅ concluído / ❌ pendente) e um botão que **leva direto à tela** que resolve aquele passo.
+
+[![Roteiro guiado de Primeiros Passos](/assets/screenshots/blgpd-41-onboarding-roteiro.png)](/assets/screenshots/blgpd-41-onboarding-roteiro.png)
+*Cada etapa tem um atalho para a tela certa; o que já está feito aparece marcado automaticamente.*
+
+> 💡 **O roteiro reflete a realidade, sozinho**
+>
+> Você não marca nada à mão. O plugin **detecta automaticamente** o que já foi feito — se você cadastra o DPO, o passo vira ✅ na hora; se depois despublica a política, o passo correspondente **volta a pendente**. O roteiro nunca "mente" sobre o seu estado.
+
+As etapas vêm em dois blocos:
+
+- **Essenciais** — o básico que mais protege a OSC: **Encarregado (DPO)**, **Política de Privacidade** e **Central de Privacidade**.
+- **Recomendados** — **Inventário (ROPA)**, **Consentimento / Cookies** e **Autodeclaração**.
+
+Há ainda um passo **Bônus** (Retenção & Expurgo), opcional, que **não** conta para a conclusão dos 6 essenciais/recomendados.
+
+> ✅ **Boas práticas**
+>
+> Você pode **dispensar** o card a qualquer momento ("Dispensar por agora") e reexibi-lo depois pelo link **"Reexibir Primeiros Passos"** no topo do Dashboard. O roteiro completo também fica sempre acessível. Não precisa fazer tudo num dia: cuide dos 3 essenciais primeiro.
+
+> 🔁 **Revisão periódica**
+>
+> Depois de concluir os passos, passado um tempo (cerca de um ano), o plugin volta a sugerir uma **revisão** — para você reconferir se políticas, inventário e contatos seguem atualizados.
+
+## O roteiro, passo a passo
 
 Faça nesta ordem — cada passo destrava o próximo e faz o **Índice de Conformidade** do Dashboard subir.
 
@@ -37,7 +71,7 @@ Em **Políticas**, crie sua Política de Privacidade. Você pode escrever do zer
 
 ### 3. Publique a Central de Privacidade
 
-Em **Configurações → Páginas & Integração**, clique em **Gerar Página Automaticamente**. O plugin cria a página pública onde o titular lê as políticas, ajusta cookies e abre pedidos.
+Em **Configurações → Páginas & Integração**, clique em **Gerar Página Automaticamente**. O plugin cria a página pública onde o titular lê as políticas, ajusta cookies e abre pedidos. O passo só fica ✅ quando a página está **publicada**.
 
 ➡️ Veja **[Publicar a Central de Privacidade](/guias/publicar-central-privacidade/)**.
 
@@ -45,22 +79,24 @@ Em **Configurações → Páginas & Integração**, clique em **Gerar Página Au
 
 Em **Inventário (ROPA)**, registre cada operação de tratamento de dados que sua OSC faz: qual atividade, quais dados, para qual finalidade e com qual base legal. É a espinha dorsal da conformidade.
 
-➡️ Entenda em **[Inventário (ROPA)](/modulos/inventario-ropa/)**.
+➡️ Entenda em **[Inventário (ROPA)](/modulos/inventario-ropa/)**. Se você tem muitos formulários no site, comece pelo **[Mapeamento de Formulários](/modulos/formularios/)**.
 
-### 5. Responda ao Wizard de autodeclaração
+### 5. Ajuste o Consentimento / Cookies
+
+Em **Configurações → Banner de Cookies**, decida se o **banner** será exibido e configure os scripts de análise/marketing. Veja **[Consentimento & Cookies](/modulos/consentimento/)**.
+
+### 6. Responda à Autodeclaração
 
 No Dashboard, clique em **Revisar Autodeclaração**. São perguntas simples (ex.: "as bases legais foram definidas?") que complementam o Índice de Conformidade com o que o plugin não consegue verificar sozinho.
 
-> ✅ **Boas práticas**
->
-> Não tente fazer tudo num dia. Faça os passos 1 a 3 (DPO, política, Central pública) já — eles dão à sua OSC uma postura mínima de LGPD visível ao público. O inventário (passo 4) pode ser construído aos poucos, uma atividade por vez.
-
 ## O Índice de Conformidade
 
-No topo do Dashboard há um **Índice de Conformidade (MVP)** em percentual, dividido em dois grupos:
+No topo do Dashboard há um **Índice de Conformidade** em percentual, sobre **6 itens**, dividido em dois grupos:
 
-- **Verificados pelo Sistema** — itens que o plugin confere sozinho (política ativa, DPO configurado, banner de cookies, inventário preenchido).
-- **Autodeclarados** — itens que dependem da sua resposta no Wizard (ex.: bases legais mapeadas).
+- **Verificados pelo Sistema** — itens que o plugin confere sozinho: **Política ativa**, **DPO configurado**, **Central de Privacidade publicada**, **Consentimento / Cookies** (o banner ativo) e **Inventário preenchido**.
+- **Autodeclarados** — itens que dependem da sua resposta na Autodeclaração (ex.: **bases legais mapeadas**).
+
+O semáforo e o roteiro de Primeiros Passos usam **a mesma fonte** — então o que você vê num bate com o outro.
 
 > ⚠️ **Atenção**
 >
@@ -68,7 +104,7 @@ No topo do Dashboard há um **Índice de Conformidade (MVP)** em percentual, div
 
 ## Manual integrado no painel
 
-Além deste guia externo, o plugin traz um **Manual** integrado na própria navegação (aba **Manual**), com um resumo de uso e o link de volta para este guia completo.
+Além deste guia externo, o plugin traz um **Manual** integrado na própria navegação (aba **Manual**, ao final do menu), com um resumo de uso e o link de volta para este guia completo.
 
 [![Manual integrado](/assets/screenshots/blgpd-07-manual.png)](/assets/screenshots/blgpd-07-manual.png)
 *A aba Manual do painel, com orientação rápida e link para o guia completo.*

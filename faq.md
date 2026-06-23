@@ -42,6 +42,14 @@ Não. Ele é um **indicador interno de progresso**, não um certificado. Conform
 
 O visitante vê o banner na primeira visita e escolhe aceitar, recusar não-essenciais ou personalizar. Scripts de análise/marketing **só carregam se houver consentimento**. Veja [Consentimento & Cookies](/modulos/consentimento/).
 
+## Por quanto tempo meus dados (ou os dos titulares) ficam guardados?
+
+Pelo prazo que a **sua OSC** definir para cada tipo de tratamento, conforme a base legal e a finalidade. O módulo de [Retenção & Expurgo](/modulos/retencao/) automatiza o fim desse ciclo: ao vencer o prazo, o plugin **anonimiza** o registro — depois de avisar o Encarregado com antecedência. Nada entra nesse expurgo automático sem a OSC ligar a opção explicitamente.
+
+## A retenção apaga meus dados de vez? E se eu precisar deles para o fisco?
+
+A ação padrão é **anonimizar** (remover o que identifica a pessoa), não apagar — assim a OSC mantém a **prova** de que cumpriu a regra. E dados com obrigação legal de guarda (como notas fiscais) só são expurgados se a OSC **optar** por isso: por padrão, nenhuma atividade entra na retenção automática. Há ainda uma **janela de aviso** (7 dias) e a opção de cancelar ou adiar antes de qualquer ação irreversível. Veja [Retenção & Expurgo](/modulos/retencao/).
+
 ## O plugin notifica a ANPD por mim em caso de incidente?
 
 Não. O plugin ajuda a **registrar** o incidente e a **comunicar os titulares afetados** de forma rastreável. A **notificação oficial à ANPD** é feita pela sua OSC, pelos canais oficiais do governo. Veja [Incidentes](/modulos/incidentes/).

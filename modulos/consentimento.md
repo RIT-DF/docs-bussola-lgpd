@@ -36,6 +36,18 @@ Ative e ajuste o banner em **Configurações → Banner de Cookies**.
 [![Configurações do banner de cookies](/assets/screenshots/blgpd-08b-settings-cookies.png)](/assets/screenshots/blgpd-08b-settings-cookies.png)
 *Configuração do banner de cookies no painel.*
 
+### Exibir ou não o banner
+
+A partir da versão 1.2, há uma opção **"Exibir o banner de cookies no site"**. Ela existe porque há discussão na ANPD sobre a real eficácia dos banners — e algumas OSCs podem preferir não usá-lo (por exemplo, quando não carregam scripts de análise/marketing).
+
+> ⚠️ **Desligar o banner desliga os scripts não-essenciais**
+>
+> Se você **desativar** a exibição do banner, o Bússola LGPD **deixa de carregar** os scripts de Analytics e Marketing — porque, sem o banner, não há como coletar o consentimento do visitante. Carregar esses scripts sem consentimento seria justamente o que a LGPD não permite. O painel avisa isso na hora em que você desliga a opção.
+
+> 💡 **Reflexo no Índice de Conformidade**
+>
+> O item "Consentimento / Cookies" do Dashboard acompanha esse interruptor: banner **ligado** = ✅; **desligado** = pendente. É a sua intenção de uso refletida diretamente no painel.
+
 ## Consentimento em formulários
 
 Quando um visitante preenche um formulário do seu site (newsletter, inscrição, contato), o plugin registra o **consentimento**: o quê, quando e com qual finalidade a pessoa concordou — gerando uma **prova consultável**.

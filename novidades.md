@@ -8,6 +8,20 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.1 — Retenção & ciclo de vida dos dados
+
+A LGPD pede que dado pessoal não fique guardado para sempre. Esta versão automatiza o **fim** desse ciclo:
+
+- **Expurgo automático com janela de aviso** — ao fim do prazo que você define, o plugin **anonimiza** o registro; antes disso, avisa o Encarregado (7 dias por padrão), que pode **cancelar ou adiar**.
+- **Anonimização que preserva a prova** — em vez de apagar tudo, remove-se o que identifica a pessoa e mantém-se o comprovante de que a obrigação foi cumprida.
+- **Prazos onde fazem sentido** — dados do próprio plugin (atendimentos concluídos, consentimentos revogados) nas Configurações; dados do site, **por atividade** no Inventário (ROPA), sempre com **opt-in** (nada entra sem você ligar).
+- **Conectores prontos** para WordPress (usuários, comentários), WooCommerce e os principais plugins de formulário (CF7, Fluent Forms, Forminator, Gravity Forms, WPForms) — e um encaixe extensível para novas origens.
+- **Mapeamento de Formulários** — uma tela que liga cada formulário do site a uma atividade do inventário, atalho para quem tem muitos formulários.
+- **Fila de Retenção** no menu e **alerta no Painel** dos registros que vão expirar em breve.
+- **Revogação de consentimento de verdade** — ao concluir um pedido de revogação, os consentimentos daquele e-mail passam a contar prazo para expurgo.
+
+Veja o passo a passo em [Retenção & Expurgo](/modulos/retencao/).
+
 ## Versão 1.0 (MVP)
 
 A primeira versão do produto entrega a base da conformidade para OSCs:

@@ -8,13 +8,15 @@ permalink: /roadmap/
 
 Direções em estudo para as próximas versões do Bússola LGPD. É um plano vivo — pode mudar conforme a necessidade da rede de OSCs. Nada aqui é compromisso de data.
 
+## Já entregue
+
+- **Retenção e ciclo de vida dos dados** — expurgo e anonimização automáticos ao fim do prazo, com janela de aviso e controle do Encarregado. Disponível desde a **versão 1.1**; veja [Retenção & Expurgo](/modulos/retencao/).
+
 ## Em estudo
 
-- **Retenção e ciclo de vida dos dados** — expurgo e anonimização automáticos ao fim do prazo de retenção; eliminação a pedido.
+- **Onboarding guiado** — assistente de adequação ainda mais conduzido, ligando cada pendência à ação que a resolve.
 - **Mural de comunicados** — avisos gerais da OSC aos inscritos/membros, por categoria.
 - **API completa** — leitura e ação além dos webhooks, para integrações mais ricas.
-- **Multi-organização** — uma instalação servindo várias OSCs.
-- **Diagnóstico & onboarding guiado** — assistente de adequação ainda mais conduzido, ligando cada pendência à ação que a resolve.
 
 ## Como influenciar o roadmap
 

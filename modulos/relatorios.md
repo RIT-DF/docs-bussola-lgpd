@@ -1,6 +1,6 @@
 ---
 title: "Relatórios & Backup"
-nav_order: 8
+nav_order: 10
 parent: "Módulos"
 permalink: /modulos/relatorios/
 role: encarregado
