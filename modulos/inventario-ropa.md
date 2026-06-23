@@ -28,6 +28,29 @@ O **Inventário de Tratamento** — também chamado de **ROPA** (*Records of Pro
 >
 > O inventário é o documento que **mais** trabalha a seu favor. É dele que sai a resposta a "quais dados você tem sobre mim?", a justificativa de um tratamento perante a ANPD e o conteúdo automático da Política de Privacidade. **Se sua OSC fizer só uma coisa da LGPD, que seja manter o inventário.**
 
+## Modele por finalidade, não por formulário
+
+Este é o segredo para o inventário **não virar um monstro**. O ROPA registra **atividades de tratamento** — definidas pela **finalidade** —, e **não** cada formulário, planilha ou tela isoladamente.
+
+> 💡 **Por que isso importa**
+>
+> Uma OSC com 20 formulários no site não precisa de 20 registros no inventário. **Vários formulários que coletam os mesmos dados para a mesma finalidade são uma única atividade** — logo, **um único registro**. Isso é, ao mesmo tempo, o jeito **correto** de fazer o ROPA e o que torna o trabalho viável.
+
+> 📖 **Exemplo (grupo escoteiro)**
+>
+> | Atividade no ROPA (1 registro) | Cobre quais formulários | Base legal · retenção |
+> |---|---|---|
+> | Inscrição em eventos | todos os forms de acampamento/atividade | consentimento ou contrato · prazo curto |
+> | Solicitação de reembolso | todos os forms de reembolso | obrigação legal/contrato · ~5 anos |
+> | Protocolos administrativos | todos os forms de protocolo | conforme o caso |
+> | Pesquisas de satisfação | todas as pesquisas | legítimo interesse · curtíssimo |
+>
+> De ~20 formulários para **~4-6 atividades**. Um evento novo? Você só **acrescenta o formulário à atividade que já existe** — sem criar registro novo.
+
+> ⚠️ **A única regra de fidelidade**
+>
+> Só agrupe formulários que de fato compartilham **dados + finalidade + base legal**. Se um formulário coletar **dado a mais** — por exemplo, informação de **saúde** (dado sensível) num evento —, ele vira uma **atividade própria**, com base e retenção próprias.
+
 ## O inventário alimenta as políticas
 
 Quando você usa o **Assistente** em [Políticas](/modulos/politicas/), ele puxa as atividades do inventário para montar a Política de Privacidade. Inventário bem feito = política mais fácil e mais fiel à realidade.
