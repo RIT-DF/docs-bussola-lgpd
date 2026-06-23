@@ -33,9 +33,16 @@ Há duas formas:
 
 1. **Gerar Página Automaticamente** — em **Configurações → Páginas & Integração**, um clique cria a página completa no WordPress.
 2. **Shortcodes** — para inserir em qualquer página (inclusive construtores como Elementor):
-   - `[bussola_lgpd_privacidade]` — a Central completa.
+   - `[bussola_lgpd_privacidade]` — a Central **completa** (recomendado).
    - `[bussola_lgpd_solicitacao]` — só o formulário de pedidos (útil numa página de Contato).
    - `[bussola_lgpd_politica id="1"]` — uma política específica (ver [Políticas](/modulos/politicas/)).
+   - `[bussola_lgpd_dpo]` — o contato/identidade do Encarregado.
+   - `[bussola_lgpd_politicas]` — todas as suas políticas ativas.
+   - `[bussola_lgpd_cookies]` — as preferências de cookies (aparece só se o banner estiver ativo).
+
+> ⚠️ **Página montada à mão é responsabilidade sua**
+>
+> A Central **completa** autogerada já inclui tudo que a LGPD exige (Encarregado, políticas e canal de pedidos). Se você montar uma página personalizada com os shortcodes individuais, **garanta que o contato do Encarregado e o formulário de solicitação não fiquem de fora** — senão a página fica incompleta perante a lei.
 
 ➡️ Passo a passo em **[Publicar a Central de Privacidade](/guias/publicar-central-privacidade/)**.
 

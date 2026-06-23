@@ -8,6 +8,24 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.3 — Central de Privacidade personalizável
+
+Antes, a Central de Privacidade era uma página única gerada automaticamente. Agora você pode **montar a sua própria página**, posicionando cada elemento onde quiser (inclusive em construtores como o Elementor):
+
+- **Shortcodes por elemento** — `[bussola_lgpd_dpo]` (contato do Encarregado), `[bussola_lgpd_politicas]` (suas políticas ativas), `[bussola_lgpd_cookies]` (preferências de cookies), além do `[bussola_lgpd_politica id="N"]` (uma política específica) e do `[bussola_lgpd_privacidade]` (a Central completa).
+- **Continua simples para quem quer o pronto** — a página completa autogerada segue disponível e é o caminho recomendado.
+- **Aviso de responsabilidade** — ao montar a página à mão, a tela de Configurações lembra que você precisa manter o contato do Encarregado e o canal de pedidos, para não deixar buracos de conformidade.
+- **Acesso rápido ao manual** — agora há um link "📖 Manual / Guia LGPD" sempre visível no topo do painel.
+
+Veja os shortcodes em [Central de Privacidade](/modulos/central-privacidade/).
+
+## Versão 1.2 — Primeiros passos guiados, banner opcional e políticas mais seguras
+
+- **Assistente de Primeiros Passos** — um roteiro guiado (card no Painel + tela própria) que detecta sozinho o que já está feito e leva direto à tela que resolve cada pendência, com convite de revisão periódica. Veja [Primeiros Passos](/primeiros-passos/).
+- **Banner de cookies opcional** — você decide se exibe o banner; ao desativá-lo, os scripts de análise/marketing deixam de carregar (sem consentimento, não carrega).
+- **Políticas mais seguras** — não é mais possível publicar uma política **vazia**; ao abrir uma política, o texto já aparece para revisão e dá para **reaproveitar versões anteriores**; e há um shortcode para exibir uma política em qualquer página.
+- **Interface mais confortável** — o painel aproveita melhor a largura da tela (com limite em telas muito grandes), o menu do Bússola LGPD aparece no início do admin junto da família Bússola, e a navegação no celular ficou mais fluida.
+
 ## Versão 1.1 — Retenção & ciclo de vida dos dados
 
 A LGPD pede que dado pessoal não fique guardado para sempre. Esta versão automatiza o **fim** desse ciclo:
