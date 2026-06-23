@@ -54,6 +54,8 @@ A lei é fiscalizada pela **ANPD — Autoridade Nacional de Proteção de Dados*
 
 Aqui está o conceito que mais confunde — e o mais importante. **Toda vez que sua OSC trata um dado pessoal, precisa de um motivo previsto na lei.** Esse motivo é a *base legal*. Sem base legal, o tratamento é irregular, mesmo que bem-intencionado.
 
+> 📖 **Página dedicada, com exemplos:** veja **[Bases legais (com exemplos)](/bases-legais/)** para cada base explicada com casos reais de OSC e um roteiro de "como escolher".
+
 As bases mais usadas por OSCs:
 
 - **Consentimento** — a pessoa autorizou, de forma livre e informada, aquele uso específico (ex.: aceitar receber a newsletter). Pode ser revogado a qualquer momento.
