@@ -33,6 +33,7 @@ Para inserir a Central (ou só o formulário) em outra página, inclusive em con
 
 - `[bussola_lgpd_privacidade]` — a Central completa (políticas + DPO + formulário + cookies).
 - `[bussola_lgpd_solicitacao]` — apenas o formulário de pedidos (ideal numa página de Contato).
+- `[bussola_lgpd_politica id="1"]` — uma política específica, pelo seu ID (mostrado na lista de [Políticas](/modulos/politicas/)).
 
 ## Depois de publicar
 

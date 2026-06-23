@@ -63,6 +63,20 @@ A **📚 Galeria de Modelos** traz modelos-base (políticas e cláusulas) para a
 >
 > Os modelos são **ponto de partida de caráter geral**, não texto juridicamente validado para o seu caso. Adapte ao contexto da sua OSC e, sempre que possível, valide com apoio jurídico. Veja o [Aviso legal](/disclaimer/).
 
+## Exibir uma política em qualquer página (shortcode)
+
+Além de a política aparecer na [Central de Privacidade](/modulos/central-privacidade/), você pode incorporar **uma política específica** em qualquer página do site (inclusive em construtores como Elementor) com o shortcode:
+
+```
+[bussola_lgpd_politica id="1"]
+```
+
+Ele exibe o conteúdo da **versão ativa** daquela política. Na **lista de Políticas**, cada política mostra o seu **ID** (e um atalho para copiar o shortcode pronto) — é o número que você coloca em `id="..."`.
+
+> 💡 **Quando usar**
+>
+> Útil quando você quer a Política de Privacidade (ou os Termos de Uso) numa página própria do site, separada da Central. Se a política não tiver uma versão ativa, o shortcode mostra um aviso discreto em vez de quebrar a página.
+
 ## Como fazer
 
 ➡️ Passo a passo em **[Publicar uma política](/guias/publicar-politica/)**.

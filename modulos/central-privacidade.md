@@ -35,6 +35,7 @@ Há duas formas:
 2. **Shortcodes** — para inserir em qualquer página (inclusive construtores como Elementor):
    - `[bussola_lgpd_privacidade]` — a Central completa.
    - `[bussola_lgpd_solicitacao]` — só o formulário de pedidos (útil numa página de Contato).
+   - `[bussola_lgpd_politica id="1"]` — uma política específica (ver [Políticas](/modulos/politicas/)).
 
 ➡️ Passo a passo em **[Publicar a Central de Privacidade](/guias/publicar-central-privacidade/)**.
 
