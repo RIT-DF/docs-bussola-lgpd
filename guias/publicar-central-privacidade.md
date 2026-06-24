@@ -7,7 +7,7 @@ task: publicar-central-privacidade
 role: encarregado
 routes: ["#/settings"]
 screenshots: [blgpd-08d-settings-paginas]
-last_verified: 2026-06-23
+last_verified: 2026-06-24
 status: publicado
 ---
 
@@ -39,6 +39,14 @@ Para inserir a Central (ou só o formulário) em outra página, inclusive em con
 - `[bussola_lgpd_cookies]` — preferências de cookies (só aparece com o banner ativo).
 
 > ⚠️ Ao montar uma página à mão, **não omita** o contato do Encarregado nem o formulário de solicitação — eles são exigidos pela LGPD. A Central completa autogerada já garante isso.
+
+### Designe a sua página como a Central
+
+Montou uma página personalizada? Diga ao plugin que é **ela** a Central oficial: em **Páginas & Integração**, use o seletor **"Selecione a página da Central"**. Assim o [Índice de Conformidade](/modulos/painel/) e o link do banner de cookies passam a apontar para a sua página, e não para a padrão.
+
+### Ajuste a exibição das políticas
+
+Ainda em **Páginas & Integração**, o bloco **"Exibição Padrão das Políticas"** define como elas aparecem (texto integral, resumo ou só título; mostrar título, link e imagem). Você pode sobrescrever caso a caso pelos atributos do shortcode — veja a tabela em [Opções de exibição](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas).
 
 ## Depois de publicar
 

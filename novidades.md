@@ -8,12 +8,17 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.5 — Ative e desative políticas sem apagar nada
+
+- **Inativar e reativar política** — depois de publicada, uma política pode ser **inativada** quando foi incorporada a outra, substituída ou deixou de valer. A política inativa **some da Central e dos shortcodes**, mas nada é apagado: conteúdo, histórico de versões e consentimentos ficam preservados, e você pode **reativar** quando quiser. Na lista, as inativas mostram um selo **"INATIVA"**. Vale para políticas internas e externas. Se a política inativada for a de Privacidade, o Índice de Conformidade avisa — reative-a para o indicador voltar. Veja [Políticas](/modulos/politicas/#inativar-e-reativar-uma-politica).
+
 ## Versão 1.4 — Políticas externas e exibição sob medida
 
 - **Política por link (externa)** — agora dá para cadastrar uma política apontando para um documento que já existe (um PDF, uma página de wiki), em vez de reescrevê-la no plugin. Ela aparece na Central como um card com resumo, imagem/ícone e um botão "Ler a política completa". O número da versão é informado à mão (e mantê-lo atualizado é responsabilidade da sua OSC).
 - **Resumo nas políticas** — políticas internas também ganharam um campo de resumo, usado quando você opta por exibir só o resumo.
 - **Opções de exibição** — você decide como as políticas aparecem: texto integral, só o resumo ou só o título; e se mostra título, link e imagem. Configure um padrão global em Configurações → Páginas & Integração ou ajuste caso a caso pelos atributos do shortcode (ex.: `[bussola_lgpd_politicas modo="titulo"]`).
 - **Escolher a página da Central** — montou sua própria página da Central com os shortcodes? Agora você pode indicá-la como a página oficial, e o Índice de Conformidade e o banner de cookies passam a apontar para ela.
+- **Avisos mais suaves no painel** (1.4.1) — as confirmações e alertas do painel deixaram de usar os pop-ups do navegador e passaram a aparecer como notificações discretas no próprio plugin; ações sensíveis (como exclusões) pedem confirmação em uma janela padronizada.
 
 Veja em [Políticas](/modulos/politicas/) e [Central de Privacidade](/modulos/central-privacidade/).
 

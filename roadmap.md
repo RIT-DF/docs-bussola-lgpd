@@ -6,17 +6,28 @@ permalink: /roadmap/
 
 # Roadmap
 
-Direções em estudo para as próximas versões do Bússola LGPD. É um plano vivo — pode mudar conforme a necessidade da rede de OSCs. Nada aqui é compromisso de data.
+Um panorama do que já foi entregue e das direções em estudo para as próximas versões do Bússola LGPD. É um plano vivo — pode mudar conforme a necessidade da rede de OSCs. Nada aqui é compromisso de data.
 
 ## Já entregue
 
-- **Retenção e ciclo de vida dos dados** — expurgo e anonimização automáticos ao fim do prazo, com janela de aviso e controle do Encarregado. Disponível desde a **versão 1.1**; veja [Retenção & Expurgo](/modulos/retencao/).
+| Recurso | Versão | Saiba mais |
+|---|---|---|
+| Retenção e ciclo de vida dos dados | 1.1 | [Retenção & Expurgo](/modulos/retencao/) |
+| Primeiros Passos guiados (onboarding) | 1.2 | [Primeiros Passos](/primeiros-passos/) |
+| Banner de cookies opcional | 1.2 | [Consentimento & Cookies](/modulos/consentimento/) |
+| Central personalizável + shortcodes por elemento | 1.3 | [Central de Privacidade](/modulos/central-privacidade/) |
+| Políticas externas (por link) | 1.4 | [Políticas](/modulos/politicas/#politica-interna-ou-externa-link) |
+| Opções de exibição + seletor da Central | 1.4 | [Central de Privacidade](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas) |
+| Avisos do painel padronizados (notificações + confirmação) | 1.4.1 | — |
+| Inativar / reativar política | 1.5 | [Políticas](/modulos/politicas/#inativar-e-reativar-uma-politica) |
 
 ## Em estudo
 
-- **Onboarding guiado** — assistente de adequação ainda mais conduzido, ligando cada pendência à ação que a resolve.
-- **Mural de comunicados** — avisos gerais da OSC aos inscritos/membros, por categoria.
-- **API completa** — leitura e ação além dos webhooks, para integrações mais ricas.
+| Recurso | Status | O que é |
+|---|---|---|
+| Mural de comunicados | 🔭 Em estudo | Avisos gerais da OSC aos inscritos/membros, por categoria. |
+| API completa | 🔭 Em estudo | Leitura e ação além dos webhooks, para integrações mais ricas. |
+| Onboarding ainda mais conduzido | 🔭 Em estudo | Evoluir o assistente de Primeiros Passos, ligando cada pendência à ação que a resolve. |
 
 ## Como influenciar o roadmap
 

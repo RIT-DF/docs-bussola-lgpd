@@ -6,7 +6,7 @@ permalink: /modulos/painel/
 role: encarregado
 routes: ["#/", "#/wizard"]
 screenshots: [blgpd-01-dashboard, blgpd-09-wizard]
-last_verified: 2026-06-23
+last_verified: 2026-06-24
 status: publicado
 ---
 
@@ -23,6 +23,8 @@ Um percentual que resume o progresso, dividido em dois grupos:
 
 - **Verificados pelo Sistema** — o plugin confere sozinho: Política de Privacidade ativa, DPO configurado, banner de cookies ativo, inventário preenchido.
 - **Autodeclarados (via Wizard)** — dependem da sua resposta: bases legais mapeadas, inventário concluído.
+
+> ℹ️ Se você **[inativar](/modulos/politicas/#inativar-e-reativar-uma-politica)** a Política de Privacidade, o item "Política de Privacidade ativa" deixa de contar aqui — reative-a para o indicador voltar.
 
 > ⚠️ **Atenção**
 >

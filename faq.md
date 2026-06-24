@@ -34,6 +34,14 @@ Para pedidos **simples e seguros** (acesso/confirmação, portabilidade, informa
 
 Sim. O Bússola LGPD trata políticas de forma genérica: crie quantas precisar (Privacidade, Termos de Uso, Cookies, e outras). Só a Política de Privacidade tem um checklist específico. Veja [Políticas](/modulos/politicas/).
 
+## Posso usar uma política que já tenho em PDF, sem reescrever?
+
+Sim. Ao criar a política, escolha a origem **Externa** e informe o **link** (PDF, página de wiki, intranet), um resumo e uma imagem/ícone. Ela aparece na Central como um card com o botão "Ler a política completa". Veja [Políticas › interna ou externa](/modulos/politicas/#politica-interna-ou-externa-link).
+
+## Posso desativar uma política sem apagá-la?
+
+Sim. Use **Inativar** na lista de Políticas: a política some da Central e dos shortcodes, mas o conteúdo, o histórico de versões e os consentimentos são preservados — e você pode **reativar** quando quiser. É o caminho indicado quando uma política foi incorporada a outra ou deixou de valer. Veja [Políticas › Inativar e reativar](/modulos/politicas/#inativar-e-reativar-uma-politica).
+
 ## O Índice de Conformidade prova que estou conforme?
 
 Não. Ele é um **indicador interno de progresso**, não um certificado. Conformidade depende de fatores que nenhuma ferramenta mede sozinha. Veja o [Aviso legal](/disclaimer/).

@@ -6,8 +6,8 @@ permalink: /guias/publicar-politica/
 task: publicar-politica
 role: encarregado
 routes: ["#/policies", "#/policies/new", "#/policy-wizard"]
-screenshots: [blgpd-02-policies, blgpd-03-policy-editor]
-last_verified: 2026-06-23
+screenshots: [blgpd-02-policies, blgpd-03-policy-editor, blgpd-03b-policy-externa]
+last_verified: 2026-06-24
 status: publicado
 ---
 
@@ -24,17 +24,32 @@ Uma política só fica visível ao público quando você **publica uma versão**
 
 > 💡 Quanto mais completo o seu [Inventário (ROPA)](/modulos/inventario-ropa/), melhor o rascunho do Assistente.
 
-## Opção B — criar do zero
+## Opção B — criar do zero (política interna)
 
 1. Em **Políticas**, clique em **+ Nova Política**.
-2. Informe o **título** e o **tipo** (privacidade, termos, cookies ou outro).
-3. Abra a política e, no editor, escreva o conteúdo.
+2. Informe o **título** e o **tipo** (privacidade, termos, cookies ou outro) e mantenha a origem **Interna**.
+3. Abra a política e, no editor, escreva o conteúdo. (Opcional: preencha o **Resumo** — ele é exibido quando a política aparece no modo "resumo".)
 
 [![Editor de política com checklist](/assets/screenshots/blgpd-03-policy-editor.png)](/assets/screenshots/blgpd-03-policy-editor.png)
-*Use o Checklist LGPD ao lado como roteiro.*
+*Editor da política interna, com o campo de resumo e o histórico de versões.*
 
 4. Use o **Checklist LGPD** como guia: controlador, contato do DPO, finalidades, bases legais, direitos do titular, retenção, compartilhamento.
 5. Clique em **Publicar Versão**.
+
+## Opção C — política externa (por link)
+
+Se a sua organização **já tem a política publicada** em outro lugar (um PDF, uma página de wiki, uma intranet), não precisa reescrevê-la:
+
+1. Em **Políticas**, clique em **+ Nova Política** e escolha a origem **Externa**.
+2. Informe a **URL** do documento, um **resumo/descrição** e, se quiser, uma **imagem ou ícone** (há ícones prontos — não precisa enviar arquivo).
+3. Preencha o **número da versão** manualmente (ex.: "v2 — 2025") e salve.
+
+[![Editor de política externa](/assets/screenshots/blgpd-03b-policy-externa.png)](/assets/screenshots/blgpd-03b-policy-externa.png)
+*Política externa: URL, resumo, versão manual e escolha de ícone.*
+
+> ⚠️ **Mantenha a versão em dia.** Como o texto da política externa mora fora do plugin, é a sua organização que precisa **atualizar o número da versão** sempre que publicar uma nova.
+
+A política externa aparece na Central como um **card** com botão "Ler a política completa" e **não** usa o versionamento automático do plugin.
 
 ## Ativar a versão
 
@@ -48,6 +63,16 @@ Na lista de políticas, abra a política e defina a versão publicada como **ati
 ## Atualizar depois
 
 Toda alteração relevante deve gerar uma **nova versão** (não reescrever a antiga). Assim o histórico fica preservado e você consegue provar qual texto estava no ar em cada data.
+
+## Inativar ou reativar uma política
+
+Quando uma política é **incorporada a outra**, **substituída** ou **deixa de valer**, você pode **inativá-la** sem apagar nada — e reativá-la depois:
+
+1. Na lista de **Políticas**, clique em **Inativar** na política desejada e confirme.
+2. A política some da Central e dos shortcodes; na lista ela passa a exibir o selo **"INATIVA"**.
+3. Para trazer de volta, clique em **Reativar** (uma política interna precisa ter uma versão ativa para ser reativada).
+
+> ✅ Inativar é **reversível** e preserva versões e consentimentos — diferente de **excluir**. Detalhes em [Políticas › Inativar e reativar](/modulos/politicas/#inativar-e-reativar-uma-politica).
 
 > ⚠️ **Atenção**
 >

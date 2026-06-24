@@ -7,7 +7,7 @@ task: configurar-dpo
 role: encarregado
 routes: ["#/settings"]
 screenshots: [blgpd-08-settings-dpo]
-last_verified: 2026-06-23
+last_verified: 2026-06-24
 status: publicado
 ---
 
@@ -45,3 +45,5 @@ Nesta mesma aba há o **Modo de Exclusão de Políticas**:
 > ⚠️ **Atenção**
 >
 > O *Hard Delete* apaga a política definitivamente, sem volta. Mantenha em *Soft Delete* salvo se você tiver um motivo claro para apagar de vez.
+
+> ✅ **Quer só tirar do ar, não apagar?** Não use a exclusão — use **[Inativar](/modulos/politicas/#inativar-e-reativar-uma-politica)** na lista de Políticas. Inativar é reversível e preserva tudo; excluir (acima) é outra coisa.

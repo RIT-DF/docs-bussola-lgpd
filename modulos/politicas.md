@@ -6,7 +6,7 @@ permalink: /modulos/politicas/
 role: encarregado
 routes: ["#/policies", "#/policies/edit/:id", "#/policy-wizard", "#/templates"]
 screenshots: [blgpd-02-policies, blgpd-03-policy-editor, blgpd-11-templates]
-last_verified: 2026-06-23
+last_verified: 2026-06-24
 status: publicado
 ---
 
@@ -37,6 +37,9 @@ Para a política **externa**, você informa: a **URL** do documento, um **resumo
 > ⚠️ **Versão da política externa é você quem atualiza**
 >
 > Como o texto mora fora do plugin, o Bússola não controla as versões dela. **Atualize o número da versão sempre que publicar uma nova** — manter isso em dia é responsabilidade da sua organização.
+
+[![Editor de política externa](/assets/screenshots/blgpd-03b-policy-externa.png)](/assets/screenshots/blgpd-03b-policy-externa.png)
+*Política externa: URL, resumo, versão manual e a escolha de imagem ou ícone pré-definido.*
 
 Na Central, a política externa aparece como um **card** com a imagem/ícone, o título, o resumo e um botão **"Ler a política completa"** que abre o documento em uma nova aba.
 
@@ -97,6 +100,25 @@ Você ainda pode controlar **como** a política aparece com atributos (`modo`, `
 > 💡 **Quando usar**
 >
 > Útil quando você quer a Política de Privacidade (ou os Termos de Uso) numa página própria do site, separada da Central. Se a política não tiver uma versão ativa, o shortcode mostra um aviso discreto em vez de quebrar a página.
+
+## Inativar e reativar uma política
+
+Depois de ativada, uma política pode ser **inativada** — útil quando ela foi **incorporada a outra**, **substituída** ou simplesmente **deixou de valer**. Inativar **não apaga nada**: o conteúdo, o histórico de versões e os consentimentos já coletados são preservados, e você pode **reativar** quando quiser.
+
+[![Lista de políticas com selo INATIVA](/assets/screenshots/blgpd-02-policies.png)](/assets/screenshots/blgpd-02-policies.png)
+*Na lista, cada política tem o botão "Inativar" ou "Reativar"; as inativas exibem o selo "INATIVA".*
+
+Como funciona:
+
+- Na **lista de Políticas**, clique em **Inativar** (ou **Reativar**). Ao inativar, uma confirmação explica que a política deixará de aparecer publicamente.
+- Uma política **inativa não aparece** na Central de Privacidade nem nos shortcodes (`[bussola_lgpd_politica]` mostra o aviso de "não encontrada").
+- Vale para políticas **internas e externas**.
+- Para **reativar** uma política **interna**, ela precisa ter uma **versão ativa**; uma externa precisa ter a **URL** preenchida.
+- Se você inativar a **Política de Privacidade**, o item correspondente do [Índice de Conformidade](/modulos/painel/) deixa de contar — reative-a para o indicador voltar.
+
+> ✅ **Inativar ≠ excluir**
+>
+> **Inativar** é reversível e preserva tudo — é o que você quer na maioria dos casos. **Excluir** (configurável em [Identidade do DPO](/guias/configurar-dpo/)) pode ser definitivo. Na dúvida, inative.
 
 ## Como fazer
 
