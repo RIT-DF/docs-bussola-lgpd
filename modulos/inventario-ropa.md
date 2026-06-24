@@ -66,3 +66,29 @@ O botão **Gerar Relatório** exporta o inventário em PDF — útil para anexar
 > ⚠️ **Atenção a dados sensíveis**
 >
 > Ao registrar, marque mentalmente as atividades que envolvem **dados sensíveis** (saúde, religião, etnia, opinião política). Elas exigem bases legais específicas e cuidado redobrado — é onde o risco aos titulares é maior.
+
+## Publicar o ROPA (vitrine de transparência)
+
+A LGPD valoriza a **transparência**: o titular tem direito de saber, de forma clara, **o que** você trata e **por quê** (Art. 9). Você pode publicar uma **vitrine das suas atividades de tratamento** em qualquer página do site com o shortcode:
+
+```
+[bussola_lgpd_ropa]
+```
+
+Ele exibe as atividades **ativas** com os campos seguros para o público: **atividade, dados pessoais (categorias), titulares, finalidade, base legal e retenção**.
+
+**Atributos:**
+
+- `layout` — `lista` (padrão), `grid` ou `tabela`.
+- `incluir` — campos opcionais a mostrar: `origem`, `operadores`, `transferencia`. Ex.: `[bussola_lgpd_ropa layout="grid" incluir="operadores,transferencia"]`.
+- `titulo` — `sim` (padrão) ou `nao` (oculta o cabeçalho).
+
+Você também define o **padrão** (layout e campos opcionais) em **Configurações → Páginas & Integração**; os atributos do shortcode sobrescrevem esse padrão.
+
+> ⚠️ **O que NUNCA vai a público**
+>
+> As **medidas de segurança** e os dados técnicos de integração **nunca** são exibidos pelo shortcode — expor isso seria entregar o mapa da mina. Campos como **operadores** e **transferência internacional** só aparecem se você **optar** por incluí-los. E só atividades **ativas** são publicadas.
+
+> ✅ **Boas práticas**
+>
+> Comece pelo padrão (campos essenciais). Inclua "operadores" e "transferência internacional" só se fizer sentido para a sua transparência — lembrando que esses campos podem revelar seus fornecedores.

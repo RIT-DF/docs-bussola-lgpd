@@ -39,6 +39,7 @@ Há duas formas:
    - `[bussola_lgpd_dpo]` — o contato/identidade do Encarregado.
    - `[bussola_lgpd_politicas]` — todas as suas políticas ativas.
    - `[bussola_lgpd_cookies]` — as preferências de cookies (aparece só se o banner estiver ativo).
+   - `[bussola_lgpd_ropa]` — uma vitrine de transparência das atividades de tratamento (ver [Inventário (ROPA)](/modulos/inventario-ropa/)).
 
 > ⚠️ **Página montada à mão é responsabilidade sua**
 >
