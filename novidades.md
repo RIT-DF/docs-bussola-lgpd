@@ -8,6 +8,15 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.4 — Políticas externas e exibição sob medida
+
+- **Política por link (externa)** — agora dá para cadastrar uma política apontando para um documento que já existe (um PDF, uma página de wiki), em vez de reescrevê-la no plugin. Ela aparece na Central como um card com resumo, imagem/ícone e um botão "Ler a política completa". O número da versão é informado à mão (e mantê-lo atualizado é responsabilidade da sua OSC).
+- **Resumo nas políticas** — políticas internas também ganharam um campo de resumo, usado quando você opta por exibir só o resumo.
+- **Opções de exibição** — você decide como as políticas aparecem: texto integral, só o resumo ou só o título; e se mostra título, link e imagem. Configure um padrão global em Configurações → Páginas & Integração ou ajuste caso a caso pelos atributos do shortcode (ex.: `[bussola_lgpd_politicas modo="titulo"]`).
+- **Escolher a página da Central** — montou sua própria página da Central com os shortcodes? Agora você pode indicá-la como a página oficial, e o Índice de Conformidade e o banner de cookies passam a apontar para ela.
+
+Veja em [Políticas](/modulos/politicas/) e [Central de Privacidade](/modulos/central-privacidade/).
+
 ## Versão 1.3 — Central de Privacidade personalizável
 
 Antes, a Central de Privacidade era uma página única gerada automaticamente. Agora você pode **montar a sua própria página**, posicionando cada elemento onde quiser (inclusive em construtores como o Elementor):

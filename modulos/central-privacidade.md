@@ -44,6 +44,44 @@ Há duas formas:
 >
 > A Central **completa** autogerada já inclui tudo que a LGPD exige (Encarregado, políticas e canal de pedidos). Se você montar uma página personalizada com os shortcodes individuais, **garanta que o contato do Encarregado e o formulário de solicitação não fiquem de fora** — senão a página fica incompleta perante a lei.
 
+## Escolher qual página é a sua Central
+
+Se você montou uma **página personalizada** com os shortcodes, diga ao plugin que é **ela** a Central oficial: em **Configurações → Páginas & Integração**, use o **seletor "Selecione a página da Central"** e escolha qualquer página publicada do seu site.
+
+A página escolhida passa a valer para:
+
+- o **Índice de Conformidade** (o item "Central de Privacidade" do painel marca como concluído quando a página designada está publicada);
+- o **link "Centro de Privacidade"** do banner de cookies, que passa a apontar para ela.
+
+> 💡 **Por que isso importa**
+>
+> Sem isso, o painel só reconheceria a página padrão autogerada — e quem prefere uma Central feita à mão ficaria com o semáforo "incompleto" sem motivo. O seletor deixa você usar a sua própria página sem perder o acompanhamento de conformidade.
+
+## Opções de exibição das políticas
+
+Você controla **como** as políticas aparecem (na Central e nos shortcodes `[bussola_lgpd_politicas]` e `[bussola_lgpd_politica]`), por dois caminhos:
+
+- **Padrão global** — em **Configurações → Páginas & Integração**, defina o comportamento padrão: modo de exibição e se mostra título, link e imagem.
+- **Por shortcode** — passe atributos que **sobrescrevem** o padrão global naquele lugar específico:
+
+| Atributo | Valores | O que faz |
+|---|---|---|
+| `modo` | `integral` / `resumo` / `titulo` | Texto completo, só o resumo (padrão) ou só o título. Não afeta políticas externas (que sempre aparecem como card). |
+| `titulo` | `sim` / `nao` | Mostra ou oculta o título. |
+| `link` | `sim` / `nao` | Mostra ou oculta o botão "Ler a política completa" (só políticas externas). |
+| `imagem` | `sim` / `nao` | Mostra ou oculta a imagem/ícone. |
+
+Exemplos:
+
+```
+[bussola_lgpd_politicas modo="titulo"]
+[bussola_lgpd_politica id="3" imagem="nao" link="nao"]
+```
+
+> 💡 **Combinações seguras**
+>
+> O plugin nunca deixa um bloco totalmente vazio: se você ocultar tudo de uma vez, ele exibe ao menos o título.
+
 ➡️ Passo a passo em **[Publicar a Central de Privacidade](/guias/publicar-central-privacidade/)**.
 
 > 💡 **Por que isso importa**

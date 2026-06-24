@@ -25,6 +25,25 @@ O módulo **Políticas** é onde sua OSC cria, versiona e publica os documentos 
 
 O Bússola LGPD **não entrega políticas prontas**. Ele dá a estrutura para você criar **quantas quiser** — e só a **Política de Privacidade** vem com um checklist e modelo-base, por ser exigência direta da LGPD.
 
+## Política interna ou externa (link)
+
+Ao criar uma política, escolha a **origem**:
+
+- **Interna** — você redige o texto no editor do plugin, com versionamento automático (o caminho tradicional).
+- **Externa** — você aponta um **link** para uma política que já existe fora do plugin (um PDF, uma página de wiki, um documento numa intranet). Útil para OSCs que já têm a política publicada e não querem reescrevê-la.
+
+Para a política **externa**, você informa: a **URL** do documento, um **resumo/descrição**, uma **imagem ou ícone** (escolha um dos ícones prontos, envie uma imagem, ou deixe sem) e o **número da versão** (preenchido **manualmente**).
+
+> ⚠️ **Versão da política externa é você quem atualiza**
+>
+> Como o texto mora fora do plugin, o Bússola não controla as versões dela. **Atualize o número da versão sempre que publicar uma nova** — manter isso em dia é responsabilidade da sua organização.
+
+Na Central, a política externa aparece como um **card** com a imagem/ícone, o título, o resumo e um botão **"Ler a política completa"** que abre o documento em uma nova aba.
+
+> 💡 **Resumo também nas internas**
+>
+> As políticas **internas** também têm um campo de **resumo** (opcional). Ele é usado quando você exibe as políticas no modo "resumo" (veja as [opções de exibição](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas)). Se você deixar o resumo em branco, o plugin gera um trecho automático a partir do texto.
+
 ## Versionamento e aceite
 
 Toda alteração relevante gera uma **nova versão**. O histórico fica registrado, e você define qual versão está **ativa** (é a que o público vê). Esse versionamento é o que permite provar, mais tarde, **qual texto estava no ar em determinada data** — essencial para accountability.
@@ -71,7 +90,9 @@ Além de a política aparecer na [Central de Privacidade](/modulos/central-priva
 [bussola_lgpd_politica id="1"]
 ```
 
-Ele exibe o conteúdo da **versão ativa** daquela política. Na **lista de Políticas**, cada política mostra o seu **ID** (e um atalho para copiar o shortcode pronto) — é o número que você coloca em `id="..."`.
+Ele exibe o conteúdo da **versão ativa** daquela política (ou o **card** com o link, se a política for externa). Na **lista de Políticas**, cada política mostra o seu **ID** (e um atalho para copiar o shortcode pronto) — é o número que você coloca em `id="..."`.
+
+Você ainda pode controlar **como** a política aparece com atributos (`modo`, `titulo`, `link`, `imagem`) — por exemplo `[bussola_lgpd_politica id="1" modo="resumo"]`. Veja a tabela completa em [Opções de exibição das políticas](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas).
 
 > 💡 **Quando usar**
 >
