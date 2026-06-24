@@ -21,7 +21,7 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | Avisos do painel padronizados (notificações + confirmação) | 1.4.1 | — |
 | Inativar / reativar política | 1.5 | [Políticas](/modulos/politicas/#inativar-e-reativar-uma-politica) |
 | Excluir política (arquivar ou definitivo) | 1.6 | [Políticas](/modulos/politicas/#excluir-uma-politica) |
-| Tamanho da imagem das políticas (pequeno/médio/grande) | 1.7 | [Central](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas) |
+| Tamanho da imagem das políticas (pequeno a extra grande) | 1.7 | [Central](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas) |
 
 ## Em estudo
 

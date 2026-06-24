@@ -10,7 +10,7 @@ O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico comp
 
 ## Versão 1.7 — Tamanho da imagem das políticas
 
-- **Imagem em pequeno, médio ou grande** — agora dá para ajustar o tamanho da imagem/ícone das políticas externas no card da Central. Defina um padrão em Configurações → Páginas & Integração ou ajuste caso a caso pelo atributo `tamanho` do shortcode (ex.: `[bussola_lgpd_politica id="3" tamanho="grande"]`). O padrão (pequeno) mantém o visual atual. Veja [as opções de exibição](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas).
+- **Imagem em pequeno, médio, grande ou extra grande** — agora dá para ajustar o tamanho da imagem/ícone das políticas externas no card da Central. Defina um padrão em Configurações → Páginas & Integração ou ajuste caso a caso pelo atributo `tamanho` do shortcode (ex.: `[bussola_lgpd_politica id="3" tamanho="extra-grande"]`). O padrão (pequeno) mantém o visual atual. Veja [as opções de exibição](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas).
 
 ## Versão 1.6 — Excluir políticas (com cuidado)
 

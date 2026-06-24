@@ -70,7 +70,7 @@ Você controla **como** as políticas aparecem (na Central e nos shortcodes `[bu
 | `titulo` | `sim` / `nao` | Mostra ou oculta o título. |
 | `link` | `sim` / `nao` | Mostra ou oculta o botão "Ler a política completa" (só políticas externas). |
 | `imagem` | `sim` / `nao` | Mostra ou oculta a imagem/ícone. |
-| `tamanho` | `pequeno` / `medio` / `grande` | Tamanho da imagem/ícone no card da política externa (padrão `pequeno`). |
+| `tamanho` | `pequeno` / `medio` / `grande` / `extra-grande` | Tamanho da imagem/ícone no card da política externa (padrão `pequeno`). |
 
 Exemplos:
 
