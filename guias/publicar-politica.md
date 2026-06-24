@@ -74,6 +74,8 @@ Quando uma política é **incorporada a outra**, **substituída** ou **deixa de 
 
 > ✅ Inativar é **reversível** e preserva versões e consentimentos — diferente de **excluir**. Detalhes em [Políticas › Inativar e reativar](/modulos/politicas/#inativar-e-reativar-uma-politica).
 
+Se a política realmente não deve mais existir, há o botão **Excluir** — que pode apenas arquivar ou apagar em definitivo, conforme o Modo de Exclusão. Como a exclusão definitiva **apaga o histórico e a rastreabilidade**, prefira **Inativar** quando estiver em dúvida. Veja [Políticas › Excluir](/modulos/politicas/#excluir-uma-politica).
+
 > ⚠️ **Atenção**
 >
 > Os modelos e o Assistente produzem um **ponto de partida geral**, não um texto juridicamente validado para o seu caso. Revise com cuidado e, quando possível, valide com apoio jurídico. Veja o [Aviso legal](/disclaimer/).

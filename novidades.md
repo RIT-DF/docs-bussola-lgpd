@@ -8,6 +8,11 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.6 — Excluir políticas (com cuidado)
+
+- **Excluir política** — além de **inativar** (que só tira do site e é reversível), agora dá para **excluir** uma política de vez. O comportamento segue o **Modo de Exclusão** configurado em Configurações → Identidade (DPO): *arquivar* (mantém o registro para auditoria, mas some do painel) ou *excluir em definitivo* (apaga também o histórico de versões — **perde-se a rastreabilidade** de qual texto esteve no ar e quando). Antes de excluir, o sistema mostra um aviso claro e recomenda usar **Inativar** quando o objetivo é apenas tirar do site. Os **consentimentos já coletados nunca são apagados**, em nenhuma modalidade. Veja [Políticas › Excluir](/modulos/politicas/#excluir-uma-politica).
+- **Correção visual (1.6.1)** — políticas externas (por link) deixaram de exibir, na lista, os avisos de "versões publicadas / nenhuma versão ativa" (que só fazem sentido para políticas internas) — evitando a impressão de que estariam incompletas.
+
 ## Versão 1.5 — Ative e desative políticas sem apagar nada
 
 - **Inativar e reativar política** — depois de publicada, uma política pode ser **inativada** quando foi incorporada a outra, substituída ou deixou de valer. A política inativa **some da Central e dos shortcodes**, mas nada é apagado: conteúdo, histórico de versões e consentimentos ficam preservados, e você pode **reativar** quando quiser. Na lista, as inativas mostram um selo **"INATIVA"**. Vale para políticas internas e externas. Se a política inativada for a de Privacidade, o Índice de Conformidade avisa — reative-a para o indicador voltar. Veja [Políticas](/modulos/politicas/#inativar-e-reativar-uma-politica).

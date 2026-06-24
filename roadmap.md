@@ -20,6 +20,7 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | Opções de exibição + seletor da Central | 1.4 | [Central de Privacidade](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas) |
 | Avisos do painel padronizados (notificações + confirmação) | 1.4.1 | — |
 | Inativar / reativar política | 1.5 | [Políticas](/modulos/politicas/#inativar-e-reativar-uma-politica) |
+| Excluir política (arquivar ou definitivo) | 1.6 | [Políticas](/modulos/politicas/#excluir-uma-politica) |
 
 ## Em estudo
 

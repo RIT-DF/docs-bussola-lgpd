@@ -38,7 +38,7 @@ Aqui você cadastra o **Encarregado (DPO)** — nome/setor, e-mail e telefone, q
 
 ➡️ Passo a passo em **[Configurar o Encarregado](/guias/configurar-dpo/)**.
 
-> ✅ **Inativar ≠ excluir.** Para tirar uma política do ar **sem apagá-la**, use **Inativar** na lista de Políticas (reversível). O *Modo de Exclusão* acima só vale quando você realmente **exclui** uma política. Veja [Políticas](/modulos/politicas/#inativar-e-reativar-uma-politica).
+> ✅ **Inativar ≠ excluir.** Para tirar uma política do ar **sem apagá-la**, use **Inativar** na lista de Políticas (reversível). O *Modo de Exclusão* acima rege o botão **Excluir** da lista: *soft* arquiva (preserva o registro) e *hard* apaga em definitivo (perde a rastreabilidade). Veja [Políticas › Excluir](/modulos/politicas/#excluir-uma-politica).
 
 ## Banner de Cookies
 

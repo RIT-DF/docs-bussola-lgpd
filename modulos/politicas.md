@@ -118,7 +118,24 @@ Como funciona:
 
 > ✅ **Inativar ≠ excluir**
 >
-> **Inativar** é reversível e preserva tudo — é o que você quer na maioria dos casos. **Excluir** (configurável em [Identidade do DPO](/guias/configurar-dpo/)) pode ser definitivo. Na dúvida, inative.
+> **Inativar** é reversível e preserva tudo — é o que você quer na maioria dos casos. **Excluir** (abaixo) é mais forte e pode ser definitivo. Na dúvida, inative.
+
+## Excluir uma política
+
+Quando uma política realmente não deve mais existir, use **Excluir** (botão vermelho na lista). O que acontece depende do **Modo de Exclusão** configurado em [Configurações → Identidade (DPO)](/guias/configurar-dpo/):
+
+- **Arquivar (soft delete)** — a política sai do painel e do site, mas o **registro é preservado** (conteúdo, histórico de versões e auditoria continuam no sistema). Rastreabilidade mantida.
+- **Excluir em definitivo (hard delete)** — a política e **todo o seu histórico de versões são apagados** do sistema. **Você perde a rastreabilidade** de qual texto esteve no ar e quando. É irreversível.
+
+Antes de confirmar, o sistema mostra um aviso explicando essas consequências e sugerindo **Inativar** quando você só quer tirar a política do site.
+
+> ⚠️ **Excluir pode apagar a rastreabilidade**
+>
+> No modo *definitivo*, não há volta: o histórico de versões some. Se há qualquer chance de você precisar comprovar qual política estava vigente em determinada data, **inative em vez de excluir**.
+
+> ✅ **Os consentimentos são sempre preservados**
+>
+> Mesmo na exclusão definitiva, os **consentimentos já coletados não são apagados** — eles continuam como prova do que foi consentido.
 
 ## Como fazer
 

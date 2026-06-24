@@ -37,13 +37,13 @@ O Encarregado é o contato de privacidade da sua OSC. Cadastrá-lo é o **primei
 
 ## Modo de exclusão de políticas
 
-Nesta mesma aba há o **Modo de Exclusão de Políticas**:
+Nesta mesma aba há o **Modo de Exclusão de Políticas**, que define o que o botão **Excluir** (na lista de Políticas) faz:
 
-- **Soft Delete** (padrão) — mantém os registros e apenas desativa. Recomendado.
-- **Hard Delete** — apaga permanentemente do banco.
+- **Soft Delete** (padrão) — **arquiva**: a política some do painel e do site, mas o registro e o histórico de versões são preservados (para auditoria). Recomendado.
+- **Hard Delete** — **apaga em definitivo** a política e todo o seu histórico de versões do banco, sem volta.
 
 > ⚠️ **Atenção**
 >
-> O *Hard Delete* apaga a política definitivamente, sem volta. Mantenha em *Soft Delete* salvo se você tiver um motivo claro para apagar de vez.
+> O *Hard Delete* apaga a política definitivamente — você **perde a rastreabilidade** de qual texto esteve no ar. Mantenha em *Soft Delete* salvo se tiver um motivo claro para apagar de vez. (Os consentimentos já coletados são preservados nos dois modos.)
 
 > ✅ **Quer só tirar do ar, não apagar?** Não use a exclusão — use **[Inativar](/modulos/politicas/#inativar-e-reativar-uma-politica)** na lista de Políticas. Inativar é reversível e preserva tudo; excluir (acima) é outra coisa.
