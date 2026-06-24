@@ -15,11 +15,27 @@ A maioria dos vazamentos de dados não vem de hackers — vem de **erro humano**
 >
 > Treinar a equipe **reduz o risco real** de incidentes e, ao mesmo tempo, é **evidência de diligência**: se algo der errado, você demonstra que agiu para prevenir. Não precisa ser um curso formal — uma conversa estruturada e registrada já conta muito.
 
-> ⚠️ **Atenção**
->
-> Este é um **roteiro de referência** para você montar a sua orientação interna — adapte ao tamanho e à realidade da sua organização. Veja o [Aviso legal](/disclaimer/).
+## A forma mais fácil: o curso gratuito da RIT
 
-## Roteiro de uma orientação básica
+Você **não precisa montar o treinamento do zero**. A RIT disponibiliza **gratuitamente** às organizações integradas o curso **"Fundamentos da Lei Geral de Proteção de Dados"** — uma introdução estruturada à LGPD, ideal como base para orientar a equipe. (O curso foi desenvolvido pelo Instituto Modal de Ciência, Tecnologia e Inovação e cedido à RIT; por isso traz a identidade visual do Instituto ao longo do material.)
+
+O curso cobre, em linguagem acessível:
+
+- o contexto e os marcos que levaram à criação da LGPD;
+- os fundamentos e conceitos centrais da lei;
+- o papel e as responsabilidades dos **agentes de tratamento** (controlador e operador);
+- a atuação da **ANPD**;
+- **casos emblemáticos** de grande repercussão no Brasil.
+
+➡️ **Acesse:** [Curso "Fundamentos da LGPD" — RIT](https://cursos.rit.org.br/course/view.php?id=8)
+
+> ✅ **Boas práticas**
+>
+> Indique este curso como base do treinamento e **registre quem concluiu** (com data). Isso vira evidência direta do atestado **"Treinamento da equipe"** no Mapa de Conformidade (no painel do plugin) e demonstra diligência.
+
+## Roteiro de uma orientação própria (alternativa ou complemento)
+
+Se preferir conduzir uma orientação interna — sozinha ou somada ao curso —, use este roteiro de referência, adaptado ao tamanho e à realidade da sua organização (veja o [Aviso legal](/disclaimer/)):
 
 Cubra, em linguagem simples, com exemplos do dia a dia da OSC:
 
