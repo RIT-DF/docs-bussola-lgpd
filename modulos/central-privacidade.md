@@ -61,7 +61,7 @@ A página escolhida passa a valer para:
 
 Você controla **como** as políticas aparecem (na Central e nos shortcodes `[bussola_lgpd_politicas]` e `[bussola_lgpd_politica]`), por dois caminhos:
 
-- **Padrão global** — em **Configurações → Páginas & Integração**, defina o comportamento padrão: modo de exibição e se mostra título, link e imagem.
+- **Padrão global** — em **Configurações → Páginas & Integração**, defina o comportamento padrão: modo de exibição, se mostra título, link e imagem, e o **tamanho da imagem**.
 - **Por shortcode** — passe atributos que **sobrescrevem** o padrão global naquele lugar específico:
 
 | Atributo | Valores | O que faz |
@@ -70,12 +70,14 @@ Você controla **como** as políticas aparecem (na Central e nos shortcodes `[bu
 | `titulo` | `sim` / `nao` | Mostra ou oculta o título. |
 | `link` | `sim` / `nao` | Mostra ou oculta o botão "Ler a política completa" (só políticas externas). |
 | `imagem` | `sim` / `nao` | Mostra ou oculta a imagem/ícone. |
+| `tamanho` | `pequeno` / `medio` / `grande` | Tamanho da imagem/ícone no card da política externa (padrão `pequeno`). |
 
 Exemplos:
 
 ```
 [bussola_lgpd_politicas modo="titulo"]
 [bussola_lgpd_politica id="3" imagem="nao" link="nao"]
+[bussola_lgpd_politica id="3" tamanho="grande"]
 ```
 
 > 💡 **Combinações seguras**

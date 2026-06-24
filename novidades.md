@@ -8,6 +8,10 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.7 — Tamanho da imagem das políticas
+
+- **Imagem em pequeno, médio ou grande** — agora dá para ajustar o tamanho da imagem/ícone das políticas externas no card da Central. Defina um padrão em Configurações → Páginas & Integração ou ajuste caso a caso pelo atributo `tamanho` do shortcode (ex.: `[bussola_lgpd_politica id="3" tamanho="grande"]`). O padrão (pequeno) mantém o visual atual. Veja [as opções de exibição](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas).
+
 ## Versão 1.6 — Excluir políticas (com cuidado)
 
 - **Excluir política** — além de **inativar** (que só tira do site e é reversível), agora dá para **excluir** uma política de vez. O comportamento segue o **Modo de Exclusão** configurado em Configurações → Identidade (DPO): *arquivar* (mantém o registro para auditoria, mas some do painel) ou *excluir em definitivo* (apaga também o histórico de versões — **perde-se a rastreabilidade** de qual texto esteve no ar e quando). Antes de excluir, o sistema mostra um aviso claro e recomenda usar **Inativar** quando o objetivo é apenas tirar do site. Os **consentimentos já coletados nunca são apagados**, em nenhuma modalidade. Veja [Políticas › Excluir](/modulos/politicas/#excluir-uma-politica).
