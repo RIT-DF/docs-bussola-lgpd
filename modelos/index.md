@@ -1,6 +1,6 @@
 ---
 title: "Modelos e orientações"
-nav_order: 9
+nav_order: 8.5
 has_children: true
 permalink: /modelos/
 ---
