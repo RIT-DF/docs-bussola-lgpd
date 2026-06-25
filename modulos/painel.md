@@ -5,7 +5,7 @@ parent: "Módulos"
 permalink: /modulos/painel/
 role: encarregado
 routes: ["#/", "#/wizard"]
-screenshots: [blgpd-01-dashboard, blgpd-09-wizard]
+screenshots: [blgpd-01-dashboard, blgpd-50-mapa-conformidade]
 last_verified: 2026-06-24
 status: publicado
 ---
@@ -19,12 +19,13 @@ O **Dashboard** é a primeira tela do Bússola LGPD: o cockpit onde o Encarregad
 
 ## Índice de Conformidade (MVP)
 
-Um percentual que resume o progresso, dividido em dois grupos:
+O card mostra, de um lado, a **lista do que é verificado pelo sistema** (Política de Privacidade ativa, DPO configurado, Consentimento/Cookies, Central de Privacidade, Inventário) — cada item com o **artigo da LGPD** correspondente; do outro, um **anel** com o **percentual verificado** e, separado e em roxo, o indicador **"Atestado: X de 4"** (a parte autodeclarada, que **não** infla o percentual).
 
-- **Verificados pelo Sistema** — o plugin confere sozinho: Política de Privacidade ativa, DPO configurado, banner de cookies ativo, inventário preenchido.
-- **Autodeclarados (via Wizard)** — dependem da sua resposta: bases legais mapeadas, inventário concluído.
+O selo **"ⓘ Por que isto importa (LGPD)"** abre uma explicação curta com o artigo da Lei e links para o Manual, o texto oficial (Planalto) e a ANPD.
 
-> ℹ️ Se você **[inativar](/modulos/politicas/#inativar-e-reativar-uma-politica)** a Política de Privacidade, o item "Política de Privacidade ativa" deixa de contar aqui — reative-a para o indicador voltar.
+> ℹ️ Os **atestados** (autodeclaração) e o detalhamento artigo a artigo ficam no **[Mapa de Conformidade](#mapa-de-conformidade)** — acesse pelo botão **"Ver mapa completo"** ou pelo menu.
+
+> ℹ️ Se você **[inativar](/modulos/politicas/#inativar-e-reativar-uma-politica)** a Política de Privacidade, o item "Política de Privacidade Ativa" deixa de contar aqui — reative-a para o indicador voltar.
 
 > ⚠️ **Atenção**
 >
@@ -46,17 +47,25 @@ Há ainda o **Ranking de Solicitações** (quais tipos de pedido mais aparecem) 
 
 ## Alertas e pendências
 
-O painel sinaliza pontos de atenção — por exemplo, **consentimentos órfãos** (registros de consentimento que não estão ligados a uma versão de política). São pistas do que organizar a seguir.
+O painel sinaliza pontos de atenção — por exemplo, **nenhuma política de privacidade vigente** (com atalho para criar uma). São pistas do que organizar a seguir.
 
 ## Ações rápidas
 
 No alto do painel:
 
 - **Exportar Relatório** — abre o [Relatório de Conformidade](/modulos/relatorios/) em PDF.
-- **Revisar Autodeclaração** — abre o Wizard para responder às perguntas que alimentam o Índice.
+- **Ver mapa completo** — abre o [Mapa de Conformidade](#mapa-de-conformidade) (detalhe artigo a artigo + autodeclaração).
 
-[![Wizard de autodeclaração](/assets/screenshots/blgpd-09-wizard.png)](/assets/screenshots/blgpd-09-wizard.png)
-*O Wizard de Onboarding LGPD coleta as respostas autodeclaradas (ex.: bases legais definidas?).*
+## Mapa de Conformidade
+
+Acessível pelo menu **"Mapa de Conformidade"** (ou pelo botão "Ver mapa completo"), é a tela-síntese que organiza a conformidade em **três camadas**, cada item ligado ao artigo da LGPD:
+
+[![Mapa de Conformidade](/assets/screenshots/blgpd-50-mapa-conformidade.png)](/assets/screenshots/blgpd-50-mapa-conformidade.png)
+*As três seções: o que o sistema verifica, o que você atesta e o que é responsabilidade sua fora da ferramenta.*
+
+- ✅ **Verificado pelo sistema** — o que a ferramenta confere automaticamente, com status e atalho para resolver.
+- 📝 **Você atesta** — as 4 autodeclarações sob responsabilidade da OSC (contrato com operadores, treinamento, dados sensíveis, transferência internacional). Marque **Sim / Não / Não se aplica**.
+- ⚪ **Sob sua responsabilidade** — deveres que acontecem **fora** do plugin (comunicar incidente à ANPD, avaliar o RIPD, responder a fiscalizações).
 
 ## Veja também
 

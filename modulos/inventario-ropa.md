@@ -77,6 +77,8 @@ A LGPD valoriza a **transparência**: o titular tem direito de saber, de forma c
 
 Ele exibe as atividades **ativas** com os campos seguros para o público: **atividade, dados pessoais (categorias), titulares, finalidade, base legal e retenção**.
 
+[![Vitrine pública do ROPA](/assets/screenshots/blgpd-53-ropa-publico-grid.png)](/assets/screenshots/blgpd-53-ropa-publico-grid.png)
+
 **Atributos:**
 
 - `layout` — `lista` (padrão), `grid` ou `tabela`.
