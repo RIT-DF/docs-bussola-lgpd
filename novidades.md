@@ -8,6 +8,19 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versões 1.11 a 1.17 — Conformidade com o ECA Digital
+
+Chegou o apoio ao **ECA Digital** (Lei 15.211/2025), a lei que protege crianças e adolescentes na internet — especialmente relevante para OSCs que trabalham com esse público. Veja a nova seção [ECA Digital](/eca-digital/).
+
+- **Descubra se a lei te alcança** — uma triagem rápida no [Mapa de Conformidade](/eca-digital/enquadramento/) mostra só os deveres que se aplicam ao seu caso (e avisa quando seu site, por ter controle editorial, está dispensado da verificação de idade).
+- **Consentimento dos pais** para dados de menores, com registro de prova ([saiba mais](/eca-digital/consentimento-parental/)).
+- **Privacidade por padrão** e **transparência aos pais** na sua Central de Privacidade.
+- **Aviso** contra publicidade/perfilamento dirigido a menores na configuração de cookies.
+- **Novo módulo [RIPD](/modulos/ripd/)** — avalie os riscos de um tratamento com uma matriz simples e gere o relatório em PDF.
+- **Novo módulo [Denúncias](/modulos/denuncias/)** — canal público para reportar conteúdo que viole direitos de crianças e adolescentes, com triagem no painel.
+
+> O ECA Digital é uma lei **diferente** da LGPD: esses deveres aparecem **à parte** e **não** alteram o seu Índice de Conformidade da LGPD. O conteúdo ajuda a se situar e **não substitui orientação jurídica**.
+
 ## Versão 1.7 — Tamanho da imagem das políticas
 
 - **Imagem em pequeno, médio, grande ou extra grande** — agora dá para ajustar o tamanho da imagem/ícone das políticas externas no card da Central. Defina um padrão em Configurações → Páginas & Integração ou ajuste caso a caso pelo atributo `tamanho` do shortcode (ex.: `[bussola_lgpd_politica id="3" tamanho="extra-grande"]`). O padrão (pequeno) mantém o visual atual. Veja [as opções de exibição](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas).

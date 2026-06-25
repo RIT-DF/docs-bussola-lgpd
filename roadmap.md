@@ -22,11 +22,16 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | Inativar / reativar política | 1.5 | [Políticas](/modulos/politicas/#inativar-e-reativar-uma-politica) |
 | Excluir política (arquivar ou definitivo) | 1.6 | [Políticas](/modulos/politicas/#excluir-uma-politica) |
 | Tamanho da imagem das políticas (pequeno a extra grande) | 1.7 | [Central](/modulos/central-privacidade/#opcoes-de-exibicao-das-politicas) |
+| Vínculo didático com a Lei + Mapa de Conformidade | 1.8–1.10 | [Mapa](/modulos/painel/) |
+| **Conformidade com o ECA Digital** (Lei 15.211/2025) | 1.11–1.13 | [ECA Digital](/eca-digital/) |
+| **Módulo RIPD** (Relatório de Impacto) | 1.14–1.16 | [RIPD](/modulos/ripd/) |
+| **Canal de denúncia** (ECA Digital) | 1.17 | [Denúncias](/modulos/denuncias/) |
 
 ## Em estudo
 
 | Recurso | Status | O que é |
 |---|---|---|
+| Selo de Conformidade LGPD | 🔭 Em estudo | Selo público (via shortcode) com o % do Índice e cor por faixa (bronze/prata/ouro), para a OSC exibir no site. |
 | Mural de comunicados | 🔭 Em estudo | Avisos gerais da OSC aos inscritos/membros, por categoria. |
 | API completa | 🔭 Em estudo | Leitura e ação além dos webhooks, para integrações mais ricas. |
 | Onboarding ainda mais conduzido | 🔭 Em estudo | Evoluir o assistente de Primeiros Passos, ligando cada pendência à ação que a resolve. |

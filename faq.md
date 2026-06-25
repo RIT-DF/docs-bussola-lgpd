@@ -62,6 +62,18 @@ A ação padrão é **anonimizar** (remover o que identifica a pessoa), não apa
 
 Não. O plugin ajuda a **registrar** o incidente e a **comunicar os titulares afetados** de forma rastreável. A **notificação oficial à ANPD** é feita pela sua OSC, pelos canais oficiais do governo. Veja [Incidentes](/modulos/incidentes/).
 
+## O que é o ECA Digital e ele se aplica à minha OSC?
+
+O **ECA Digital** (Lei 15.211/2025) protege crianças e adolescentes na internet. Ele alcança sites **direcionados a** ou de **acesso provável** por menores — comum em OSCs que trabalham com esse público. A forma mais rápida de saber é fazer a [triagem de enquadramento](/eca-digital/enquadramento/) no Mapa de Conformidade. É uma lei **diferente** da LGPD, e o conteúdo do manual **não substitui orientação jurídica**. Veja [ECA Digital](/eca-digital/).
+
+## Vou ter que verificar a idade de quem acessa o site?
+
+Provavelmente **não**. Sites institucionais com **controle editorial** (conteúdo escolhido pela OSC, sem automação) costumam ser **dispensados** da verificação de idade. O que normalmente se aplica à OSC são os **deveres de proteção de dados de menores** (consentimento dos pais, privacidade por padrão, transparência). O enquadramento mostra o seu caso.
+
+## O ECA Digital muda o meu Índice de Conformidade da LGPD?
+
+Não. Os deveres do ECA Digital aparecem em uma **seção própria** no Mapa e **não** entram no cálculo do percentual da LGPD.
+
 ## Onde reporto um problema ou sugiro uma melhoria?
 
 Fale com a equipe da RIT/V3RTECH responsável pela sua implantação. As novidades do produto aparecem em [Novidades](/novidades/) e os planos futuros em [Roadmap](/roadmap/).
