@@ -43,5 +43,6 @@ Ou seja: para a OSC típica, o que pega **não** é "verificar a idade de quem e
 | Informar os pais na página pública | [Transparência aos pais](/eca-digital/transparencia-aos-pais/) |
 | Não fazer publicidade dirigida a menores | [Perfilamento e publicidade](/eca-digital/perfilamento-publicidade/) |
 | Receber e tratar denúncias de conteúdo | [Canal de denúncia](/eca-digital/canal-de-denuncia/) |
+| *(incomum)* Se for mesmo aferir idade, escolher o método | [Aferição de idade](/eca-digital/afericao-de-idade/) |
 
 > ⚠️ O ECA Digital é uma **lei distinta** da LGPD. No Bússola, os deveres do ECA Digital aparecem **separados** do seu Índice de Conformidade da LGPD — eles **não** alteram aquele percentual.
