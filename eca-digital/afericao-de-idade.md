@@ -33,4 +33,8 @@ O método menos arriscado é o que **não coleta dado nenhum**. Antes de escolhe
 
 O Bússola **não faz a aferição** (não é provedor de verificação de identidade) — mas apoia a **decisão responsável**: o [enquadramento](/eca-digital/enquadramento/) mostra se você está dispensado; o [RIPD](/modulos/ripd/) documenta a avaliação de risco; e a [política de privacidade](/modulos/politicas/) registra a finalidade exclusiva dos dados de verificação.
 
+## Se alguém contestar a idade aferida
+
+Se um adolescente ou um responsável **discordar** da idade/faixa que o sistema atribuiu, isso é um **direito do titular** — e você **não precisa de nada novo**: trate pelo fluxo de **[Atendimento ao Titular (Art. 18)](/modulos/atendimentos/)** que o Bússola já oferece. A pessoa abre um pedido de **correção/revisão** e a sua OSC responde pelo painel de **Atendimentos**, como em qualquer outra solicitação.
+
 > ⚠️ **Regulamentação ainda preliminar.** Os requisitos técnicos detalhados (transparência, segurança e interoperabilidade dos métodos de aferição) ainda serão objeto de **regulamentação específica da ANPD**. Esta orientação reflete o material **preliminar** disponível e será **atualizada** quando sair a versão definitiva. Não é parecer jurídico.
