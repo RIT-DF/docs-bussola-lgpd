@@ -110,6 +110,18 @@ Gera um **arquivo JSON** para **levar seus dados para outra instalação** do B�
 
 > ⚠️ **O arquivo contém dados pessoais em texto.** Guarde em local seguro e apague depois de concluir a migração.
 
+### Importação de migração
+
+Recebe um **arquivo JSON** gerado pela "Exportação para migração" de **outra instalação** do Bússola LGPD e traz aqueles dados para esta. O processo é em dois passos:
+
+1. **Selecione o arquivo** — o sistema mostra um resumo (origem, data, versão) e os **escopos** disponíveis no arquivo, indicando **quais já têm dados aqui** (e que serão substituídos).
+2. **Escolha os escopos** que quer importar e confirme. Para os escopos que vão sobrescrever dados existentes, aparece uma **confirmação** antes de aplicar.
+
+- A importação **substitui** (não mescla) os dados de cada escopo escolhido.
+- Se o arquivo vier de uma versão do plugin **mais nova** que a desta instalação, a importação é **recusada** — atualize o plugin aqui primeiro.
+
+> 💡 **Dica:** faça um [backup completo](#saida-de-dados) deste site antes de importar, caso queira voltar atrás.
+
 ### Desinstalação do plugin
 
 [![Configurações — Confirmação de desinstalação destrutiva](/assets/screenshots/blgpd-08h-settings-desinstalacao.png)](/assets/screenshots/blgpd-08h-settings-desinstalacao.png)

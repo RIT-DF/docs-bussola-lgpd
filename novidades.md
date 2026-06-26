@@ -8,9 +8,9 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
-## Versão 1.22 — Leve seus dados para outro site e decida o que fica ao desinstalar
+## Versões 1.22 e 1.23 — Mude o Bússola de site e decida o que fica ao desinstalar
 
-- **Exportação para migração** — gere um arquivo **JSON** com os dados que você escolher (configurações, políticas, ROPA, consentimentos e mais) para **levar para outra instalação** do Bússola LGPD. Você marca só os escopos que quer, e **exportar não apaga nada**. Em Configurações → Saída de Dados.
+- **Migração entre sites** — **exporte** os dados que você escolher (configurações, políticas, ROPA, consentimentos e mais) em um arquivo **JSON** e **importe** em outra instalação do Bússola LGPD. Você marca só os escopos que quer; exportar **não apaga nada**, e a importação **substitui** os escopos escolhidos no destino (com confirmação antes de sobrescrever). Em Configurações → Saída de Dados.
 - **O que acontece ao desinstalar** — agora você decide: **manter os dados** (padrão — se reinstalar, tudo continua lá) ou **apagar tudo definitivamente** ao remover o plugin. A opção de apagar pede uma confirmação, porque é irreversível.
 
 > O arquivo de migração contém **dados pessoais em texto** — guarde com cuidado e apague depois de migrar. Veja [Configurações › Saída de Dados](/modulos/configuracoes/#saida-de-dados).
@@ -21,6 +21,19 @@ O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico comp
 - **Personalização avançada** — quer ir além? Ajuste **cor a cor**, os **cantos** e a **fonte**, com **preview ao vivo** e um **aviso de contraste** que sinaliza quando uma combinação fica difícil de ler.
 
 > Veja [Configurações › Aparência](/modulos/configuracoes/#aparencia).
+
+## Versão 1.19 — Painel mais limpo, com menu nativo do WordPress
+
+- **Navegação por submenus** — a antiga barra de navegação interna do plugin deu lugar a **submenus nativos do WordPress**, listados abaixo de "Bússola LGPD" no menu lateral do painel. A interface fica mais limpa, sobra espaço na vertical e a experiência combina com o restante do administrativo do site.
+- **Abre direto na tela certa** — ao clicar em uma seção no menu, o painel já abre na tela correspondente, sem rodeios. Fluxos internos (como relatórios e o modo de edição de políticas) continuam fluidos, sem recarregar a página.
+
+## Versão 1.18 — Mostre sua conformidade com o Selo
+
+- **Selo de Conformidade LGPD** — um novo componente público que permite à sua OSC **exibir o nível de conformidade no próprio site**, em **três formatos** à escolha (fita, medalha ou cartão). Use o shortcode `[bussola_lgpd_selo]` na página que quiser. A partir da 1.18.1, o selo ganhou um visual refinado (medalhão metálico) e o texto "Compromisso LGPD".
+- **A aparência do selo acompanha o tema** — as cores, os cantos e a fonte do selo seguem o tema escolhido em [Configurações › Aparência](/modulos/configuracoes/#aparencia), para combinar com a identidade do seu site.
+- **Índice de Conformidade mais consistente** — Painel, Mapa de Conformidade e Primeiros Passos passaram a calcular o Índice a partir de **uma única fonte**, garantindo o mesmo número em toda a ferramenta.
+
+> O selo informa o nível de conformidade autodeclarado/verificado pela ferramenta; ele **ajuda a comunicar seu compromisso**, mas **não atesta validade jurídica** nem isenta a OSC de responsabilidade.
 
 ## Versões 1.11 a 1.17 — Conformidade com o ECA Digital
 
