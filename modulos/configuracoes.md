@@ -5,20 +5,20 @@ parent: "Módulos"
 permalink: /modulos/configuracoes/
 role: encarregado
 routes: ["#/settings"]
-screenshots: [blgpd-08-settings-dpo, blgpd-08b-settings-cookies, blgpd-08c-settings-webhooks, blgpd-08d-settings-paginas, blgpd-08e-settings-saida]
-last_verified: 2026-06-24
+screenshots: [blgpd-08-settings-dpo, blgpd-08b-settings-cookies, blgpd-08c-settings-webhooks, blgpd-08d-settings-paginas, blgpd-08f-settings-aparencia, blgpd-08g-settings-aparencia-custom, blgpd-08e-settings-saida, blgpd-08h-settings-desinstalacao]
+last_verified: 2026-06-26
 status: publicado
 ---
 
 # Configurações
 
-A tela **Configurações** reúne, em um só lugar, os ajustes gerais do Bússola LGPD — do contato do Encarregado à exibição das políticas e à exportação dos dados. Ela é organizada em **seis abas**.
+A tela **Configurações** reúne, em um só lugar, os ajustes gerais do Bússola LGPD — do contato do Encarregado à exibição das políticas e à exportação dos dados. Ela é organizada em **sete abas**.
 
 > 💡 **Por que isso importa**
 >
 > A maioria dos itens de configuração afeta diretamente o que o público vê (Central, cookies, políticas) e como a sua conformidade é medida. Vale conhecer cada aba antes de publicar a Central.
 
-## As seis abas
+## As sete abas
 
 | Aba | Para que serve | Aprofunde em |
 |---|---|---|
@@ -27,7 +27,8 @@ A tela **Configurações** reúne, em um só lugar, os ajustes gerais do Bússol
 | **Webhooks** | Enviar eventos (nova solicitação, alteração de política, incidente, consentimento) para automações externas. | (abaixo) |
 | **Retenção & Expurgo** | Regras globais de descarte/anonimização e a fila de retenção. | [Retenção & Expurgo](/modulos/retencao/) |
 | **Páginas & Integração** | Escolher a página da Central, definir a exibição padrão das políticas e copiar os shortcodes. | [Central de Privacidade](/modulos/central-privacidade/) |
-| **Saída de Dados** | Exportar um backup completo dos dados da organização. | [Relatórios & Backup](/modulos/relatorios/) |
+| **Aparência** | Tema de cores do frontend (Central, selo, shortcodes): temas prontos ou personalização (cores, cantos, fonte). | (abaixo) |
+| **Saída de Dados** | Backup completo (ZIP), **exportação para migração** (JSON por escopos) e a **preferência de desinstalação**. | (abaixo) |
 
 ## Identidade (DPO)
 
@@ -71,8 +72,52 @@ Esta aba tem três blocos:
 
 > ⚠️ **Página montada à mão é responsabilidade sua.** A Central completa autogerada já inclui Encarregado, políticas e canal de pedidos. Ao montar a sua, não deixe esses elementos de fora.
 
+## Aparência
+
+[![Configurações — Aparência (temas)](/assets/screenshots/blgpd-08f-settings-aparencia.png)](/assets/screenshots/blgpd-08f-settings-aparencia.png)
+*Escolha um tema pronto e confira no preview ao vivo. Não afeta o painel administrativo.*
+
+A aba **Aparência** ajusta o visual das partes **públicas** do plugin — a Central de Privacidade, o selo e os shortcodes — para combinar com a identidade do seu site. **Não muda o painel administrativo.**
+
+**Temas prontos.** Escolha um dos cinco temas e clique em **Salvar Aparência**: **Bússola (Padrão)**, **Neutro Escuro**, **Terra (Marrom)**, **Oceano (Azul Claro)** ou **Alto Contraste**. O **preview ao vivo** mostra como ficam um card, um botão e o selo antes de salvar. Para voltar ao tema original a qualquer momento, clique em **Restaurar padrão**.
+
+### Personalizar (avançado)
+
+[![Configurações — Aparência personalizada e aviso de contraste](/assets/screenshots/blgpd-08g-settings-aparencia-custom.png)](/assets/screenshots/blgpd-08g-settings-aparencia-custom.png)
+*Ajuste cor a cor; o sistema avisa quando uma combinação fica difícil de ler.*
+
+Clique em **Personalizar** para definir individualmente as **cores** (principal, texto, títulos, fundos, bordas…), os **cantos** (reto / suave / arredondado) e a **fonte** (herdar do tema do site, sistema ou serifada). Ao alterar qualquer item, o tema passa a "Customizado".
+
+> ⚠️ **Aviso de contraste.** Se uma combinação ficar difícil de ler (ex.: texto claro sobre fundo claro), aparece um **alerta de contraste** (padrão de acessibilidade WCAG AA). É só um lembrete — você ainda pode salvar —, mas cores legíveis ajudam todos os visitantes, inclusive pessoas com baixa visão.
+
 ## Saída de Dados
 
 [![Configurações — Saída de Dados](/assets/screenshots/blgpd-08e-settings-saida.png)](/assets/screenshots/blgpd-08e-settings-saida.png)
+*Backup completo, exportação para migração e a preferência de desinstalação.*
 
-Gera um **backup completo** (ZIP) com os dados da organização — políticas, incidentes, consentimentos, ROPA, solicitações e auditoria — em formato aberto, para migração ou guarda. O arquivo contém **dados pessoais reais**: armazene em local seguro. Veja [Relatórios & Backup](/modulos/relatorios/).
+Esta aba reúne três recursos ligados ao **ciclo de vida dos seus dados**.
+
+### Exportação completa (backup)
+
+Gera um **ZIP** com todos os dados da organização — políticas, ROPA, consentimentos, incidentes, solicitações e auditoria — em CSV e JSON, para guarda ou auditoria. O arquivo contém **dados pessoais reais**: armazene em local seguro. Veja [Relatórios & Backup](/modulos/relatorios/).
+
+### Exportação para migração
+
+Gera um **arquivo JSON** para **levar seus dados para outra instalação** do Bússola LGPD. Marque os **escopos** que deseja incluir (Configurações, Políticas, ROPA, Consentimentos, Solicitações, Incidentes, Denúncias, RIPD, Retenção, Auditoria) e clique em **Baixar JSON de Migração**.
+
+- **Exportar não altera nem apaga** seus dados — é apenas uma cópia.
+- Marque só o necessário: se você **não** incluir um escopo (ex.: Consentimentos), os dados pessoais dele **não entram** no arquivo.
+
+> ⚠️ **O arquivo contém dados pessoais em texto.** Guarde em local seguro e apague depois de concluir a migração.
+
+### Desinstalação do plugin
+
+[![Configurações — Confirmação de desinstalação destrutiva](/assets/screenshots/blgpd-08h-settings-desinstalacao.png)](/assets/screenshots/blgpd-08h-settings-desinstalacao.png)
+*Escolher "Apagar tudo" exige uma confirmação explícita.*
+
+Define o que acontece com os dados **se você remover o plugin** pelo painel do WordPress:
+
+- **Manter os dados (recomendado)** — se reinstalar no futuro, suas políticas e configurações continuam intactas. É o padrão.
+- **Apagar tudo definitivamente** — remove todas as tabelas e registros do banco ao desinstalar. É **irreversível**, por isso o sistema pede uma confirmação antes de salvar.
+
+> 💡 **Exporte antes de apagar.** Se for desativar de vez, gere uma exportação (acima) antes de marcar "Apagar tudo".

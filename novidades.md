@@ -8,6 +8,20 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.22 — Leve seus dados para outro site e decida o que fica ao desinstalar
+
+- **Exportação para migração** — gere um arquivo **JSON** com os dados que você escolher (configurações, políticas, ROPA, consentimentos e mais) para **levar para outra instalação** do Bússola LGPD. Você marca só os escopos que quer, e **exportar não apaga nada**. Em Configurações → Saída de Dados.
+- **O que acontece ao desinstalar** — agora você decide: **manter os dados** (padrão — se reinstalar, tudo continua lá) ou **apagar tudo definitivamente** ao remover o plugin. A opção de apagar pede uma confirmação, porque é irreversível.
+
+> O arquivo de migração contém **dados pessoais em texto** — guarde com cuidado e apague depois de migrar. Veja [Configurações › Saída de Dados](/modulos/configuracoes/#saida-de-dados).
+
+## Versões 1.20 e 1.21 — A cara da sua Central, do seu jeito
+
+- **Temas de aparência** — escolha entre cinco temas de cores prontos (Bússola, Neutro Escuro, Terra, Oceano e Alto Contraste) para a Central, o selo e os shortcodes combinarem com o seu site — **sem mexer no painel administrativo**. Em Configurações → Aparência.
+- **Personalização avançada** — quer ir além? Ajuste **cor a cor**, os **cantos** e a **fonte**, com **preview ao vivo** e um **aviso de contraste** que sinaliza quando uma combinação fica difícil de ler.
+
+> Veja [Configurações › Aparência](/modulos/configuracoes/#aparencia).
+
 ## Versões 1.11 a 1.17 — Conformidade com o ECA Digital
 
 Chegou o apoio ao **ECA Digital** (Lei 15.211/2025), a lei que protege crianças e adolescentes na internet — especialmente relevante para OSCs que trabalham com esse público. Veja a nova seção [ECA Digital](/eca-digital/).
