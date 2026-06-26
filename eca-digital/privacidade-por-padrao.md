@@ -32,4 +32,4 @@ Use-o como lembrete para a sua política deixar claro:
 >
 > Imagem de criança é dado sensível na prática: só publique fotos de menores com **base e autorização adequadas** dos responsáveis. Na dúvida, não publique.
 
-> ⚠️ Não é parecer jurídico. **[CURADORIA JURÍDICA — RIT]**
+> ⚠️ Não é parecer jurídico.

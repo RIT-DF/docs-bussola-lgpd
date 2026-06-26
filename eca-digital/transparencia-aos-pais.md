@@ -31,4 +31,4 @@ Você pode complementar com um **texto próprio** em **Configurações → Pági
 >
 > Escreva em linguagem simples, pensando que **um adolescente** pode ler. Diga o que você coleta, por quê, e como falar com o encarregado.
 
-> ⚠️ Não é parecer jurídico. **[CURADORIA JURÍDICA — RIT]**
+> ⚠️ Não é parecer jurídico.

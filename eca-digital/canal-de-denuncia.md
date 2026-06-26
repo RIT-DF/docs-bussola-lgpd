@@ -28,4 +28,4 @@ Em **Denúncias**, o encarregado vê as denúncias recebidas, abre cada uma e **
 
 Ao marcar **Conteúdo removido**, o sistema mostra um **lembrete do art. 30**: a OSC deve **notificar o autor** do conteúdo e abrir **prazo de recurso**.
 
-> ⚠️ A **retirada** do conteúdo acontece no seu site/CMS — o Bússola **registra e orienta** a denúncia, não remove o conteúdo automaticamente. Não é parecer jurídico. **[CURADORIA JURÍDICA — RIT]**
+> ⚠️ A **retirada** do conteúdo acontece no seu site/CMS — o Bússola **registra e orienta** a denúncia, não remove o conteúdo automaticamente. Não é parecer jurídico.

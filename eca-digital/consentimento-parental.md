@@ -27,4 +27,4 @@ Quando a sua OSC trata **dados de crianças**, a LGPD (art. 14) exige, em regra,
 >
 > Inclua no seu formulário um campo claro para o **responsável** (nome e e-mail) e explique, ali mesmo, por que ele é necessário. Sem essa identificação, a denúncia/consentimento de menor fica incompleto.
 
-> ⚠️ A identificação do responsável é **dado pessoal**: o Bússola a guarda como prova e a **anonimiza** quando o titular pede exclusão ou no expurgo de retenção. Não publique esses dados. **[CURADORIA JURÍDICA — RIT]**
+> ⚠️ A identificação do responsável é **dado pessoal**: o Bússola a guarda como prova e a **anonimiza** quando o titular pede exclusão ou no expurgo de retenção. Não publique esses dados.

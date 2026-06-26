@@ -33,4 +33,4 @@ Ao salvar, o Mapa lista os **deveres aplicáveis**, cada um ligado ao artigo da 
 >
 > Se você respondeu que **não** é de acesso provável por menores, o ECA Digital praticamente não incide — e a seção fica recolhida. Se respondeu que **tem controle editorial**, verá que a **aferição de idade é dispensada** no seu caso.
 
-> ⚠️ O enquadramento é **autodeclarado** pela sua OSC e serve de orientação. A **autoridade competente pode reenquadrar** o serviço. Não é parecer jurídico. **[CURADORIA JURÍDICA — RIT]**
+> ⚠️ O enquadramento é **autodeclarado** pela sua OSC e serve de orientação. A **autoridade competente pode reenquadrar** o serviço. Não é parecer jurídico.

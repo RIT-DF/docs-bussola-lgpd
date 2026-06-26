@@ -11,7 +11,7 @@ status: rascunho
 
 > ⚠️ **Aviso importante**
 >
-> Este conteúdo **ajuda a sua OSC a se situar** diante do ECA Digital; **não é parecer jurídico** e **não garante conformidade**. A lei é recente e **parte da regulamentação ainda é preliminar na ANPD** (mecanismos de aferição de idade). A responsabilidade pela conformidade é da organização. **[CURADORIA JURÍDICA — RIT]**
+> Este conteúdo **ajuda a sua OSC a se situar** diante do ECA Digital; **não é parecer jurídico** e **não garante conformidade**. A lei é recente e **parte da regulamentação ainda é preliminar na ANPD** (mecanismos de aferição de idade). A responsabilidade pela conformidade é da organização.
 
 O **ECA Digital** (Lei nº 15.211/2025, o *Estatuto Digital da Criança e do Adolescente*) trata da **proteção de crianças e adolescentes em ambientes digitais**. Está **em vigor desde 17/03/2026**.
 
@@ -28,7 +28,7 @@ A lei vale para **todo produto ou serviço de tecnologia da informação direcio
 
 ## Controle editorial: a maioria dos sites de OSC tem uma "folga"
 
-Se o conteúdo do seu site é **escolhido pela própria OSC, sem automação** (um site institucional comum, sem feed algorítmico nem rede social interna), ele costuma ser um **"serviço com controle editorial"**. Esses serviços ficam **dispensados da aferição de idade** (a verificação técnica de idade a cada acesso), desde que ofereçam adequação por faixa etária e mediação parental. **[CURADORIA JURÍDICA — RIT]**
+Se o conteúdo do seu site é **escolhido pela própria OSC, sem automação** (um site institucional comum, sem feed algorítmico nem rede social interna), ele costuma ser um **"serviço com controle editorial"**. Esses serviços ficam **dispensados da aferição de idade** (a verificação técnica de idade a cada acesso), desde que ofereçam adequação por faixa etária e mediação parental.
 
 Ou seja: para a OSC típica, o que pega **não** é "verificar a idade de quem entra no site", e sim os **deveres de proteção de dados de menores**.
 

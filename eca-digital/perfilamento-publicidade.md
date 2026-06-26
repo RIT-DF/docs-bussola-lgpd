@@ -24,4 +24,4 @@ Quando o seu enquadramento indica **público menor**, a aba **Banner de Cookies*
 >
 > Em site de acesso provável por menores, mantenha apenas cookies **essenciais**. Evite tags de redes sociais, remarketing e analytics comportamental.
 
-> ⚠️ O Bússola **avisa e recomenda**, mas não bloqueia automaticamente seus scripts — a decisão (e a responsabilidade) é da OSC. Não é parecer jurídico. **[CURADORIA JURÍDICA — RIT]**
+> ⚠️ O Bússola **avisa e recomenda**, mas não bloqueia automaticamente seus scripts — a decisão (e a responsabilidade) é da OSC. Não é parecer jurídico.

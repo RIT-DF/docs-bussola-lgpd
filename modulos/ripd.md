@@ -30,4 +30,4 @@ O **RIPD** documenta os riscos de um tratamento de dados e as medidas para mitig
 >
 > O RIPD é a melhor evidência de que a OSC **pensou os riscos antes**. As versões congeladas servem de prova de diligência ao longo do tempo.
 
-> ⚠️ O Bússola estrutura o RIPD; o conteúdo e a decisão são da OSC. Não é parecer jurídico. **[CURADORIA JURÍDICA — RIT]**
+> ⚠️ O Bússola estrutura o RIPD; o conteúdo e a decisão são da OSC. Não é parecer jurídico.

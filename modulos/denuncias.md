@@ -22,4 +22,4 @@ O módulo **Denúncias** recebe e organiza as denúncias de **conteúdo que viol
    <!-- screenshot: den-02 — triagem com alerta do art. 30 -->
 4. Ao marcar **Conteúdo removido**, registre a **justificativa**; o sistema lembra das obrigações do **art. 30** (notificar o autor, abrir prazo de recurso).
 
-> ⚠️ A remoção do conteúdo é feita no seu site/CMS; o Bússola registra e orienta. Denúncia anônima não é aceita. Não é parecer jurídico. **[CURADORIA JURÍDICA — RIT]**
+> ⚠️ A remoção do conteúdo é feita no seu site/CMS; o Bússola registra e orienta. Denúncia anônima não é aceita. Não é parecer jurídico.
