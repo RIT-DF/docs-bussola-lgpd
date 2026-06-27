@@ -87,9 +87,25 @@ No Bússola LGPD, esses pedidos chegam pelo módulo de **[Atendimentos (DSAR)](/
 >
 > Responder bem a um pedido de titular é a hora da verdade da LGPD. É barato em esforço e enorme em confiança: a pessoa percebe que sua OSC leva a sério os dados dela. O prazo legal de referência é de **15 dias**; o plugin acompanha esse prazo para você não perder.
 
+## Decisão automatizada e perfilamento (Art. 20)
+
+**Decisão automatizada** é quando um **sistema decide algo sobre uma pessoa sem intervenção humana** — por exemplo, um algoritmo que aprova ou recusa, classifica ou pontua. **Perfilamento** (ou *profiling*) é traçar um **perfil** da pessoa (interesses, comportamento, "tipo") a partir dos dados dela, normalmente para prever ou direcionar algo.
+
+A LGPD (**art. 20**) garante ao titular o **direito de pedir revisão** de decisões tomadas apenas de forma automatizada que afetem seus interesses, e o direito a **informações claras** sobre os critérios usados.
+
+**Na realidade de uma OSC**, isso costuma aparecer em situações como:
+
+- **Seleção automática** de candidatos a uma vaga, bolsa ou voluntariado por um sistema que filtra/pontua currículos.
+- **Triagem ou priorização de beneficiários** por um escore calculado automaticamente.
+- **Segmentação de contatos** (doadores, inscritos) para campanhas com base num perfil traçado pela ferramenta.
+
+> ✅ **Boas práticas:** mantenha uma **pessoa no circuito** para revisar decisões que afetam alguém de forma relevante; saiba **explicar em palavras simples** como a decisão foi tomada; e seja transparente quando usar perfis. Tratamentos assim costumam ser bons candidatos a um [RIPD](/modulos/ripd/).
+
+> ⚠️ Muitas OSCs **não** fazem decisão totalmente automatizada — uma pessoa sempre decide no fim. Se for o seu caso, o tema te alcança pouco. O cuidado existe quando a **máquina decide sozinha** e isso **impacta** alguém.
+
 ## Incidente de segurança
 
-É qualquer evento que comprometa dados pessoais: vazamento, acesso indevido, perda de um arquivo, e-mail enviado para a lista errada. Quando há **risco relevante** aos titulares, a OSC deve **comunicar os afetados** e a **ANPD**. O módulo de [Incidentes](/modulos/incidentes/) ajuda a registrar e comunicar de forma rastreável — mas a notificação oficial à ANPD é feita por você, pelos canais do governo.
+É qualquer evento que comprometa dados pessoais: vazamento, acesso indevido, perda de um arquivo, e-mail enviado para a lista errada. Quando há **risco relevante** aos titulares, a OSC deve **comunicar os afetados** e a **ANPD**. O módulo de [Incidentes](/modulos/incidentes/) ajuda a registrar e comunicar de forma rastreável — mas a notificação oficial à ANPD é feita por você, pelos canais do governo. Veja [como montar um plano de resposta](/modulos/incidentes/#como-se-preparar-um-plano-de-resposta-a-incidentes).
 
 ## Para continuar
 
