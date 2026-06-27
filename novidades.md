@@ -1,12 +1,24 @@
 ---
 title: "Novidades"
-nav_order: 11
+nav_order: 13
 permalink: /novidades/
 ---
 
 # Novidades
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
+
+## Versão 1.28 — Assistente do RIPD e Termos de Uso
+
+Depois do Assistente de Inventário, agora o **Relatório de Impacto (RIPD)** também tem um assistente — e o documento mais técnico da LGPD fica acessível para quem não é da área.
+
+- **Assistente do RIPD** — em vez de encarar um documento em branco, você responde uma **triagem** de perguntas sim/não e o assistente diz **se vale fazer o RIPD** e por quê. Em seguida, monta um **rascunho** a partir do seu Inventário: já traz a **matriz de risco pré-preenchida** (com probabilidade, severidade, mitigação e risco residual sugeridos) e a **necessidade/proporcionalidade** redigida a partir das atividades. Você revisa tudo e finaliza no editor.
+- **O parecer e a decisão continuam seus** — os campos de **Parecer do Encarregado (DPO)** e **Decisão** ficam por sua conta (com exemplos de redação como referência): o assistente organiza, mas a análise final é do DPO.
+- **Não duplica trabalho** — se a atividade escolhida já tiver um RIPD, o assistente avisa e sugere revisar o existente.
+- **Termos de Uso** — o manual ganhou uma página de **[Termos de Uso](/termos-de-uso/)**, deixando claro que a ferramenta **ajuda, mas não substitui** o DPO nem garante conformidade, e que a responsabilidade é da OSC.
+- **Visual mais consistente** — botões, links e destaques de toda a interface passaram a usar as cores oficiais da identidade visual.
+
+> Em **RIPD**, botão **✨ Assistente de RIPD**. Passo a passo em [Fazer um RIPD com o Assistente](/guias/fazer-ripd-assistente/); detalhes do módulo em [RIPD](/modulos/ripd/). O assistente **ajuda** a elaborar o RIPD; **não** é parecer jurídico.
 
 ## Versão 1.27 — Selo no painel e relatórios que imprimem direito
 

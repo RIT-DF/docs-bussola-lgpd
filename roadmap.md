@@ -1,6 +1,6 @@
 ---
 title: "Roadmap"
-nav_order: 13
+nav_order: 14
 permalink: /roadmap/
 ---
 
@@ -31,12 +31,13 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | **Aparência** (temas + personalização do frontend) | 1.20–1.21 | [Configurações › Aparência](/modulos/configuracoes/#aparencia) |
 | **Migração entre sites** (exportar/importar) + preferência de desinstalação | 1.22–1.23 | [Configurações › Saída de Dados](/modulos/configuracoes/#saida-de-dados) |
 | **Assistente de Inventário** (diagnóstico guiado que autopreenche o ROPA) | 1.24–1.26 | [Inventário (ROPA)](/modulos/inventario-ropa/#assistente-de-inventario) |
+| **Assistente do RIPD** (triagem de necessidade + matriz de risco pré-preenchida) | 1.28 | [Fazer um RIPD com o Assistente](/guias/fazer-ripd-assistente/) |
 
 ## Em estudo
 
 | Recurso | Status | O que é |
 |---|---|---|
-| Assistente do RIPD | 🔭 Em estudo | Levar a mesma ideia do Assistente de Inventário para o RIPD: conduzir o preenchimento da avaliação de risco por perguntas. |
+| Cadastros complementares | 🔭 Em estudo | Centralizar num só lugar operadores/contratados, transferências internacionais e um registro de ações do Encarregado (DPO). |
 | Mural de comunicados | 🔭 Em estudo | Avisos gerais da OSC aos inscritos/membros, por categoria. |
 | API completa | 🔭 Em estudo | Leitura e ação além dos webhooks, para integrações mais ricas. |
 | Newsfeed da ANPD no painel | 🔭 Em estudo | Trazer notícias e orientações recentes da ANPD para a área do painel. |
