@@ -4,9 +4,9 @@ nav_order: 7
 parent: "Módulos"
 permalink: /modulos/inventario-ropa/
 role: encarregado
-routes: ["#/ropa", "#/ropa/report"]
-screenshots: [blgpd-06-ropa]
-last_verified: 2026-06-23
+routes: ["#/ropa", "#/ropa/report", "#/ropa/assistant"]
+screenshots: [blgpd-06-ropa, blgpd-34-assistente-intro, blgpd-35-assistente-perguntas]
+last_verified: 2026-06-27
 status: publicado
 ---
 
@@ -16,6 +16,23 @@ O **Inventário de Tratamento** — também chamado de **ROPA** (*Records of Pro
 
 [![Inventário ROPA](/assets/screenshots/blgpd-06-ropa.png)](/assets/screenshots/blgpd-06-ropa.png)
 *Cada registro descreve a atividade, os dados pessoais, a base legal e se há transferência internacional.*
+
+## Assistente de Inventário
+
+Nunca fez um inventário e não sabe por onde começar? Use o **✨ Assistente de Inventário** (botão no topo da tela do Inventário). Em vez de encarar um formulário em branco cheio de termos técnicos, você **responde perguntas simples** e o assistente monta um rascunho do seu ROPA para você revisar.
+
+[![Assistente de Inventário — perguntas](/assets/screenshots/blgpd-35-assistente-perguntas.png)](/assets/screenshots/blgpd-35-assistente-perguntas.png)
+*O assistente pergunta o que a sua organização faz; cada "sim" vira um rascunho de atividade pré-preenchido.*
+
+Como funciona, em poucos passos:
+
+1. **Perguntas em linguagem leiga** — "envia newsletter?", "recebe doações?", "cadastra voluntários?", "vende online?"… A cada **sim**, o assistente seleciona uma atividade pronta, com finalidade, **base legal sugerida**, dados coletados e prazo de retenção.
+2. **Crianças e adolescentes** — há uma pergunta no topo: se a sua OSC atende menores de 18, as atividades pertinentes marcam os titulares como "Crianças e adolescentes" e o assistente orienta sobre **consentimento parental** e **RIPD**.
+3. **Vínculo com formulários** — para atividades que vêm de formulários do site, você pode escolher **qual formulário alimenta a atividade** ali mesmo (já deixando a retenção automática configurada). Veja [Mapeamento de Formulários](/modulos/inventario-ropa/) e [Retenção](/modulos/retencao/).
+4. **Revisão antes de salvar** — o assistente mostra os rascunhos para você **editar, remover ou confirmar**. Base legal e prazo são **sugestões a conferir** — a definição final é responsabilidade da sua organização. Nada é gravado sem o seu "Criar registros".
+5. **Rodar de novo é seguro** — o assistente **nunca apaga** o que você já tem; ao rodar de novo, ele identifica as atividades existentes e cria **apenas as novas**.
+
+> ⚠️ O assistente **ajuda** a montar o inventário com base em modelos comuns do terceiro setor; ele **não** substitui a análise da sua organização. Sempre revise as sugestões, especialmente a **base legal**.
 
 ## O que registrar em cada atividade
 

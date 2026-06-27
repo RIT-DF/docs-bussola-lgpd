@@ -26,15 +26,20 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | **Conformidade com o ECA Digital** (Lei 15.211/2025) | 1.11–1.13 | [ECA Digital](/eca-digital/) |
 | **Módulo RIPD** (Relatório de Impacto) | 1.14–1.16 | [RIPD](/modulos/ripd/) |
 | **Canal de denúncia** (ECA Digital) | 1.17 | [Denúncias](/modulos/denuncias/) |
+| **Selo de Conformidade LGPD** (shortcode, 3 formatos) | 1.18 | — |
+| Navegação do painel por submenus nativos | 1.19 | — |
+| **Aparência** (temas + personalização do frontend) | 1.20–1.21 | [Configurações › Aparência](/modulos/configuracoes/#aparencia) |
+| **Migração entre sites** (exportar/importar) + preferência de desinstalação | 1.22–1.23 | [Configurações › Saída de Dados](/modulos/configuracoes/#saida-de-dados) |
+| **Assistente de Inventário** (diagnóstico guiado que autopreenche o ROPA) | 1.24–1.26 | [Inventário (ROPA)](/modulos/inventario-ropa/#assistente-de-inventario) |
 
 ## Em estudo
 
 | Recurso | Status | O que é |
 |---|---|---|
-| Selo de Conformidade LGPD | 🔭 Em estudo | Selo público (via shortcode) com o % do Índice e cor por faixa (bronze/prata/ouro), para a OSC exibir no site. |
+| Assistente do RIPD | 🔭 Em estudo | Levar a mesma ideia do Assistente de Inventário para o RIPD: conduzir o preenchimento da avaliação de risco por perguntas. |
 | Mural de comunicados | 🔭 Em estudo | Avisos gerais da OSC aos inscritos/membros, por categoria. |
 | API completa | 🔭 Em estudo | Leitura e ação além dos webhooks, para integrações mais ricas. |
-| Onboarding ainda mais conduzido | 🔭 Em estudo | Evoluir o assistente de Primeiros Passos, ligando cada pendência à ação que a resolve. |
+| Newsfeed da ANPD no painel | 🔭 Em estudo | Trazer notícias e orientações recentes da ANPD para a área do painel. |
 
 ## Como influenciar o roadmap
 

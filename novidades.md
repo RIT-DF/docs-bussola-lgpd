@@ -8,6 +8,18 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versões 1.24 a 1.26 — Assistente de Inventário: monte seu ROPA respondendo perguntas
+
+Montar o **Inventário de Tratamento (ROPA)** do zero costuma intimidar quem não é da área. Agora há um **Assistente de Inventário** que faz o trabalho pesado por você:
+
+- **Responda em linguagem simples** — o assistente pergunta o que a sua organização faz ("envia newsletter?", "recebe doações?", "cadastra voluntários?", "vende online?"...) e, a cada "sim", **monta um rascunho de atividade** já preenchido (finalidade, base legal sugerida, dados coletados, retenção).
+- **Você revisa antes de salvar** — nada é gravado sem a sua confirmação. Base legal e prazo aparecem como **sugestões a conferir** (a responsabilidade final é da organização).
+- **Nunca apaga, só acrescenta** — se você rodar o assistente de novo, ele detecta o que já existe e cria **apenas as atividades novas**.
+- **Liga seus formulários** — para atividades que vêm de formulários do site, dá para **vincular o formulário** ali mesmo, já deixando a retenção automática configurada.
+- **Cuida de crianças e adolescentes** — se a sua OSC atende menores de 18, o assistente marca os titulares corretamente, ajuda no **consentimento parental** e recomenda fazer um **RIPD** para esses tratamentos.
+
+> Em **Inventário (ROPA)**, botão **✨ Assistente de Inventário**. O assistente **ajuda** a montar o inventário; ele **não** substitui a análise da sua organização. Veja [Inventário (ROPA)](/modulos/inventario-ropa/#assistente-de-inventario).
+
 ## Versões 1.22 e 1.23 — Mude o Bússola de site e decida o que fica ao desinstalar
 
 - **Migração entre sites** — **exporte** os dados que você escolher (configurações, políticas, ROPA, consentimentos e mais) em um arquivo **JSON** e **importe** em outra instalação do Bússola LGPD. Você marca só os escopos que quer; exportar **não apaga nada**, e a importação **substitui** os escopos escolhidos no destino (com confirmação antes de sobrescrever). Em Configurações → Saída de Dados.
