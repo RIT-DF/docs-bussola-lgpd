@@ -23,4 +23,4 @@ Duplicar uma política jurídica em dois lugares cria **divergência** (uma atua
 
 ## Sobre este guia e a ferramenta
 
-O uso da ferramenta Bússola LGPD e a responsabilidade pelo conteúdo produzido seguem o que está descrito no **[Aviso legal](/disclaimer/)**.
+O uso da ferramenta Bússola LGPD e a responsabilidade pelo conteúdo produzido seguem o que está descrito nos **[Termos de Uso](/termos-de-uso/)** (condições completas) e no **[Aviso legal](/disclaimer/)** (resumo).

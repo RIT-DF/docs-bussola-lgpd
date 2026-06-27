@@ -77,3 +77,27 @@ Não. Os deveres do ECA Digital aparecem em uma **seção própria** no Mapa e *
 ## Onde reporto um problema ou sugiro uma melhoria?
 
 Fale com a equipe da RIT/V3RTECH responsável pela sua implantação. As novidades do produto aparecem em [Novidades](/novidades/) e os planos futuros em [Roadmap](/roadmap/).
+
+## Minha OSC atende crianças e adolescentes. E agora?
+
+Faça primeiro a [triagem de enquadramento](/eca-digital/enquadramento/) no Mapa de Conformidade — ela mostra **só os deveres do seu caso**. A partir daí, o caminho costuma ser: consentimento dos pais nos formulários, privacidade por padrão, não fazer publicidade dirigida a menores, transparência aos pais e, quando couber, um RIPD. O guia [Configurar a proteção de crianças e adolescentes](/guias/proteger-menores-eca/) leva você por tudo isso, na ordem.
+
+## O que é o RIPD e quando eu preciso de um?
+
+O **RIPD** (Relatório de Impacto à Proteção de Dados, art. 38 da LGPD) descreve os **riscos** de um tratamento de dados e as **medidas** para reduzi-los. Não é obrigatório de rotina para a maioria das OSCs, mas vale a pena quando há dados sensíveis em escala, **grupos vulneráveis** (como crianças e adolescentes), monitoramento sistemático ou legítimo interesse com impacto relevante. Veja [quando fazer](/modelos/ripd/) e o passo a passo em [Módulo RIPD](/modulos/ripd/).
+
+## Os Assistentes (Inventário e RIPD) exigem que eu saiba a parte técnica?
+
+Não. Os assistentes existem justamente para você **sair do formulário em branco**. O [Assistente de Inventário](/guias/montar-inventario-assistente/) faz perguntas do dia a dia ("envia newsletter?", "recebe doações?") e monta atividades prontas — já com base legal **sugerida** e prazo de retenção — para você revisar. As sugestões não são decisões: confira sempre a base legal e os dados sensíveis. Nada é gravado até você confirmar.
+
+## O Bússola toma decisões automáticas ou faz perfilamento dos titulares?
+
+Não. O plugin organiza dados e processos; ele não pontua, classifica nem decide nada automaticamente sobre as pessoas. No contexto do [ECA Digital](/eca-digital/perfilamento-publicidade/), inclusive, ele **avisa** para você não usar perfilamento e publicidade dirigida a menores (mantendo apenas cookies essenciais), mas a decisão e a responsabilidade são da OSC.
+
+## Quando preciso notificar a ANPD em caso de incidente?
+
+A comunicação à ANPD e aos titulares cabe quando o incidente puder acarretar **risco ou dano relevante** aos titulares — a avaliação é da sua OSC, idealmente com apoio jurídico. O Bússola ajuda a **registrar** o incidente e a **comunicar os titulares afetados** de forma rastreável, mas a **notificação oficial à ANPD** é feita pela sua OSC pelos canais do governo. Veja [Incidentes](/modulos/incidentes/).
+
+## Qual a diferença entre o "Verificado" e o "Atestado" no Mapa de Conformidade?
+
+**Verificado** é o que a ferramenta **confere automaticamente** (ex.: Política de Privacidade ativa, DPO configurado, Central publicada) — é o que forma o percentual do anel. **Atestado** é a parte **autodeclarada** pela sua OSC: você afirma que cumpriu algo que o sistema não tem como checar sozinho. Os atestados aparecem separados, em roxo ("Atestado: X de 4"), e **não inflam** o percentual verificado. Veja [Painel e Mapa de Conformidade](/modulos/painel/).

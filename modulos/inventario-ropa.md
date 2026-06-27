@@ -12,7 +12,7 @@ status: publicado
 
 # Inventário (ROPA)
 
-O **Inventário de Tratamento** — também chamado de **ROPA** (*Records of Processing Activities*) — é o registro de **todas as operações** em que sua OSC trata dados pessoais. É a espinha dorsal da conformidade.
+O **Inventário de Tratamento** — também chamado de **ROPA**, sigla de *Registro das Operações de Tratamento* (em inglês, *Records of Processing Activities*) — é o registro de **todas as operações** em que sua OSC trata dados pessoais. É a espinha dorsal da conformidade.
 
 [![Inventário ROPA](/assets/screenshots/blgpd-06-ropa.png)](/assets/screenshots/blgpd-06-ropa.png)
 *Cada registro descreve a atividade, os dados pessoais, a base legal e se há transferência internacional.*

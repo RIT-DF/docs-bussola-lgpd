@@ -76,10 +76,54 @@ permalink: /
     <div class="module-card-title">Inventário (ROPA)</div>
     <div class="module-card-desc">Registro das operações de tratamento, finalidade e base legal</div>
   </a>
+  <a class="module-card" href="/modulos/inventario-ropa/">
+    <div class="module-card-icon">✨</div>
+    <div class="module-card-title">Assistente de Inventário</div>
+    <div class="module-card-desc">Diagnóstico guiado que monta o ROPA a partir de perguntas simples</div>
+  </a>
+  <a class="module-card" href="/modulos/ripd/">
+    <div class="module-card-icon">⚖️</div>
+    <div class="module-card-title">RIPD</div>
+    <div class="module-card-desc">Relatório de Impacto à Proteção de Dados, com assistente e matriz de risco</div>
+  </a>
+  <a class="module-card" href="/modulos/retencao/">
+    <div class="module-card-icon">⏳</div>
+    <div class="module-card-title">Retenção &amp; Expurgo</div>
+    <div class="module-card-desc">Prazos de guarda e eliminação/anonimização ao fim do ciclo de vida</div>
+  </a>
+  <a class="module-card" href="/modulos/formularios/">
+    <div class="module-card-icon">📋</div>
+    <div class="module-card-title">Mapeamento de Formulários</div>
+    <div class="module-card-desc">Vincular formulários do site ao ROPA e à retenção automática</div>
+  </a>
   <a class="module-card" href="/modulos/relatorios/">
     <div class="module-card-icon">📈</div>
     <div class="module-card-title">Relatórios &amp; Backup</div>
     <div class="module-card-desc">Relatório de conformidade em PDF e exportação total dos dados</div>
+  </a>
+  <a class="module-card" href="/modulos/configuracoes/">
+    <div class="module-card-icon">⚙️</div>
+    <div class="module-card-title">Configurações</div>
+    <div class="module-card-desc">Dados da OSC, encarregado (DPO), enquadramento e preferências</div>
+  </a>
+</div>
+
+<div class="section-title">ECA Digital — proteção de crianças e adolescentes</div>
+
+<div class="home-intro">
+  <p>Se a sua OSC atende ou cadastra menores de 18 anos, há deveres específicos do <strong>ECA Digital (Lei nº 15.211/2025)</strong>: consentimento parental, privacidade por padrão, aferição de idade, canal de denúncia e atenção redobrada ao perfilamento. O Bússola LGPD tem uma seção dedicada a isso.</p>
+</div>
+
+<div class="module-grid">
+  <a class="module-card" href="/eca-digital/">
+    <div class="module-card-icon">🧒</div>
+    <div class="module-card-title">ECA Digital</div>
+    <div class="module-card-desc">Enquadramento, consentimento parental, privacidade por padrão e transparência aos pais</div>
+  </a>
+  <a class="module-card" href="/modulos/denuncias/">
+    <div class="module-card-icon">📢</div>
+    <div class="module-card-title">Denúncias (ECA Digital)</div>
+    <div class="module-card-desc">Canal para reportar conteúdo ou risco envolvendo menores</div>
   </a>
 </div>
 

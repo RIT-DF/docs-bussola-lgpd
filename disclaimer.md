@@ -8,24 +8,13 @@ permalink: /disclaimer/
 
 > ⚠️ **Leia com atenção antes de usar o Bússola LGPD**
 
-O **Bússola LGPD** é uma **ferramenta de apoio à gestão** da conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018). Ele ajuda sua Organização da Sociedade Civil a **se organizar, registrar e dar rastreabilidade** ao trabalho de proteção de dados — publicar políticas, manter o inventário, atender titulares, registrar incidentes e acompanhar indicadores.
+O **Bússola LGPD** é uma **ferramenta de apoio à gestão** da conformidade com a LGPD (Lei nº 13.709/2018). Em resumo:
 
-**O que o Bússola LGPD NÃO faz:**
+- **Não garante** a conformidade jurídica da sua OSC, **não substitui** o aconselhamento de um advogado nem o papel do **Encarregado (DPO)** e **não isenta** a OSC de responsabilidade legal.
+- A **responsabilidade jurídica** por tudo o que for produzido e tratado com a ferramenta é **integralmente da OSC** (controladora dos dados). A **RIT** e a **[V3RTECH](https://v3rtech.com.br/){:target="_blank" rel="noopener"}** atuam apenas como **fornecedoras da ferramenta**.
+- O **Índice de Conformidade** e demais indicadores servem **apenas para controle interno de progresso** — **não** são certificado ou atestado perante a ANPD, financiadores ou terceiros.
 
-- Não **garante** a conformidade jurídica da sua OSC com a LGPD.
-- Não **substitui** a análise e o aconselhamento de um advogado ou profissional jurídico qualificado.
-- Não **decide** por você qual base legal aplicar, nem redige documentos juridicamente validados para o seu caso concreto.
-- Não **isenta** a sua OSC de qualquer responsabilidade legal.
-
-## Responsabilidade
-
-A **responsabilidade jurídica por tudo o que for produzido, publicado e tratado** com o auxílio desta ferramenta é **integralmente da Organização da Sociedade Civil que a utiliza** (o controlador dos dados). A **RIT — Rede de Inovação e Transformação** e a **[V3RTECH](https://v3rtech.com.br/){:target="_blank" rel="noopener"}** atuam apenas como **fornecedoras de uma ferramenta** que ajuda a OSC a gerenciar suas obrigações de proteção de dados; não assumem, em nenhuma hipótese, a posição de controladoras dos dados da OSC nem responsabilidade pelas decisões de tratamento, pelo conteúdo das políticas ou pela adequação da OSC à legislação.
-
-Os textos, modelos, checklists e indicadores oferecidos pelo plugin e por este guia são **materiais de apoio de caráter geral** e **não constituem aconselhamento jurídico**. Cada OSC tem um contexto próprio: as decisões finais sobre bases legais, conteúdo das políticas, prazos de retenção e medidas de segurança devem ser tomadas pela organização, preferencialmente com apoio jurídico especializado.
-
-## Indicadores e o Índice de Conformidade
-
-O **Índice de Conformidade** e demais indicadores exibidos no painel servem **apenas para controle interno de progresso**. Eles **não constituem garantia, certificado ou atestado** de conformidade com a LGPD perante a ANPD, financiadores, parceiros ou qualquer terceiro.
+> 📄 **Este é um resumo.** As condições completas estão nos **[Termos de Uso](/termos-de-uso/)**. Para as políticas da sua OSC (Privacidade, Termos ao titular), veja **[Privacidade e Termos](/legal/)**.
 
 ## Recomendação
 
