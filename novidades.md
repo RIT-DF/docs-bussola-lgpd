@@ -8,6 +8,11 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.27 — Selo no painel e relatórios que imprimem direito
+
+- **Selo de Conformidade no painel** — o selo que você já podia exibir no site agora também aparece no **Painel**, logo abaixo do anel de conformidade, com a sua faixa (bronze/prata/ouro). Ali tem um botão **Copiar** para o shortcode `[bussola_lgpd_selo]` — cole em qualquer página do site para mostrar o selo aos visitantes. Veja [Painel › Selo](/modulos/painel/#o-selo-de-conformidade-no-painel).
+- **Impressão dos relatórios corrigida** — ao **Imprimir / Baixar PDF** um relatório (Conformidade, Inventário/ROPA ou RIPD), agora sai **só o relatório**, sem o menu do WordPress junto e com paginação limpa. As listas (origem dos dados, medidas de segurança etc.) aparecem legíveis, sem códigos técnicos.
+
 ## Versões 1.24 a 1.26 — Assistente de Inventário: monte seu ROPA respondendo perguntas
 
 Montar o **Inventário de Tratamento (ROPA)** do zero costuma intimidar quem não é da área. Agora há um **Assistente de Inventário** que faz o trabalho pesado por você:

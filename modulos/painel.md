@@ -5,8 +5,8 @@ parent: "Módulos"
 permalink: /modulos/painel/
 role: encarregado
 routes: ["#/", "#/wizard"]
-screenshots: [blgpd-01-dashboard, blgpd-50-mapa-conformidade]
-last_verified: 2026-06-24
+screenshots: [blgpd-01-dashboard, blgpd-01b-dashboard-selo, blgpd-50-mapa-conformidade]
+last_verified: 2026-06-27
 status: publicado
 ---
 
@@ -22,6 +22,15 @@ O **Dashboard** é a primeira tela do Bússola LGPD: o cockpit onde o Encarregad
 O card mostra, de um lado, a **lista do que é verificado pelo sistema** (Política de Privacidade ativa, DPO configurado, Consentimento/Cookies, Central de Privacidade, Inventário) — cada item com o **artigo da LGPD** correspondente; do outro, um **anel** com o **percentual verificado** e, separado e em roxo, o indicador **"Atestado: X de 4"** (a parte autodeclarada, que **não** infla o percentual).
 
 O selo **"ⓘ Por que isto importa (LGPD)"** abre uma explicação curta com o artigo da Lei e links para o Manual, o texto oficial (Planalto) e a ANPD.
+
+### O Selo de Conformidade no painel
+
+[![Painel — Selo de Conformidade](/assets/screenshots/blgpd-01b-dashboard-selo.png)](/assets/screenshots/blgpd-01b-dashboard-selo.png)
+*Abaixo do anel, o Selo de Conformidade (faixa bronze/prata/ouro) e o atalho para copiar o shortcode.*
+
+Logo abaixo do anel aparece o **Selo de Conformidade** (o mesmo que você pode exibir publicamente no seu site), com a **faixa** correspondente ao seu nível (bronze, prata ou ouro). Ali também há a dica e o botão **Copiar** do shortcode `[bussola_lgpd_selo]` — cole-o em qualquer página do site para mostrar o selo aos visitantes.
+
+> O selo reflete o **mesmo índice** do anel e **não** é um certificado: comunica o seu compromisso, sem garantir validade jurídica.
 
 > ℹ️ Os **atestados** (autodeclaração) e o detalhamento artigo a artigo ficam no **[Mapa de Conformidade](#mapa-de-conformidade)** — acesse pelo botão **"Ver mapa completo"** ou pelo menu.
 

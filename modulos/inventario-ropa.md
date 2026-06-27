@@ -5,7 +5,7 @@ parent: "Módulos"
 permalink: /modulos/inventario-ropa/
 role: encarregado
 routes: ["#/ropa", "#/ropa/report", "#/ropa/assistant"]
-screenshots: [blgpd-06-ropa, blgpd-34-assistente-intro, blgpd-35-assistente-perguntas]
+screenshots: [blgpd-06-ropa, blgpd-34-assistente-intro, blgpd-35-assistente-perguntas, blgpd-37-assistente-conclusao]
 last_verified: 2026-06-27
 status: publicado
 ---
@@ -31,6 +31,9 @@ Como funciona, em poucos passos:
 3. **Vínculo com formulários** — para atividades que vêm de formulários do site, você pode escolher **qual formulário alimenta a atividade** ali mesmo (já deixando a retenção automática configurada). Veja [Mapeamento de Formulários](/modulos/inventario-ropa/) e [Retenção](/modulos/retencao/).
 4. **Revisão antes de salvar** — o assistente mostra os rascunhos para você **editar, remover ou confirmar**. Base legal e prazo são **sugestões a conferir** — a definição final é responsabilidade da sua organização. Nada é gravado sem o seu "Criar registros".
 5. **Rodar de novo é seguro** — o assistente **nunca apaga** o que você já tem; ao rodar de novo, ele identifica as atividades existentes e cria **apenas as novas**.
+
+[![Assistente — conclusão com recomendação de RIPD](/assets/screenshots/blgpd-37-assistente-conclusao.png)](/assets/screenshots/blgpd-37-assistente-conclusao.png)
+*Ao concluir, se você criou atividades com dados de menores, o assistente recomenda elaborar um RIPD (art. 16 da LGPD + ECA) com atalho direto para o módulo.*
 
 > ⚠️ O assistente **ajuda** a montar o inventário com base em modelos comuns do terceiro setor; ele **não** substitui a análise da sua organização. Sempre revise as sugestões, especialmente a **base legal**.
 
