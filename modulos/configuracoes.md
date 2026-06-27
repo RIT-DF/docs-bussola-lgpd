@@ -5,7 +5,7 @@ parent: "Módulos"
 permalink: /modulos/configuracoes/
 role: encarregado
 routes: ["#/settings"]
-screenshots: [blgpd-08-settings-dpo, blgpd-08b-settings-cookies, blgpd-08c-settings-webhooks, blgpd-08d-settings-paginas, blgpd-08f-settings-aparencia, blgpd-08g-settings-aparencia-custom, blgpd-08e-settings-saida, blgpd-08h-settings-desinstalacao]
+screenshots: [blgpd-08-settings-dpo, blgpd-08b-settings-cookies, blgpd-08c-settings-webhooks, blgpd-08d-settings-paginas, blgpd-08f-settings-aparencia, blgpd-08g-settings-aparencia-custom, blgpd-08e-settings-saida, blgpd-08i-settings-import, blgpd-08h-settings-desinstalacao]
 last_verified: 2026-06-26
 status: publicado
 ---
@@ -111,6 +111,9 @@ Gera um **arquivo JSON** para **levar seus dados para outra instalação** do B�
 > ⚠️ **O arquivo contém dados pessoais em texto.** Guarde em local seguro e apague depois de concluir a migração.
 
 ### Importação de migração
+
+[![Configurações — Importação de migração](/assets/screenshots/blgpd-08i-settings-import.png)](/assets/screenshots/blgpd-08i-settings-import.png)
+*Ao carregar o arquivo, a tela mostra a origem, a data, a versão e, por escopo, quantos registros vêm no arquivo e quantos já existem no destino (que serão substituídos).*
 
 Recebe um **arquivo JSON** gerado pela "Exportação para migração" de **outra instalação** do Bússola LGPD e traz aqueles dados para esta. O processo é em dois passos:
 
