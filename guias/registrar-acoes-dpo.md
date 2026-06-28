@@ -40,7 +40,7 @@ Na seção **Evidência**, escolha:
 
 ## Vincular a outro registro (opcional)
 
-Em **Vínculo**, você pode ligar a ação a um **Incidente**, **RIPD** ou **atividade do ROPA** — por exemplo, registrar um *ponto de atenção* sobre um incidente específico.
+Em **Vínculo**, você pode ligar a ação a um **Incidente**, **RIPD**, **atividade do ROPA**, **Atendimento** ou **Denúncia** — por exemplo, registrar um *ponto de atenção* sobre um incidente específico ou a *apuração* de uma denúncia.
 
 ## Gerar o relatório
 

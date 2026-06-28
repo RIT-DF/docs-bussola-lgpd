@@ -55,7 +55,7 @@ Você pode anexar uma **evidência** a cada ação:
 
 ## Vínculo com outros registros
 
-Opcionalmente, uma ação pode **apontar para outro item** do sistema — um **Incidente**, um **RIPD** ou uma **atividade do Inventário (ROPA)**. Útil para dar rastreabilidade (ex.: *"ponto de atenção sobre o incidente X"*).
+Opcionalmente, uma ação pode **apontar para outro item** do sistema — um **Incidente**, um **RIPD**, uma **atividade do Inventário (ROPA)**, um **Atendimento** (solicitação de titular) ou uma **Denúncia**. Útil para dar rastreabilidade (ex.: *"ponto de atenção sobre o incidente X"* ou *"apuração da denúncia Y"*).
 
 ## Relatório para prestação de contas
 
