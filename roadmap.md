@@ -37,6 +37,7 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | **Anexos na resposta ao titular** (DSAR) | 1.31 | [Atendimentos (DSAR)](/modulos/atendimentos/) |
 | **Atendimento ao titular sempre revisado pelo DPO** + declaração de escopo, painel do ROPA e **resposta automática assistida** | 1.32–1.33 | [Atendimentos (DSAR)](/modulos/atendimentos/) |
 | **Canal de feedback** no painel (sugestão/bug/depoimento → e-mail à V3RTECH/RIT) | 1.34 | [Enviar feedback](/guias/enviar-feedback/) |
+| **Verificador de Formulários** (analisa campos e aponta pendências de conformidade) | 1.35–1.36 | [Verificador de Formulários](/modulos/formularios/) |
 
 ## Em estudo
 

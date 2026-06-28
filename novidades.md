@@ -8,6 +8,17 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versões 1.35 e 1.36 — Verificador de Formulários
+
+A tela **Formulários** virou **Verificador de Formulários** e ganhou um superpoder: além de mapear cada formulário ao Inventário (ROPA), agora ela **analisa os campos** dos seus formulários e aponta possíveis problemas de conformidade.
+
+- **Análise dos 5 plugins** — Contact Form 7, Forminator, WPForms, Gravity e Fluent. Clique **Verificar** (ou **Verificar todos**) e veja um **relatório por formulário**.
+- **O que ela aponta** — campos que **parecem dados pessoais** (e **sensíveis**), ausência de **checkbox de consentimento**, formulário **fora do Inventário (ROPA)**, e indícios de **dados de crianças/adolescentes** sem campo/consentimento de responsável.
+- **Você no comando** — a ferramenta **aponta, não corrige**, e a análise é **consultiva** (baseada em pistas do nome/tipo de cada campo). Cada apontamento pode ser **marcado como revisado** (com nota) para silenciar falsos alarmes — e a revisão **expira** se o formulário for editado, para você conferir de novo.
+- **Ótimo para formulários antigos** — aquele formulário de inscrição de anos atrás, feito antes da LGPD, finalmente tem como ser auditado em segundos.
+
+> Em **Verificador de Formulários** no menu. Detalhes em [Verificador de Formulários](/modulos/formularios/). A ferramenta **ajuda** a achar pendências; **não** substitui análise jurídica.
+
 ## Versão 1.34 — Canal de feedback no painel
 
 Agora dá para **falar direto com quem desenvolve o Bússola LGPD**, sem sair do painel.

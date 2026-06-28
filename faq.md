@@ -105,3 +105,7 @@ A comunicação à ANPD e aos titulares cabe quando o incidente puder acarretar 
 ## Como envio uma sugestão ou relato um problema do plugin?
 
 Use o botão **💬 Enviar feedback** no topo do painel. Dá para mandar **sugestões**, **relatos de problema (bug)** e **depoimentos** aos desenvolvedores (V3RTECH/RIT) por e-mail, com **cópia para você**. As desenvolvedoras **não acessam** o seu site, então o retorno chega por e-mail e pode levar alguns dias. Esse canal é sobre o **plugin** — **dúvidas jurídicas** ficam fora do escopo. Passo a passo em [Enviar feedback](/guias/enviar-feedback/).
+
+## Como sei se os formulários do meu site estão em conformidade?
+
+Use o **Verificador de Formulários** no menu. Ele analisa os campos de cada formulário (Contact Form 7, Forminator, WPForms, Gravity, Fluent) e aponta possíveis problemas: campos que parecem **dados pessoais** (e **sensíveis**), falta de **consentimento**, formulário **fora do Inventário (ROPA)** e indícios de **dados de menores** sem responsável. A análise é **consultiva** (baseada em pistas do nome/tipo do campo) e **não corrige** nem substitui orientação jurídica — ela aponta para você tratar. Detalhes em [Verificador de Formulários](/modulos/formularios/).
