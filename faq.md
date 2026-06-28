@@ -109,3 +109,7 @@ Use o botão **💬 Enviar feedback** no topo do painel. Dá para mandar **suges
 ## Como sei se os formulários do meu site estão em conformidade?
 
 Use o **Verificador de Formulários** no menu. Ele analisa os campos de cada formulário (Contact Form 7, Forminator, WPForms, Gravity, Fluent) e aponta possíveis problemas: campos que parecem **dados pessoais** (e **sensíveis**), falta de **consentimento**, formulário **fora do Inventário (ROPA)** e indícios de **dados de menores** sem responsável. A análise é **consultiva** (baseada em pistas do nome/tipo do campo) e **não corrige** nem substitui orientação jurídica — ela aponta para você tratar. Detalhes em [Verificador de Formulários](/modulos/formularios/).
+
+## Um formulário meu está "fora do Inventário (ROPA)". Preciso digitar tudo de novo?
+
+Não. No relatório do **Verificador de Formulários**, o apontamento "Fora do Inventário" traz o botão **✨ Gerar rascunho de ROPA a partir dos campos**: ele abre o editor do Inventário **já preenchido** com as categorias de dados, a origem e — quando há pistas — a finalidade e a base legal (marcadas como **"sugestão — confirme"**). Você revisa, completa o que faltar e salva; o formulário já fica **vinculado** à atividade. Se a atividade **já existir**, prefira **vincular** o formulário a ela pelo seletor da tabela, em vez de criar outra. As sugestões são um ponto de partida — confira sempre a base legal. Passo a passo em [Criar a atividade do ROPA a partir do formulário](/modulos/formularios/#criar-a-atividade-do-ropa-a-partir-do-formulário).

@@ -5,7 +5,7 @@ parent: "Módulos"
 permalink: /modulos/formularios/
 role: encarregado
 routes: ["#/forms"]
-screenshots: [blgpd-33-mapeamento-formularios, blgpd-34-verificador-relatorio]
+screenshots: [blgpd-33-mapeamento-formularios, blgpd-34-verificador-relatorio, blgpd-38-ropa-rascunho-formulario]
 last_verified: 2026-06-28
 status: publicado
 ---
@@ -16,6 +16,10 @@ O item **Verificador de Formulários** do menu faz duas coisas: **analisa os cam
 
 [![Verificador de Formulários](/assets/screenshots/blgpd-33-mapeamento-formularios.png)](/assets/screenshots/blgpd-33-mapeamento-formularios.png)
 *A lista mostra cada formulário do site, com um status de conformidade e os botões para verificar e mapear.*
+
+> 💡 **Editar o formulário sem sair da tela**
+>
+> Cada formulário na lista traz um link **✏️ Editar formulário**, que abre o **construtor do formulário** (no seu plugin de formulários) em uma **nova aba**. Útil para corrigir uma pendência — por exemplo, adicionar um checkbox de consentimento — sem perder os resultados da verificação.
 
 ## Por que verificar os formulários
 
@@ -35,7 +39,7 @@ O item **Verificador de Formulários** do menu faz duas coisas: **analisa os cam
    - **Campos com dados pessoais identificados** — os campos que *parecem* dado pessoal, com um selo **SENSÍVEL** quando o campo sugere dado de categoria especial (saúde, religião etc.).
    - **Problemas identificados** — entre eles:
      - **Sem checkbox de consentimento** — o formulário coleta dados pessoais e não tem um campo de consentimento.
-     - **Fora do Inventário (ROPA)** — o formulário não está mapeado a uma atividade com base legal (use o seletor da linha para mapear).
+     - **Fora do Inventário (ROPA)** — o formulário não está mapeado a uma atividade com base legal. Aqui você tem **duas saídas**: **vincular** a uma atividade já existente (seletor da linha) ou **[gerar uma atividade nova a partir dos campos](#criar-a-atividade-do-ropa-a-partir-do-formulário)**.
      - **Indícios de dados de menores** sem campo/consentimento de pais ou responsáveis.
      - **Indícios de dados sensíveis**, que exigem cuidado e consentimento específico.
 3. O **status** de cada formulário na lista mostra ✅ sem pendências, ⚠️ com pendências, ou ⏳ não verificado.
@@ -47,6 +51,29 @@ Avaliou um apontamento e concluiu que está tudo certo (ou é um falso alarme)? 
 > 💡 **A revisão "expira" se o formulário mudar**
 >
 > A revisão vale para a **versão atual** dos campos do formulário. Se alguém **editar** o formulário (adicionar ou trocar campos), a revisão é **descartada** e o achado reaparece — para você conferir de novo, já que o formulário não é mais o mesmo.
+
+## Criar a atividade do ROPA a partir do formulário
+
+Quando o relatório aponta **Fora do Inventário (ROPA)** e **ainda não existe** uma atividade para aquele formulário, você pode criar uma **em um clique**, já pré-preenchida com o que os campos revelam.
+
+[![Rascunho de ROPA a partir do formulário](/assets/screenshots/blgpd-38-ropa-rascunho-formulario.png)](/assets/screenshots/blgpd-38-ropa-rascunho-formulario.png)
+*O rascunho abre o editor do Inventário já preenchido: categorias de dados, origem, e — quando há pistas — finalidade e base legal marcadas como "sugestão — confirme".*
+
+1. No relatório, no apontamento **Fora do Inventário (ROPA)**, clique em **✨ Gerar rascunho de ROPA a partir dos campos**.
+2. O **editor do Inventário** abre **pré-preenchido**:
+   - **Dados Pessoais Coletados** — as categorias detectadas (Nome, E-mail, Telefone…).
+   - **Origem dos Dados** — já marcado como "Formulário do site".
+   - **Base Legal** — sugere **"Consentimento do titular"** *se* o formulário tem um checkbox de consentimento; senão fica **em branco**.
+   - **Finalidade** — sugerida a partir do **nome do formulário** quando ele se parece com uma atividade conhecida; senão fica em branco.
+   - **Avisos** — se houver indício de **dado sensível** ou de **menores**, aparece um aviso (com atalho ao [RIPD](/modulos/ripd/) e a opção de marcar consentimento parental).
+3. **Revise tudo.** Os itens marcados **"sugestão — confirme"** são palpites do sistema; os campos em branco (como **Categorias de Titulares**) você completa.
+4. Clique **Salvar Registro**. O Bússola cria a atividade **e já vincula** o formulário a ela — a pendência **Fora do Inventário** desaparece na próxima verificação.
+
+> ⚠️ **A ferramenta sugere; você decide**
+>
+> O rascunho é um **ponto de partida**, não uma decisão pronta. A **base legal** sugerida (consentimento) precisa da sua confirmação, e nada substitui a sua análise — especialmente quando há dados sensíveis ou de crianças/adolescentes.
+
+> 💡 **Já existe a atividade?** Então não crie outra: use o **seletor da linha** para **vincular** o formulário à atividade existente (próxima seção). Crie uma nova só quando ainda não houver.
 
 ## Mapear o formulário ao Inventário (ROPA)
 

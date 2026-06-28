@@ -8,6 +8,18 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.37 — Inventário (ROPA) em um clique, a partir do formulário
+
+O **Verificador de Formulários** deixou de só **apontar** que um formulário está fora do Inventário: agora ele ajuda a **resolver**.
+
+- **Gerar rascunho de ROPA a partir dos campos** — no relatório, quando um formulário está **fora do Inventário (ROPA)**, um botão abre o editor do Inventário **já preenchido** com o que os campos revelam: as **categorias de dados** (Nome, E-mail, Telefone…), a **origem** ("Formulário do site") e, quando há pistas, a **finalidade** e a **base legal** — sempre marcadas como **"sugestão — confirme"**.
+- **Você revisa e salva** — ao salvar, a atividade é criada **e** o formulário já fica **vinculado** a ela; a pendência some. A ferramenta **sugere, não decide**.
+- **Dados sensíveis ou de menores** viram **avisos** no rascunho, com atalho ao RIPD e a opção de marcar o consentimento dos pais.
+- **Já tem a atividade?** Dá para **vincular** o formulário a uma atividade existente pelo seletor da tabela, sem criar duplicata.
+- **✏️ Editar formulário** — cada formulário na lista ganhou um link que abre o **construtor do formulário** (no seu plugin) em uma **nova aba**, para corrigir uma pendência sem perder a tela.
+
+> Em **Verificador de Formulários** no menu. Detalhes em [Verificador de Formulários](/modulos/formularios/). O rascunho é um **ponto de partida** — confira a base legal e os campos em branco; **não** substitui análise jurídica.
+
 ## Versões 1.35 e 1.36 — Verificador de Formulários
 
 A tela **Formulários** virou **Verificador de Formulários** e ganhou um superpoder: além de mapear cada formulário ao Inventário (ROPA), agora ela **analisa os campos** dos seus formulários e aponta possíveis problemas de conformidade.
