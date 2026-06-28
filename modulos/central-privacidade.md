@@ -40,6 +40,8 @@ Há duas formas:
    - `[bussola_lgpd_politicas]` — todas as suas políticas ativas.
    - `[bussola_lgpd_cookies]` — as preferências de cookies (aparece só se o banner estiver ativo).
    - `[bussola_lgpd_ropa]` — uma vitrine de transparência das atividades de tratamento (ver [Inventário (ROPA)](/modulos/inventario-ropa/)).
+   - `[bussola_lgpd_transparencia_menores]` — card de transparência para crianças e adolescentes (aparece só se você tratar dados de menores; ver [Transparência aos pais](/eca-digital/transparencia-aos-pais/)).
+   - `[bussola_lgpd_denuncia]` — canal público de denúncia do ECA Digital (ver [Denúncias](/modulos/denuncias/)).
 
 > ⚠️ **Página montada à mão é responsabilidade sua**
 >
