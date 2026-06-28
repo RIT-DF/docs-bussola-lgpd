@@ -36,6 +36,7 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | **Ações do DPO** (registro de iniciativas do encarregado + relatório de accountability) | 1.30 | [Ações do DPO](/modulos/acoes-dpo/) |
 | **Anexos na resposta ao titular** (DSAR) | 1.31 | [Atendimentos (DSAR)](/modulos/atendimentos/) |
 | **Atendimento ao titular sempre revisado pelo DPO** + declaração de escopo, painel do ROPA e **resposta automática assistida** | 1.32–1.33 | [Atendimentos (DSAR)](/modulos/atendimentos/) |
+| **Canal de feedback** no painel (sugestão/bug/depoimento → e-mail à V3RTECH/RIT) | 1.34 | [Enviar feedback](/guias/enviar-feedback/) |
 
 ## Em estudo
 

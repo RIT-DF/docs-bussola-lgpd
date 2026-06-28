@@ -101,3 +101,7 @@ A comunicação à ANPD e aos titulares cabe quando o incidente puder acarretar 
 ## Qual a diferença entre o "Verificado" e o "Atestado" no Mapa de Conformidade?
 
 **Verificado** é o que a ferramenta **confere automaticamente** (ex.: Política de Privacidade ativa, DPO configurado, Central publicada) — é o que forma o percentual do anel. **Atestado** é a parte **autodeclarada** pela sua OSC: você afirma que cumpriu algo que o sistema não tem como checar sozinho. Os atestados aparecem separados, em roxo ("Atestado: X de 4"), e **não inflam** o percentual verificado. Veja [Painel e Mapa de Conformidade](/modulos/painel/).
+
+## Como envio uma sugestão ou relato um problema do plugin?
+
+Use o botão **💬 Enviar feedback** no topo do painel. Dá para mandar **sugestões**, **relatos de problema (bug)** e **depoimentos** aos desenvolvedores (V3RTECH/RIT) por e-mail, com **cópia para você**. As desenvolvedoras **não acessam** o seu site, então o retorno chega por e-mail e pode levar alguns dias. Esse canal é sobre o **plugin** — **dúvidas jurídicas** ficam fora do escopo. Passo a passo em [Enviar feedback](/guias/enviar-feedback/).

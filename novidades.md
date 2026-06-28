@@ -8,6 +8,18 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.34 — Canal de feedback no painel
+
+Agora dá para **falar direto com quem desenvolve o Bússola LGPD**, sem sair do painel.
+
+- **Botão "💬 Enviar feedback"** no topo do painel (ao lado do Manual) abre um formulário para mandar **sugestões**, **relatos de problema (bug)** e **depoimentos** à **V3RTECH e à RIT** por e-mail — com **cópia para você**, que serve de registro.
+- **Anexos** em sugestão/bug (uma captura de tela, um relatório); **foto** no depoimento.
+- **Consentimento** em todos os tipos (tratar/contatar); no **depoimento**, um consentimento específico para a equipe **publicar** seu nome, foto, cargo e organização em divulgação.
+- **Nada fica guardado no seu site** — como as desenvolvedoras não acessam o ambiente, o e-mail é o registro, e o retorno chega por e-mail (pode levar alguns dias).
+- O link **"Manual / Guia LGPD"** do cabeçalho virou **botão**, combinando com o novo.
+
+> Em qualquer tela do painel, botão **💬 Enviar feedback**. Passo a passo em [Enviar feedback](/guias/enviar-feedback/). Este canal é sobre o **plugin**; **dúvidas jurídicas** estão fora do escopo dele.
+
 ## Versões 1.31 a 1.33 — Atendimento ao titular mais seguro
 
 O atendimento às solicitações de titulares (DSAR) ganhou mais segurança e melhores ferramentas para o Encarregado.
