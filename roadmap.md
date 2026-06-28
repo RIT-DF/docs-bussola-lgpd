@@ -33,6 +33,7 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | **Assistente de Inventário** (diagnóstico guiado que autopreenche o ROPA) | 1.24–1.26 | [Inventário (ROPA)](/modulos/inventario-ropa/#assistente-de-inventario) |
 | **Assistente do RIPD** (triagem de necessidade + matriz de risco pré-preenchida) | 1.28 | [Fazer um RIPD com o Assistente](/guias/fazer-ripd-assistente/) |
 | **Assistente de Políticas** (privacidade e termos guiados, a partir dos seus dados) | 1.29 | [Políticas › O Assistente](/modulos/politicas/#o-assistente-de-politicas) |
+| **Ações do DPO** (registro de iniciativas do encarregado + relatório de accountability) | 1.30 | [Ações do DPO](/modulos/acoes-dpo/) |
 
 ## Em estudo
 

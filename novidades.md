@@ -8,6 +8,17 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.30 — Ações do DPO
+
+Um novo módulo para o **encarregado registrar o que faz** — e ter, a qualquer momento, um relatório pronto para prestação de contas.
+
+- **Registro de Ações do DPO** — anote projetos, capacitações, pontos de atenção, auditorias, contatos com a ANPD, reuniões e anotações. Por padrão é leve (tipo, título, descrição, data); quando quiser planejar, há **status, prazo e responsável** opcionais.
+- **Evidência protegida** — anexe um arquivo (PDF, imagem, documento) que fica em **área protegida** (não acessível por link público, diferente da galeria de mídia) **ou** informe um **link**, com um botão para **verificar** se ele responde.
+- **Vínculo opcional** — ligue uma ação a um Incidente, RIPD ou atividade do Inventário (ROPA) para dar rastreabilidade.
+- **Relatório imprimível** — gere um PDF com o cabeçalho da organização e as ações do período/tipo que escolher — ideal para financiadores, auditoria ou a ANPD.
+
+> Em **Ações do DPO** (entre Retenção e Configurações no menu). Passo a passo em [Registrar uma ação do DPO](/guias/registrar-acoes-dpo/); detalhes em [Ações do DPO](/modulos/acoes-dpo/). O módulo **ajuda** a demonstrar o trabalho do encarregado; **não** garante conformidade nem substitui assessoria jurídica.
+
 ## Versão 1.29 — Assistente de Políticas
 
 Completando a família de assistentes (Inventário e RIPD), agora **criar uma Política de Privacidade ou Termos de Uso** também é um passo a passo guiado — sem encarar a folha em branco.
