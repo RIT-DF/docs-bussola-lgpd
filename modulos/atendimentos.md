@@ -4,9 +4,9 @@ nav_order: 4
 parent: "Módulos"
 permalink: /modulos/atendimentos/
 role: encarregado
-routes: ["#/dsar"]
-screenshots: [blgpd-04-dsar]
-last_verified: 2026-06-23
+routes: ["#/dsar", "#/settings"]
+screenshots: [blgpd-04-dsar, blgpd-04c-dsar-detalhe-auto, blgpd-04d-dsar-banner-revisar, blgpd-04b-dsar-declaracao-escopo]
+last_verified: 2026-06-28
 status: publicado
 ---
 
@@ -21,7 +21,7 @@ Aqui chegam os **pedidos dos titulares** sobre os próprios dados — o que a le
 
 1. **O titular abre o pedido** na Central de Privacidade, informando o e-mail e o direito desejado.
 2. **Duplo opt-in** — o plugin envia um link de confirmação para o e-mail. O pedido só entra na fila depois que a pessoa clica e confirma. Isso evita pedidos falsos e prova que o e-mail é de quem pediu.
-3. **O pedido aparece nesta lista**, com a **data-limite (SLA)** calculada.
+3. **O pedido aparece nesta lista** como **Pendente**, com a **data-limite (SLA)** calculada. O titular vê na hora a mensagem de que será analisado pelo Encarregado **em até 15 dias úteis**.
 4. **O Encarregado atende** — consultando, exportando ou eliminando os dados conforme o tipo.
 5. **O titular é avisado** por e-mail quando o pedido é concluído ou recusado.
 
@@ -29,19 +29,53 @@ Aqui chegam os **pedidos dos titulares** sobre os próprios dados — o que a le
 >
 > O prazo de referência é de **15 dias**. Perder o prazo é um dos erros mais comuns — e mais facilmente evitáveis. A lista separa **pendentes no prazo** de **pendentes atrasadas** para que nada passe despercebido.
 
-## Auto-atendimento (self-service)
+## Todo pedido passa pelo Encarregado
 
-Para pedidos **simples e seguros**, o titular resolve sozinho, sem esperar o Encarregado:
+Nenhum pedido é encerrado **automaticamente, sem revisão**. Mesmo os tipos mais simples (acesso, portabilidade, informação sobre compartilhamento) entram como **Pendentes** e ficam visíveis para o Encarregado decidir.
 
-- **Acesso e Confirmação**, **Portabilidade** e **Informação sobre Compartilhamento** são atendidos **automaticamente** assim que o titular confirma o e-mail — ele já recebe o resultado (inclusive o download dos dados em JSON, no caso da portabilidade).
-
-> ⚠️ **Atenção — exclusão NÃO é self-service**
+> ⚠️ **Por que mudou**
 >
-> Pedidos de **eliminação/anonimização** e **revogação** **continuam passando pelo Encarregado**. Exclusão é irreversível: o plugin exige confirmação humana e justificativa antes de apagar qualquer coisa. É uma trava de segurança proposital.
+> Antes, alguns pedidos eram concluídos na hora buscando dados **só no site**. O problema: o plugin enxerga o site, mas a sua OSC pode tratar dados também **no papel, em planilhas ou em outros sistemas**. Responder "não há dados" baseado apenas no site seria um **falso-negativo** — uma resposta definitiva que pode estar errada. Por isso, quem dá a palavra final é sempre o Encarregado.
+
+## A declaração de escopo da organização
+
+Em **Configurações → Organização** há uma pergunta que orienta o atendimento: **"A organização trata dados pessoais fora deste site?"** (Não / Sim / Não informado).
+
+[![Declaração de escopo em Configurações → Organização](/assets/screenshots/blgpd-04b-dsar-declaracao-escopo.png)](/assets/screenshots/blgpd-04b-dsar-declaracao-escopo.png)
+*A declaração fica na aba **Organização**. Só "Não" (trata dados apenas neste site) habilita a resposta automática assistida.*
+
+- **Não — tratamos dados apenas neste site:** o Encarregado ganha a opção de **responder automaticamente** os pedidos informativos (veja abaixo), porque, nesse caso, o site é todo o escopo de tratamento.
+- **Sim — também tratamos dados fora do site** *(ou "Não informado")*: o plugin **não** oferece a resposta automática; ele lembra que pode haver dados fora do site e pede que você **revise antes de responder**.
+
+> 💡 A declaração é uma afirmação **sua**, no nível da organização — é ela que torna seguro responder com base apenas no site. Mantenha-a coerente com a realidade da sua OSC.
+
+## Insumos para responder: o painel do Inventário (ROPA)
+
+Ao abrir um pedido em **Ver / Executar**, além da execução assistida, o Encarregado vê um **painel com as atividades do Inventário (ROPA)** — nome da atividade, **origem** dos dados, **compartilhamento** e **transferência internacional** quando houver. É uma referência rápida para lembrar onde mais aquele dado pode estar, inclusive fora do site.
+
+## Resposta automática assistida (pedidos informativos)
+
+[![Detalhe do pedido com o botão Responder automaticamente](/assets/screenshots/blgpd-04c-dsar-detalhe-auto.png)](/assets/screenshots/blgpd-04c-dsar-detalhe-auto.png)
+*Com a organização declarada "apenas neste site", os pedidos informativos mostram o banner verde e o botão **Responder automaticamente**.*
+
+Quando a organização declarou tratar dados **apenas neste site** e o pedido é de um tipo **informativo** — **Acesso e Confirmação**, **Portabilidade** ou **Informação sobre Compartilhamento** —, o Encarregado pode clicar em **Responder automaticamente**. O plugin:
+
+1. Monta o resultado a partir dos dados do site;
+2. **Envia o e-mail de resposta ao titular** (na Portabilidade, com o **arquivo JSON dos dados anexado**);
+3. Marca o pedido como **Concluída**.
+
+É sempre o Encarregado quem aciona — nunca automático às cegas. E há uma **trava no servidor**: o botão só funciona para tipos informativos, com a organização declarada "apenas neste site", enquanto o pedido estiver em aberto.
+
+[![Banner de revisão quando há tratamento fora do site](/assets/screenshots/blgpd-04d-dsar-banner-revisar.png)](/assets/screenshots/blgpd-04d-dsar-banner-revisar.png)
+*Quando a organização trata dados também fora do site (ou não declarou), não há botão automático: um banner pede para revisar antes de responder manualmente.*
+
+> ⚠️ **Atenção — exclusão e revogação nunca são automáticas**
+>
+> Pedidos de **eliminação/anonimização** e **revogação de consentimento** **nunca** mostram o botão de resposta automática, mesmo com a organização declarada "apenas neste site". Exclusão é irreversível: o plugin exige confirmação humana e justificativa antes de apagar qualquer coisa. É uma trava de segurança proposital.
 
 ## Execução assistida
 
-Ao clicar em **Ver / Executar**, o Encarregado conta com a execução assistida: o plugin **localiza** os dados ligados àquele e-mail nos sistemas conectados, permite **exportar** e, quando o pedido autoriza, **eliminar**.
+Ao clicar em **Ver / Executar**, o Encarregado conta com a execução assistida: o plugin **localiza** os dados ligados àquele e-mail nos sistemas conectados, permite **exportar** e, quando o pedido autoriza, **eliminar**. Também pode **anexar documentos** à resposta enviada ao titular.
 
 > ⚠️ **Atenção — eliminação é definitiva**
 >

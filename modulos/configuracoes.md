@@ -5,24 +5,25 @@ parent: "Módulos"
 permalink: /modulos/configuracoes/
 role: encarregado
 routes: ["#/settings"]
-screenshots: [blgpd-08-settings-dpo, blgpd-08b-settings-cookies, blgpd-08c-settings-webhooks, blgpd-08d-settings-paginas, blgpd-08f-settings-aparencia, blgpd-08g-settings-aparencia-custom, blgpd-08e-settings-saida, blgpd-08i-settings-import, blgpd-08h-settings-desinstalacao]
-last_verified: 2026-06-26
+screenshots: [blgpd-04b-dsar-declaracao-escopo, blgpd-08-settings-dpo, blgpd-08b-settings-cookies, blgpd-08c-settings-webhooks, blgpd-08d-settings-paginas, blgpd-08f-settings-aparencia, blgpd-08g-settings-aparencia-custom, blgpd-08e-settings-saida, blgpd-08i-settings-import, blgpd-08h-settings-desinstalacao]
+last_verified: 2026-06-28
 status: publicado
 ---
 
 # Configurações
 
-A tela **Configurações** reúne, em um só lugar, os ajustes gerais do Bússola LGPD — do contato do Encarregado à exibição das políticas e à exportação dos dados. Ela é organizada em **sete abas**.
+A tela **Configurações** reúne, em um só lugar, os ajustes gerais do Bússola LGPD — da identidade da organização à exibição das políticas e à exportação dos dados. Ela é organizada em **oito abas**.
 
 > 💡 **Por que isso importa**
 >
 > A maioria dos itens de configuração afeta diretamente o que o público vê (Central, cookies, políticas) e como a sua conformidade é medida. Vale conhecer cada aba antes de publicar a Central.
 
-## As sete abas
+## As oito abas
 
 | Aba | Para que serve | Aprofunde em |
 |---|---|---|
-| **Identidade (DPO)** | Dados do Encarregado, logo da organização, prefixo de versão e modo de exclusão de políticas. | [Configurar o Encarregado](/guias/configurar-dpo/) |
+| **Organização** | Identidade do controlador (razão social, CNPJ, endereço, contato), logo e a **declaração de escopo de tratamento**. | (abaixo) |
+| **DPO** | Dados do Encarregado, prefixo de versão e modo de exclusão de políticas. | [Configurar o Encarregado](/guias/configurar-dpo/) |
 | **Banner de Cookies** | Ativar/desativar o banner e gerenciar os scripts por categoria. | [Consentimento & Cookies](/modulos/consentimento/) |
 | **Webhooks** | Enviar eventos (nova solicitação, alteração de política, incidente, consentimento) para automações externas. | (abaixo) |
 | **Retenção & Expurgo** | Regras globais de descarte/anonimização e a fila de retenção. | [Retenção & Expurgo](/modulos/retencao/) |
@@ -30,12 +31,28 @@ A tela **Configurações** reúne, em um só lugar, os ajustes gerais do Bússol
 | **Aparência** | Tema de cores do frontend (Central, selo, shortcodes): temas prontos ou personalização (cores, cantos, fonte). | (abaixo) |
 | **Saída de Dados** | Backup completo (ZIP), **exportação para migração** (JSON por escopos) e a **preferência de desinstalação**. | (abaixo) |
 
-## Identidade (DPO)
+## Organização
+
+[![Configurações — Organização](/assets/screenshots/blgpd-04b-dsar-declaracao-escopo.png)](/assets/screenshots/blgpd-04b-dsar-declaracao-escopo.png)
+*Identidade do controlador, logo e a declaração de escopo de tratamento.*
+
+Aqui ficam os dados do **controlador** — **razão social** (obrigatória para gerar políticas), **CNPJ**, **endereço** e **contato público** —, a **logo** da organização (usada nos relatórios PDF, nos e-mails e na Central) e a **declaração de escopo de tratamento**. Esses dados são reaproveitados pelo Assistente de Políticas, pelos relatórios e pelo selo.
+
+### A organização trata dados fora deste site?
+
+A pergunta **"A organização trata dados pessoais fora deste site?"** (Não / Sim / Não informado) orienta o atendimento às solicitações de titulares:
+
+- **Não — apenas neste site:** habilita a **resposta automática assistida** do Encarregado nos pedidos informativos (acesso, portabilidade, informação sobre compartilhamento).
+- **Sim** ou **Não informado:** sem resposta automática — o plugin pede que o Encarregado revise (pode haver dados no papel, em planilhas ou em outros sistemas) antes de responder manualmente.
+
+➡️ Como isso afeta o atendimento em **[Atendimentos (DSAR)](/modulos/atendimentos/#a-declaracao-de-escopo-da-organizacao)**.
+
+## DPO
 
 [![Configurações — Identidade do DPO](/assets/screenshots/blgpd-08-settings-dpo.png)](/assets/screenshots/blgpd-08-settings-dpo.png)
-*Dados do Encarregado, logo, prefixo de versão e modo de exclusão de políticas.*
+*Dados do Encarregado, prefixo de versão e modo de exclusão de políticas.*
 
-Aqui você cadastra o **Encarregado (DPO)** — nome/setor, e-mail e telefone, que aparecem publicamente na Central. Também define a **logo** (usada nos relatórios e na Central), o **prefixo de versionamento** das políticas (ex.: "v") e o **Modo de Exclusão de Políticas** (soft delete, que mantém logs, ou hard delete, que apaga em definitivo).
+Aqui você cadastra o **Encarregado (DPO)** — nome/setor, e-mail e telefone, que aparecem publicamente na Central. Também define o **prefixo de versionamento** das políticas (ex.: "v") e o **Modo de Exclusão de Políticas** (soft delete, que mantém logs, ou hard delete, que apaga em definitivo). A **logo** da organização fica na aba **Organização**.
 
 ➡️ Passo a passo em **[Configurar o Encarregado](/guias/configurar-dpo/)**.
 

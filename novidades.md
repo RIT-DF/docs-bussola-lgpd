@@ -8,6 +8,19 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versões 1.31 a 1.33 — Atendimento ao titular mais seguro
+
+O atendimento às solicitações de titulares (DSAR) ganhou mais segurança e melhores ferramentas para o Encarregado.
+
+- **Nada é concluído sem revisão** — antes, alguns pedidos (acesso, portabilidade, informação sobre compartilhamento) eram encerrados **na hora**, buscando dados **só no site**. O risco: a sua OSC pode tratar dados também no **papel, em planilhas ou em outros sistemas** — e responder "não há dados" com base apenas no site seria um **falso-negativo**. Agora **todo** pedido vai ao **Encarregado**, e o titular é avisado de que será analisado **em até 15 dias úteis**.
+- **Declaração de escopo da organização** — em **Configurações → Organização**, você responde "A organização trata dados pessoais **fora deste site**?". Essa afirmação orienta o atendimento e habilita (ou não) a resposta automática.
+- **Insumos para o Encarregado** — ao abrir um pedido, além da busca no site, aparece um **painel com as atividades do Inventário (ROPA)** (origem, compartilhamento, transferência internacional) e um **banner de escopo** que lembra se pode haver dados fora do site.
+- **Resposta automática assistida** — quando a organização declarou tratar dados **apenas neste site** e o pedido é **informativo**, o Encarregado ganha o botão **Responder automaticamente**: o plugin monta o resultado, **envia o e-mail ao titular** (na portabilidade, com o **JSON anexado**) e marca como Concluída. Eliminação e revogação seguem **sempre manuais**.
+- **Anexar documentos na resposta** — o Encarregado pode anexar **um ou mais arquivos** à resposta enviada ao titular; eles ficam em **área protegida** (não acessível por link público).
+- **E-mails com a sua identidade** — os e-mails de privacidade passaram a trazer a **logo da organização** no topo e o **contato do Encarregado** no rodapé, com os status sempre em português.
+
+> Veja [Atendimentos (DSAR)](/modulos/atendimentos/) e o passo a passo em [Atender uma solicitação](/guias/atender-solicitacao/). A ferramenta **ajuda** o Encarregado a atender; **não** substitui a análise dele nem garante conformidade.
+
 ## Versão 1.30 — Ações do DPO
 
 Um novo módulo para o **encarregado registrar o que faz** — e ter, a qualquer momento, um relatório pronto para prestação de contas.

@@ -7,7 +7,7 @@ task: titular-exercer-direitos
 role: titular
 routes: ["/central-de-privacidade/"]
 screenshots: [blgpd-22-dsar-form, blgpd-21-cookie-banner]
-last_verified: 2026-06-23
+last_verified: 2026-06-28
 status: publicado
 ---
 
@@ -40,11 +40,13 @@ Acesse a **Central de Privacidade** no site da organização (geralmente um link
 >
 > É o **duplo opt-in**: protege você. Garante que ninguém abra pedidos em seu nome e confirma que o e-mail é seu. Por segurança, a confirmação exige um clique seu na página — links de e-mail abertos automaticamente por programas não disparam a ação.
 
-## Pedidos atendidos na hora
+## O que acontece depois
 
-Para **acesso/confirmação**, **portabilidade** e **informação sobre compartilhamento**, a resposta costuma ser **imediata**: ao confirmar o e-mail, você já vê o resultado na tela (e, na portabilidade, baixa seus dados em arquivo).
+Ao confirmar o e-mail, você verá a mensagem de que o pedido foi **encaminhado ao Encarregado (DPO)** e será analisado — o prazo de referência é de **15 dias úteis**. **A resposta chega por e-mail**, no endereço que você informou.
 
-Pedidos de **exclusão** passam pela análise do Encarregado, por serem irreversíveis — você é avisado por e-mail quando concluídos.
+> 💡 **Por que não é na hora?**
+>
+> A organização pode tratar seus dados em mais lugares do que só o site (papel, planilhas, outros sistemas). Por isso, em vez de uma resposta automática que poderia estar incompleta, **uma pessoa revisa** o seu pedido antes de responder. Em pedidos de portabilidade, a resposta vem com **seus dados anexados** em arquivo.
 
 ## Cookies
 
