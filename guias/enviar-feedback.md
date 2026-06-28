@@ -15,8 +15,8 @@ status: publicado
 
 Tem uma sugestão, encontrou um problema ou quer deixar um depoimento sobre o Bússola LGPD? Há um canal direto, dentro do painel, para falar com quem desenvolve o plugin — a **V3RTECH** e a **RIT**.
 
-[![Botão e formulário de feedback](/assets/screenshots/blgpd-30-feedback.png)](/assets/screenshots/blgpd-30-feedback.png)
-*O botão "💬 Enviar feedback" fica no topo do painel, ao lado do "Manual / Guia LGPD".*
+[![Formulário de feedback](/assets/screenshots/blgpd-30-feedback.png)](/assets/screenshots/blgpd-30-feedback.png)
+*O formulário abre num modal: escolha o tipo, confira seus dados (já preenchidos), escreva a mensagem, anexe se quiser e marque o consentimento. O botão "💬 Enviar feedback" que abre essa tela fica no topo do painel, ao lado do "Manual / Guia LGPD".*
 
 ## Passo a passo
 
