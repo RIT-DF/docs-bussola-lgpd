@@ -5,7 +5,7 @@ parent: "Módulos"
 permalink: /modulos/formularios/
 role: encarregado
 routes: ["#/forms"]
-screenshots: [blgpd-33-mapeamento-formularios, blgpd-34-verificador-relatorio, blgpd-38-ropa-rascunho-formulario]
+screenshots: [blgpd-33-mapeamento-formularios, blgpd-34-verificador-relatorio, blgpd-38-ropa-rascunho-formulario, blgpd-39-google-forms]
 last_verified: 2026-06-28
 status: publicado
 ---
@@ -74,6 +74,30 @@ Quando o relatório aponta **Fora do Inventário (ROPA)** e **ainda não existe*
 > O rascunho é um **ponto de partida**, não uma decisão pronta. A **base legal** sugerida (consentimento) precisa da sua confirmação, e nada substitui a sua análise — especialmente quando há dados sensíveis ou de crianças/adolescentes.
 
 > 💡 **Já existe a atividade?** Então não crie outra: use o **seletor da linha** para **vincular** o formulário à atividade existente (próxima seção). Crie uma nova só quando ainda não houver.
+
+## Formulários do Google (Google Forms)
+
+Muitas OSCs usam **Google Forms** para inscrições, doações e pesquisas. Como eles ficam **fora do WordPress**, o Bússola precisa que você os **aponte** — e então os trata como qualquer outro formulário: verifica a conformidade e ajuda a montar o Inventário (ROPA).
+
+[![Google Form no Verificador](/assets/screenshots/blgpd-39-google-forms.png)](/assets/screenshots/blgpd-39-google-forms.png)
+*Um Google Form aparece na lista com o selo "Externo (Google)", o aviso sobre retenção e as ações próprias (abrir, reler, editar campos, remover).*
+
+**Duas formas de adicionar:**
+
+1. **+ Adicionar Google Form** — cole a **URL pública** do formulário (`docs.google.com/forms/…` ou `forms.gle/…`). O Bússola **lê os campos automaticamente** da página do formulário (sem precisar de login na sua conta Google).
+2. **🔍 Procurar no site** — o Bússola **varre as páginas publicadas** do seu site atrás de Google Forms que você tenha incorporado ou linkado, e os adiciona sozinho.
+
+Depois de adicionado, o Google Form ganha o selo **"Externo (Google)"** e estas ações: **Abrir formulário** (vê o formulário no Google, em nova aba), **Reler campos** (atualiza a leitura, caso você tenha mudado o formulário), **Editar campos** (informa os campos à mão — ver abaixo) e **Remover**.
+
+> ⚠️ **A retenção automática não cobre o Google**
+>
+> Os dados respondidos num Google Form ficam **nos servidores do Google** (na planilha de respostas). O Bússola **não consegue apagá-los** — então a **retenção/expurgo automático não se aplica** a esses formulários. Você pode (e deve) **inventariá-los no ROPA** para conformidade, mas a exclusão dos dados precisa ser feita **no próprio Google**. A tela deixa esse aviso visível na linha do formulário.
+
+> 💡 **Se a leitura automática não funcionar**
+>
+> Alguns formulários são privados ou exigem login, e o Google muda a estrutura interna de tempos em tempos. Se o Bússola não conseguir ler os campos, o formulário entra com o aviso **"NÃO LIDO"** — aí use **Editar campos** para informar os campos à mão (um por linha; para um checkbox de consentimento, escreva `rótulo | checkbox`). A partir daí ele verifica normalmente.
+
+> 🔒 **Privacidade:** o Bússola lê apenas a **estrutura** do formulário (os rótulos e tipos dos campos) — **nunca as respostas** das pessoas. A leitura é feita com proteção contra acessos indevidos a endereços internos (SSRF).
 
 ## Mapear o formulário ao Inventário (ROPA)
 

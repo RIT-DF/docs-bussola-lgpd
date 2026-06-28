@@ -8,6 +8,18 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.38 — Agora com formulários do Google
+
+O Verificador de Formulários passou a cobrir **Google Forms** — muito usados por OSCs para inscrições, doações e pesquisas.
+
+- **+ Adicionar Google Form** — cole a **URL pública** do formulário e o Bússola **lê os campos automaticamente** (sem login na sua conta Google).
+- **🔍 Procurar no site** — o Bússola **varre as páginas publicadas** atrás de Google Forms incorporados ou linkados e os adiciona sozinho.
+- **Tratado como os outros** — o Google Form ganha o selo **"Externo (Google)"** e a mesma **verificação de conformidade** e o **auto-ROPA** (gerar/vincular Inventário) dos formulários do WordPress.
+- **Se não der para ler sozinho** (form privado, por exemplo), você **informa os campos à mão** e segue normalmente.
+- **Atenção importante** — a **retenção automática não cobre** Google Forms: os dados ficam no Google, então a exclusão é feita lá. A tela avisa isso de forma clara. O Bússola lê só a **estrutura** do formulário, **nunca as respostas**.
+
+> Em **Verificador de Formulários** no menu. Detalhes em [Formulários do Google](/modulos/formularios/#formulários-do-google-google-forms).
+
 ## Versão 1.37 — Inventário (ROPA) em um clique, a partir do formulário
 
 O **Verificador de Formulários** deixou de só **apontar** que um formulário está fora do Inventário: agora ele ajuda a **resolver**.

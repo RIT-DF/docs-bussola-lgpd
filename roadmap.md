@@ -39,6 +39,7 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | **Canal de feedback** no painel (sugestão/bug/depoimento → e-mail à V3RTECH/RIT) | 1.34 | [Enviar feedback](/guias/enviar-feedback/) |
 | **Verificador de Formulários** (analisa campos e aponta pendências de conformidade) | 1.35–1.36 | [Verificador de Formulários](/modulos/formularios/) |
 | **ROPA a partir do formulário** (gerar rascunho pré-preenchido + editar formulário em nova aba) | 1.37 | [Verificador de Formulários](/modulos/formularios/#criar-a-atividade-do-ropa-a-partir-do-formulário) |
+| **Formulários do Google** (cadastro por URL + autodescoberta + verificação + auto-ROPA) | 1.38 | [Formulários do Google](/modulos/formularios/#formulários-do-google-google-forms) |
 
 ## Em estudo
 
@@ -49,7 +50,6 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | Mural de comunicados | 🔭 Em estudo | Avisos gerais da OSC aos inscritos/membros, por categoria. |
 | API completa | 🔭 Em estudo | Leitura e ação além dos webhooks, para integrações mais ricas. |
 | Newsfeed da ANPD no painel | 🔭 Em estudo | Trazer notícias e orientações recentes da ANPD para a área do painel. |
-| Formulários do Google | 🔭 Em estudo | Estender o Verificador e o ROPA a partir de formulários para os **Google Forms**, muito usados por OSCs (além dos 5 plugins de formulário do WordPress já suportados). |
 
 ## Como influenciar o roadmap
 
