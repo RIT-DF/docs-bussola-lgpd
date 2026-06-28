@@ -8,6 +8,18 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.29 — Assistente de Políticas
+
+Completando a família de assistentes (Inventário e RIPD), agora **criar uma Política de Privacidade ou Termos de Uso** também é um passo a passo guiado — sem encarar a folha em branco.
+
+- **Assistente de Políticas** — escolha o tipo (**Privacidade** ou **Termos de Uso**), responda a uma **triagem** de perguntas simples e o assistente monta um **rascunho sob medida** a partir dos dados que o plugin já tem (organização, **DPO**, **Inventário/ROPA**, perfil de menores).
+- **Confere o essencial antes de começar** — se faltar a **razão social** ou o **Encarregado (DPO)**, o assistente interrompe e leva você às Configurações (a política precisa identificar o controlador e o contato do DPO). Inventário vazio? Ele só avisa — você pode seguir.
+- **Sugestões e revisão** — na Política de Privacidade, ele aponta cláusulas que talvez faltem e confere se o texto está **coerente com o seu Inventário (ROPA)**.
+- **Você decide quando publicar** — o padrão é **salvar como rascunho** para aprovação interna; publicar é uma escolha explícita. O texto é um ponto de partida (modelos de mercado) e **não substitui revisão jurídica**.
+- **Novo cadastro da Organização** — em Configurações há uma aba **Organização** (razão social, CNPJ, endereço, contato), reaproveitada nas políticas e nos relatórios.
+
+> Em **Políticas**, botão **🪄 Usar Assistente**. Passo a passo em [Publicar uma política](/guias/publicar-politica/); detalhes em [Políticas › O Assistente](/modulos/politicas/#o-assistente-de-politicas). O assistente **ajuda** a redigir; **não** substitui revisão jurídica nem garante validade legal.
+
 ## Versão 1.28 — Assistente do RIPD e Termos de Uso
 
 Depois do Assistente de Inventário, agora o **Relatório de Impacto (RIPD)** também tem um assistente — e o documento mais técnico da LGPD fica acessível para quem não é da área.

@@ -5,9 +5,9 @@ parent: "Guias por tarefa"
 permalink: /guias/publicar-politica/
 task: publicar-politica
 role: encarregado
-routes: ["#/policies", "#/policies/new", "#/policy-wizard"]
-screenshots: [blgpd-02-policies, blgpd-03-policy-editor, blgpd-03b-policy-externa]
-last_verified: 2026-06-24
+routes: ["#/policies", "#/policies/new", "#/policies/assistant"]
+screenshots: [blgpd-02-policies, blgpd-03-policy-editor, blgpd-03b-policy-externa, blgpd-09-wizard]
+last_verified: 2026-06-28
 status: publicado
 ---
 
@@ -17,12 +17,20 @@ Uma política só fica visível ao público quando você **publica uma versão**
 
 ## Opção A — usar o Assistente (recomendado para a 1ª política)
 
+Antes de começar, garanta que a **razão social da organização** e o **Encarregado (DPO)** estão cadastrados em [Configurações](/guias/configurar-dpo/) — o Assistente exige os dois (sem eles, ele interrompe e leva você às Configurações).
+
 1. Em **Políticas**, clique em **🪄 Usar Assistente**.
-2. O Assistente monta um rascunho com os dados do **DPO** e do **Inventário (ROPA)**.
-3. Revise o texto no editor e ajuste o que precisar.
-4. **Publique a versão** e **ative** a política.
+2. Escolha o **tipo**: **Política de Privacidade** ou **Termos de Uso**.
+3. Responda à **triagem** (perguntas simples de sim/não) e confira as **seções** que vão entrar.
+4. O Assistente monta o **rascunho** com os dados da organização, do **DPO** e do **Inventário (ROPA)**. Revise e edite no editor. (Na Privacidade, ele ainda mostra **sugestões** e uma **revisão de coerência** com o ROPA.)
+5. Na **conclusão**, escolha **salvar como rascunho** (padrão, para aprovação interna) ou **publicar agora**.
+
+[![Assistente de Políticas](/assets/screenshots/blgpd-09-wizard.png)](/assets/screenshots/blgpd-09-wizard.png)
+*O Assistente conduz por tipo, triagem, seções e revisão do rascunho.*
 
 > 💡 Quanto mais completo o seu [Inventário (ROPA)](/modulos/inventario-ropa/), melhor o rascunho do Assistente.
+
+> ⚠️ O padrão é **salvar como rascunho**: políticas normalmente precisam de **aprovação da diretoria** antes de ir ao ar. Quando estiver tudo certo, publique (Opção de ativação abaixo).
 
 ## Opção B — criar do zero (política interna)
 

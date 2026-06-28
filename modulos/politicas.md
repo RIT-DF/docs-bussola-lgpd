@@ -4,9 +4,9 @@ nav_order: 2
 parent: "Módulos"
 permalink: /modulos/politicas/
 role: encarregado
-routes: ["#/policies", "#/policies/edit/:id", "#/policy-wizard", "#/templates"]
-screenshots: [blgpd-02-policies, blgpd-03-policy-editor, blgpd-11-templates]
-last_verified: 2026-06-24
+routes: ["#/policies", "#/policies/edit/:id", "#/policies/assistant", "#/templates"]
+screenshots: [blgpd-02-policies, blgpd-03-policy-editor, blgpd-09-wizard, blgpd-11-templates]
+last_verified: 2026-06-28
 status: publicado
 ---
 
@@ -66,13 +66,33 @@ O editor tem:
 >
 > Use o checklist como roteiro enquanto escreve. Ele não preenche o texto por você, mas garante que nenhum item obrigatório fique de fora.
 
-## O Assistente (Wizard de Política)
+## O Assistente de Políticas
 
-Em vez de começar da folha em branco, use o **🪄 Assistente**: ele pré-preenche um rascunho com os dados do **DPO** e do **Inventário (ROPA)**, monta a estrutura e abre no editor para você revisar e publicar.
+Em vez de começar da folha em branco, use o **🪄 Assistente**: um passo a passo guiado, em linguagem simples, que monta um rascunho de **Política de Privacidade** ou de **Termos de Uso** a partir das suas respostas e dos dados que o plugin já tem (organização, **DPO**, **Inventário/ROPA**, perfil de proteção de menores).
+
+[![Assistente de Políticas](/assets/screenshots/blgpd-09-wizard.png)](/assets/screenshots/blgpd-09-wizard.png)
+*O Assistente guia você por tipo de política, triagem, seções e revisão do rascunho.*
+
+Como funciona, passo a passo:
+
+1. **Tipo** — escolha **Política de Privacidade** ou **Termos de Uso**.
+2. **Pré-requisitos** — o Assistente confere se a **razão social da organização** e o **Encarregado (DPO)** estão cadastrados. Sem esses dois, ele **interrompe** e leva você às Configurações (a política precisa identificar o controlador e o contato do Encarregado — Art. 41 da LGPD). Se o seu Inventário (ROPA) estiver vazio, ele apenas **avisa** — você pode seguir, mas a política fica mais genérica.
+3. **Triagem** — perguntas simples de sim/não (formulários, cookies de terceiros, menores, transferência internacional, decisões automatizadas) que decidem quais cláusulas entram.
+4. **Seções** — as seções obrigatórias entram sempre; as opcionais já vêm marcadas conforme suas respostas, e você ajusta.
+5. **Rascunho** — o texto montado aparece num editor para você revisar e editar. Para a Privacidade, o Assistente ainda mostra **sugestões** (cláusulas que talvez faltem) e uma **revisão de coerência** com o seu Inventário (ROPA).
+6. **Conclusão** — você decide: **salvar como rascunho** (padrão) para aprovação interna, ou **publicar agora**. O rascunho fica guardado **sem** ir ao ar até você publicá-lo.
 
 > 💡 **Por que isso importa**
 >
-> O Assistente conecta o que você já cadastrou (DPO, inventário) ao texto da política. Isso reduz erro e retrabalho: se a finalidade e a base legal já estão no inventário, elas entram na política sem você redigitar.
+> O Assistente conecta o que você já cadastrou (organização, DPO, inventário) ao texto da política. Isso reduz erro e retrabalho: se a finalidade e a base legal já estão no inventário, elas entram na política sem você redigitar.
+
+> ⚠️ **É um ponto de partida — a responsabilidade é da sua OSC**
+>
+> O texto usa modelos padrão de mercado e **não substitui revisão jurídica** nem garante validade legal. Por isso o padrão é **salvar como rascunho**: revise e, de preferência, submeta à **aprovação da diretoria** antes de publicar. Veja o [Aviso legal](/disclaimer/).
+
+> 🤖 **E a inteligência artificial?**
+>
+> Por ora, o Assistente é **determinístico** (sem IA): ele monta o texto a partir de modelos e dos seus dados. A estrutura já está preparada para, no futuro, oferecer geração e reescrita assistidas por IA — veja o [Roadmap](/roadmap/).
 
 ## A Galeria de Modelos
 

@@ -32,11 +32,13 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | **Migração entre sites** (exportar/importar) + preferência de desinstalação | 1.22–1.23 | [Configurações › Saída de Dados](/modulos/configuracoes/#saida-de-dados) |
 | **Assistente de Inventário** (diagnóstico guiado que autopreenche o ROPA) | 1.24–1.26 | [Inventário (ROPA)](/modulos/inventario-ropa/#assistente-de-inventario) |
 | **Assistente do RIPD** (triagem de necessidade + matriz de risco pré-preenchida) | 1.28 | [Fazer um RIPD com o Assistente](/guias/fazer-ripd-assistente/) |
+| **Assistente de Políticas** (privacidade e termos guiados, a partir dos seus dados) | 1.29 | [Políticas › O Assistente](/modulos/politicas/#o-assistente-de-politicas) |
 
 ## Em estudo
 
 | Recurso | Status | O que é |
 |---|---|---|
+| Assistentes com IA | 🔭 Em estudo | Geração e reescrita de textos (políticas, pareceres) assistidas por inteligência artificial. A estrutura dos assistentes já está preparada para receber IA; hoje eles funcionam de forma determinística (sem IA). |
 | Cadastros complementares | 🔭 Em estudo | Centralizar num só lugar operadores/contratados, transferências internacionais e um registro de ações do Encarregado (DPO). |
 | Mural de comunicados | 🔭 Em estudo | Avisos gerais da OSC aos inscritos/membros, por categoria. |
 | API completa | 🔭 Em estudo | Leitura e ação além dos webhooks, para integrações mais ricas. |
