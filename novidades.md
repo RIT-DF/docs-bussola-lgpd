@@ -8,6 +8,17 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.39 — Notícias da ANPD no Painel
+
+O **Painel** ganhou um bloco **"📰 Notícias da ANPD"** na 3ª coluna da seção superior (ao lado do anel de conformidade), com as **últimas manchetes** da Autoridade Nacional de Proteção de Dados.
+
+- Acompanhe **regulação, orientações, prazos e consultas públicas** sem sair do painel.
+- Cada manchete traz a **data** e abre a notícia no **site da ANPD** em nova aba.
+- É só informativo: **não** coleta nem envia nenhum dado da sua organização.
+- Se a fonte da ANPD ficar instável, o **painel continua normal** — o bloco mostra um link para o site.
+
+> No **Painel** (tela inicial), na 3ª coluna da seção superior. Detalhes em [Painel › Notícias da ANPD](/modulos/painel/#notícias-da-anpd).
+
 ## Versão 1.38 — Agora com formulários do Google
 
 O Verificador de Formulários passou a cobrir **Google Forms** — muito usados por OSCs para inscrições, doações e pesquisas.

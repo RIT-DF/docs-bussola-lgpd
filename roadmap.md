@@ -40,6 +40,7 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | **Verificador de Formulários** (analisa campos e aponta pendências de conformidade) | 1.35–1.36 | [Verificador de Formulários](/modulos/formularios/) |
 | **ROPA a partir do formulário** (gerar rascunho pré-preenchido + editar formulário em nova aba) | 1.37 | [Verificador de Formulários](/modulos/formularios/#criar-a-atividade-do-ropa-a-partir-do-formulário) |
 | **Formulários do Google** (cadastro por URL + autodescoberta + verificação + auto-ROPA) | 1.38 | [Formulários do Google](/modulos/formularios/#formulários-do-google-google-forms) |
+| **Notícias da ANPD no Painel** (últimas manchetes da ANPD, atualizadas automaticamente) | 1.39 | [Painel › Notícias da ANPD](/modulos/painel/#notícias-da-anpd) |
 
 ## Em estudo
 
@@ -49,7 +50,6 @@ Um panorama do que já foi entregue e das direções em estudo para as próximas
 | Cadastros complementares | 🔭 Em estudo | Centralizar num só lugar operadores/contratados, transferências internacionais e um registro de ações do Encarregado (DPO). |
 | Mural de comunicados | 🔭 Em estudo | Avisos gerais da OSC aos inscritos/membros, por categoria. |
 | API completa | 🔭 Em estudo | Leitura e ação além dos webhooks, para integrações mais ricas. |
-| Newsfeed da ANPD no painel | 🔭 Em estudo | Trazer notícias e orientações recentes da ANPD para a área do painel. |
 
 ## Como influenciar o roadmap
 

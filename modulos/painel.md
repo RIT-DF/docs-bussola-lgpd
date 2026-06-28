@@ -5,8 +5,8 @@ parent: "Módulos"
 permalink: /modulos/painel/
 role: encarregado
 routes: ["#/", "#/wizard"]
-screenshots: [blgpd-01-dashboard, blgpd-01b-dashboard-selo, blgpd-50-mapa-conformidade]
-last_verified: 2026-06-27
+screenshots: [blgpd-01-dashboard, blgpd-01b-dashboard-selo, blgpd-50-mapa-conformidade, blgpd-40-anpd-news]
+last_verified: 2026-06-28
 status: publicado
 ---
 
@@ -75,6 +75,17 @@ Acessível pelo menu **"Mapa de Conformidade"** (ou pelo botão "Ver mapa comple
 - ✅ **Verificado pelo sistema** — o que a ferramenta confere automaticamente, com status e atalho para resolver.
 - 📝 **Você atesta** — as 4 autodeclarações sob responsabilidade da OSC (contrato com operadores, treinamento, dados sensíveis, transferência internacional). Marque **Sim / Não / Não se aplica**.
 - ⚪ **Sob sua responsabilidade** — deveres que acontecem **fora** do plugin (comunicar incidente à ANPD, avaliar o RIPD, responder a fiscalizações).
+
+## Notícias da ANPD
+
+Na seção superior do Painel, na **3ª coluna** (à direita do anel de conformidade), há um bloco **"📰 Notícias da ANPD"** com as **últimas manchetes** da Autoridade Nacional de Proteção de Dados (regulação, orientações, prazos, consultas públicas).
+
+[![Notícias da ANPD no Painel](/assets/screenshots/blgpd-40-anpd-news.png)](/assets/screenshots/blgpd-40-anpd-news.png)
+*A seção superior do Painel em três colunas: Índice de Conformidade, o anel de % com o selo, e as Notícias da ANPD. Cada manchete tem data e abre a matéria no site da ANPD em nova aba.*
+
+- Cada manchete mostra a **data** e abre a notícia no **site da ANPD** (gov.br) em **nova aba**.
+- O bloco é só informativo, para você **se manter atualizado** sem sair do painel — não coleta nem envia nenhum dado da sua organização.
+- Se as notícias não carregarem (a fonte da ANPD pode ficar instável), o painel **continua funcionando normalmente** e o bloco mostra um link para o site da ANPD.
 
 ## Veja também
 
