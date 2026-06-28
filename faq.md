@@ -118,6 +118,10 @@ Sim. No Verificador, use **+ Adicionar Google Form** (cole a URL pública — o 
 
 Não. No relatório do **Verificador de Formulários**, o apontamento "Fora do Inventário" traz o botão **✨ Gerar rascunho de ROPA a partir dos campos**: ele abre o editor do Inventário **já preenchido** com as categorias de dados, a origem e — quando há pistas — a finalidade e a base legal (marcadas como **"sugestão — confirme"**). Você revisa, completa o que faltar e salva; o formulário já fica **vinculado** à atividade. Se a atividade **já existir**, prefira **vincular** o formulário a ela pelo seletor da tabela, em vez de criar outra. As sugestões são um ponto de partida — confira sempre a base legal. Passo a passo em [Criar a atividade do ROPA a partir do formulário](/modulos/formularios/#criar-a-atividade-do-ropa-a-partir-do-formulário).
 
+## Preciso verificar os formulários de novo toda vez que entro na tela?
+
+Não. O **Verificador de Formulários** **salva** o resultado de cada verificação: ao trocar de tela e voltar, o status de cada formulário continua lá, com a data ("verificado em DD/MM/AAAA HH:MM"). Use **"Ver relatório"** para reabrir o último resultado salvo e **"Reverificar"** quando quiser refazer a análise (por exemplo, depois de mudar o formulário). E se você vincular o formulário a um ROPA, o apontamento "fora do Inventário" some automaticamente ao voltar — sem reverificar. Detalhes em [Verificador de Formulários](/modulos/formularios/#o-resultado-fica-salvo).
+
 ## De onde vêm as "Notícias da ANPD" no Painel?
 
 São as **últimas manchetes publicadas no site da ANPD** (gov.br), trazidas automaticamente para a 3ª coluna da seção superior do Painel para você se manter atualizado sobre regulação, orientações e prazos. Cada título abre a matéria no site da ANPD em nova aba. O bloco é **só informativo** e **não envia nenhum dado** da sua organização à ANPD. As notícias ficam em cache e são atualizadas periodicamente; se o site da ANPD estiver instável, o painel continua funcionando e o bloco mostra um link para o site. Detalhes em [Painel › Notícias da ANPD](/modulos/painel/#notícias-da-anpd).

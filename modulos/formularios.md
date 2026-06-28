@@ -44,6 +44,15 @@ O item **Verificador de Formulários** do menu faz duas coisas: **analisa os cam
      - **Indícios de dados sensíveis**, que exigem cuidado e consentimento específico.
 3. O **status** de cada formulário na lista mostra ✅ sem pendências, ⚠️ com pendências, ou ⏳ não verificado.
 
+### O resultado fica salvo
+
+Depois de verificar, **o resultado fica guardado**: se você trocar de tela (ou for gerar um ROPA a partir de um formulário) e voltar, o status de cada formulário **continua lá** — com a indicação **"verificado em DD/MM/AAAA HH:MM"** — sem precisar verificar tudo de novo. Cada formulário já verificado mostra:
+
+- **Ver relatório** — reabre o último resultado salvo (sem refazer a análise).
+- **Reverificar** — refaz a análise e atualiza a data (use quando mudar o formulário ou quiser conferir de novo).
+
+> 💡 Se você **vincular** o formulário a uma atividade do ROPA (ou **gerar um ROPA** a partir dele), o apontamento "fora do Inventário (ROPA)" some **automaticamente** ao voltar à tela — sem precisar reverificar.
+
 ### Marcar um achado como revisado
 
 Avaliou um apontamento e concluiu que está tudo certo (ou é um falso alarme)? Clique em **Marcar como revisado** (com uma nota opcional). O achado fica **esmaecido** e deixa de contar como pendência. Você pode **Desfazer** quando quiser.

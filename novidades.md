@@ -8,6 +8,16 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.40 — O Verificador agora lembra do que você já verificou
+
+O **Verificador de Formulários** passou a **salvar o resultado** de cada verificação.
+
+- **Não precisa reverificar tudo ao voltar** — se você troca de tela (ou vai gerar um ROPA) e volta, o status de cada formulário **continua lá**, com **"verificado em DD/MM/AAAA HH:MM"**.
+- Cada formulário ganhou **"Ver relatório"** (reabre o último resultado salvo) e **"Reverificar"** (refaz e atualiza a data).
+- **Mais esperto com o ROPA** — se você vincular o formulário a uma atividade (ou gerar um ROPA a partir dele), o apontamento "fora do Inventário" **some sozinho** ao voltar à tela.
+
+> Em **Verificador de Formulários** no menu. Detalhes em [Verificador de Formulários](/modulos/formularios/#o-resultado-fica-salvo).
+
 ## Versão 1.39 — Notícias da ANPD no Painel
 
 O **Painel** ganhou um bloco **"📰 Notícias da ANPD"** na 3ª coluna da seção superior (ao lado do anel de conformidade), com as **últimas manchetes** da Autoridade Nacional de Proteção de Dados.
