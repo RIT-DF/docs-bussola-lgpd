@@ -41,10 +41,10 @@ Cubra, em linguagem simples, com exemplos do dia a dia da OSC:
 
 1. **O que são dados pessoais** e dados sensíveis (e por que merecem cuidado).
 2. **Os princípios** que guiam o trabalho: usar só o necessário, para a finalidade informada, com transparência.
-3. **Como tratar um pedido de titular** (alguém que quer ver, corrigir ou apagar os próprios dados) — e a quem encaminhar (o Encarregado/DPO).
+3. **Como tratar um pedido de titular** (alguém que quer ver, corrigir ou apagar os próprios dados) — e a quem encaminhar (o Encarregado).
 4. **Higiene de segurança**: senhas fortes e únicas, não compartilhar logins, cuidado com e-mails (phishing), bloquear a tela, atenção ao enviar para listas.
 5. **O que fazer diante de um incidente** (vazamento, perda, acesso indevido): avisar o Encarregado **imediatamente**, não tentar esconder.
-6. **Quem é o Encarregado (DPO)** da sua OSC e como falar com ele.
+6. **Quem é o Encarregado** da sua OSC e como falar com ele.
 
 ## Frequência e registro
 

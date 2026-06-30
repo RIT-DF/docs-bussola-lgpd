@@ -17,12 +17,12 @@ Uma política só fica visível ao público quando você **publica uma versão**
 
 ## Opção A — usar o Assistente (recomendado para a 1ª política)
 
-Antes de começar, garanta que a **razão social da organização** e o **Encarregado (DPO)** estão cadastrados em [Configurações](/guias/configurar-dpo/) — o Assistente exige os dois (sem eles, ele interrompe e leva você às Configurações).
+Antes de começar, garanta que a **razão social da organização** e o **Encarregado** estão cadastrados em [Configurações](/guias/configurar-dpo/) — o Assistente exige os dois (sem eles, ele interrompe e leva você às Configurações).
 
 1. Em **Políticas**, clique em **🪄 Usar Assistente**.
 2. Escolha o **tipo**: **Política de Privacidade** ou **Termos de Uso**.
 3. Responda à **triagem** (perguntas simples de sim/não) e confira as **seções** que vão entrar.
-4. O Assistente monta o **rascunho** com os dados da organização, do **DPO** e do **Inventário (ROPA)**. Revise e edite no editor. (Na Privacidade, ele ainda mostra **sugestões** e uma **revisão de coerência** com o ROPA.)
+4. O Assistente monta o **rascunho** com os dados da organização, do **Encarregado** e do **Inventário (ROPA)**. Revise e edite no editor. (Na Privacidade, ele ainda mostra **sugestões** e uma **revisão de coerência** com o ROPA.)
 5. Na **conclusão**, escolha **salvar como rascunho** (padrão, para aprovação interna) ou **publicar agora**.
 
 [![Assistente de Políticas](/assets/screenshots/blgpd-09-wizard.png)](/assets/screenshots/blgpd-09-wizard.png)
@@ -41,7 +41,7 @@ Antes de começar, garanta que a **razão social da organização** e o **Encarr
 [![Editor de política com checklist](/assets/screenshots/blgpd-03-policy-editor.png)](/assets/screenshots/blgpd-03-policy-editor.png)
 *Editor da política interna, com o campo de resumo e o histórico de versões.*
 
-4. Use o **Checklist LGPD** como guia: controlador, contato do DPO, finalidades, bases legais, direitos do titular, retenção, compartilhamento.
+4. Use o **Checklist LGPD** como guia: controlador, contato do Encarregado, finalidades, bases legais, direitos do titular, retenção, compartilhamento.
 5. Clique em **Publicar Versão**.
 
 ## Opção C — política externa (por link)

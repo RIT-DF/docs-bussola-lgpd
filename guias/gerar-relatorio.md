@@ -27,7 +27,7 @@ Um documento de uma página que mostra, em PDF, como anda a conformidade da sua 
 
 ## O que o relatório mostra
 
-- **Status de Conformidade** — política publicada, DPO nomeado, inventário mapeado, banner de cookies.
+- **Status de Conformidade** — política publicada, Encarregado nomeado, inventário mapeado, banner de cookies.
 - **Gestão de Direitos (DSAR)** — total de pedidos, concluídos, pendentes e tempo médio de resposta.
 - **Transparência** — quantas vezes o público acessou suas políticas.
 

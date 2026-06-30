@@ -15,12 +15,12 @@ status: publicado
 A **Central de Privacidade** é a página **pública** do seu site onde o titular faz tudo o que a LGPD lhe garante: ler as políticas, conhecer o Encarregado, ajustar cookies e abrir pedidos sobre seus dados.
 
 [![Central de Privacidade pública](/assets/screenshots/blgpd-22-dsar-form.png)](/assets/screenshots/blgpd-22-dsar-form.png)
-*A página reúne o formulário de direitos, a identidade do DPO e a Política de Privacidade ativa.*
+*A página reúne o formulário de direitos, a identidade do Encarregado e a Política de Privacidade ativa.*
 
 ## O que o titular vê
 
 - **Exercício de Direitos** — um formulário para abrir pedidos (acesso, correção, exclusão, portabilidade, revogação, informação sobre compartilhamento, outro).
-- **Identidade de Privacidade (DPO)** — nome/setor, e-mail e telefone do Encarregado, para contato direto.
+- **Identidade de Privacidade** — nome/setor, e-mail e telefone do Encarregado, para contato direto.
 - **Política de Privacidade** — a **versão ativa**, exibida na íntegra. Só políticas ativas aparecem — uma política [inativada](/modulos/politicas/#inativar-e-reativar-uma-politica) some da Central automaticamente.
 - **Banner de cookies** — na primeira visita (veja [Consentimento & Cookies](/modulos/consentimento/)).
 

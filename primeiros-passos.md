@@ -36,11 +36,11 @@ Clicar em **Continuar** abre o **roteiro guiado**: uma lista de etapas, cada uma
 
 > 💡 **O roteiro reflete a realidade, sozinho**
 >
-> Você não marca nada à mão. O plugin **detecta automaticamente** o que já foi feito — se você cadastra o DPO, o passo vira ✅ na hora; se depois despublica a política, o passo correspondente **volta a pendente**. O roteiro nunca "mente" sobre o seu estado.
+> Você não marca nada à mão. O plugin **detecta automaticamente** o que já foi feito — se você cadastra o Encarregado, o passo vira ✅ na hora; se depois despublica a política, o passo correspondente **volta a pendente**. O roteiro nunca "mente" sobre o seu estado.
 
 As etapas vêm em dois blocos:
 
-- **Essenciais** — o básico que mais protege a OSC: **Encarregado (DPO)**, **Política de Privacidade** e **Central de Privacidade**.
+- **Essenciais** — o básico que mais protege a OSC: **Encarregado**, **Política de Privacidade** e **Central de Privacidade**.
 - **Recomendados** — **Inventário (ROPA)**, **Consentimento / Cookies** e **Autodeclaração**.
 
 Há ainda um passo **Bônus** (Retenção & Expurgo), opcional, que **não** conta para a conclusão dos 6 essenciais/recomendados.
@@ -57,15 +57,15 @@ Há ainda um passo **Bônus** (Retenção & Expurgo), opcional, que **não** con
 
 Faça nesta ordem — cada passo destrava o próximo e faz o **Índice de Conformidade** do Dashboard subir.
 
-### 1. Cadastre o Encarregado (DPO)
+### 1. Cadastre o Encarregado
 
-Em **Configurações → Identidade (DPO)**, informe o nome (ou setor) responsável, o e-mail de contato e, opcionalmente, o telefone. Esses dados aparecem publicamente na Central de Privacidade — é por eles que o titular vai falar com a sua OSC.
+Em **Configurações → Identidade**, informe o nome (ou setor) responsável, o e-mail de contato e, opcionalmente, o telefone. Esses dados aparecem publicamente na Central de Privacidade — é por eles que o titular vai falar com a sua OSC.
 
-➡️ Passo a passo detalhado em **[Configurar o Encarregado (DPO)](/guias/configurar-dpo/)**.
+➡️ Passo a passo detalhado em **[Configurar o Encarregado](/guias/configurar-dpo/)**.
 
 ### 2. Crie e publique a Política de Privacidade
 
-Em **Políticas**, crie sua Política de Privacidade. Você pode escrever do zero, usar o **Assistente** (que pré-preenche com os dados do DPO e do inventário) ou partir de um modelo da **Galeria**. Ao final, **publique uma versão e marque-a como ativa** — só políticas ativas aparecem ao público.
+Em **Políticas**, crie sua Política de Privacidade. Você pode escrever do zero, usar o **Assistente** (que pré-preenche com os dados do Encarregado e do inventário) ou partir de um modelo da **Galeria**. Ao final, **publique uma versão e marque-a como ativa** — só políticas ativas aparecem ao público.
 
 ➡️ Veja **[Publicar uma política](/guias/publicar-politica/)**.
 
@@ -93,7 +93,7 @@ No Dashboard, clique em **Revisar Autodeclaração**. São perguntas simples (ex
 
 No topo do Dashboard há um **Índice de Conformidade** em percentual, sobre **6 itens**, dividido em dois grupos:
 
-- **Verificados pelo Sistema** — itens que o plugin confere sozinho: **Política ativa**, **DPO configurado**, **Central de Privacidade publicada**, **Consentimento / Cookies** (o banner ativo) e **Inventário preenchido**.
+- **Verificados pelo Sistema** — itens que o plugin confere sozinho: **Política ativa**, **Encarregado configurado**, **Central de Privacidade publicada**, **Consentimento / Cookies** (o banner ativo) e **Inventário preenchido**.
 - **Autodeclarados** — itens que dependem da sua resposta na Autodeclaração (ex.: **bases legais mapeadas**).
 
 O semáforo e o roteiro de Primeiros Passos usam **a mesma fonte** — então o que você vê num bate com o outro.

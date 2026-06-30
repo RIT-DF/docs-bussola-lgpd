@@ -27,7 +27,7 @@ Como funciona, em poucos passos:
 2. **Escopo a partir do ROPA** — você seleciona as **atividades do Inventário** que o RIPD vai cobrir. Se uma atividade já tem um RIPD, o assistente **avisa** e sugere revisar o existente (em vez de duplicar).
 3. **Matriz de risco pré-preenchida** — o assistente sugere os riscos comuns daquele tipo de tratamento, já com probabilidade, severidade, mitigação e risco residual. Tudo **editável**.
 4. **Necessidade e proporcionalidade** — texto inicial montado a partir do ROPA, editável.
-5. **Parecer e decisão do DPO** — campos para o Encarregado preencher (com exemplos de redação como referência).
+5. **Parecer e decisão do Encarregado** — campos para o Encarregado preencher (com exemplos de redação como referência).
 6. **Gerar rascunho** — o assistente cria o RIPD e abre no **editor**, onde você refina e **finaliza a versão**.
 
 [![Triagem do Assistente do RIPD](/assets/ripd-04-assistente-triagem.png)](/assets/ripd-04-assistente-triagem.png)
@@ -38,7 +38,7 @@ Como funciona, em poucos passos:
 
 > 💡 Passo a passo detalhado em [Fazer um RIPD com o Assistente](/guias/fazer-ripd-assistente/).
 
-> ⚠️ O assistente **estrutura e apoia**, mas a **análise e a decisão final são do Encarregado (DPO)** — não é parecer jurídico nem garante validade.
+> ⚠️ O assistente **estrutura e apoia**, mas a **análise e a decisão final são do Encarregado** — não é parecer jurídico nem garante validade.
 
 ## Criar manualmente
 

@@ -68,7 +68,7 @@ O editor tem:
 
 ## O Assistente de Políticas
 
-Em vez de começar da folha em branco, use o **🪄 Assistente**: um passo a passo guiado, em linguagem simples, que monta um rascunho de **Política de Privacidade** ou de **Termos de Uso** a partir das suas respostas e dos dados que o plugin já tem (organização, **DPO**, **Inventário/ROPA**, perfil de proteção de menores).
+Em vez de começar da folha em branco, use o **🪄 Assistente**: um passo a passo guiado, em linguagem simples, que monta um rascunho de **Política de Privacidade** ou de **Termos de Uso** a partir das suas respostas e dos dados que o plugin já tem (organização, **Encarregado**, **Inventário/ROPA**, perfil de proteção de menores).
 
 [![Assistente de Políticas](/assets/screenshots/blgpd-09-wizard.png)](/assets/screenshots/blgpd-09-wizard.png)
 *O Assistente guia você por tipo de política, triagem, seções e revisão do rascunho.*
@@ -76,7 +76,7 @@ Em vez de começar da folha em branco, use o **🪄 Assistente**: um passo a pas
 Como funciona, passo a passo:
 
 1. **Tipo** — escolha **Política de Privacidade** ou **Termos de Uso**.
-2. **Pré-requisitos** — o Assistente confere se a **razão social da organização** e o **Encarregado (DPO)** estão cadastrados. Sem esses dois, ele **interrompe** e leva você às Configurações (a política precisa identificar o controlador e o contato do Encarregado — Art. 41 da LGPD). Se o seu Inventário (ROPA) estiver vazio, ele apenas **avisa** — você pode seguir, mas a política fica mais genérica.
+2. **Pré-requisitos** — o Assistente confere se a **razão social da organização** e o **Encarregado** estão cadastrados. Sem esses dois, ele **interrompe** e leva você às Configurações (a política precisa identificar o controlador e o contato do Encarregado — Art. 41 da LGPD). Se o seu Inventário (ROPA) estiver vazio, ele apenas **avisa** — você pode seguir, mas a política fica mais genérica.
 3. **Triagem** — perguntas simples de sim/não (formulários, cookies de terceiros, menores, transferência internacional, decisões automatizadas) que decidem quais cláusulas entram.
 4. **Seções** — as seções obrigatórias entram sempre; as opcionais já vêm marcadas conforme suas respostas, e você ajusta.
 5. **Rascunho** — o texto montado aparece num editor para você revisar e editar. Para a Privacidade, o Assistente ainda mostra **sugestões** (cláusulas que talvez faltem) e uma **revisão de coerência** com o seu Inventário (ROPA).
@@ -84,7 +84,7 @@ Como funciona, passo a passo:
 
 > 💡 **Por que isso importa**
 >
-> O Assistente conecta o que você já cadastrou (organização, DPO, inventário) ao texto da política. Isso reduz erro e retrabalho: se a finalidade e a base legal já estão no inventário, elas entram na política sem você redigitar.
+> O Assistente conecta o que você já cadastrou (organização, Encarregado, inventário) ao texto da política. Isso reduz erro e retrabalho: se a finalidade e a base legal já estão no inventário, elas entram na política sem você redigitar.
 
 > ⚠️ **É um ponto de partida — a responsabilidade é da sua OSC**
 >
@@ -142,7 +142,7 @@ Como funciona:
 
 ## Excluir uma política
 
-Quando uma política realmente não deve mais existir, use **Excluir** (botão vermelho na lista). O que acontece depende do **Modo de Exclusão** configurado em [Configurações → Identidade (DPO)](/guias/configurar-dpo/):
+Quando uma política realmente não deve mais existir, use **Excluir** (botão vermelho na lista). O que acontece depende do **Modo de Exclusão** configurado em [Configurações → Identidade](/guias/configurar-dpo/):
 
 - **Arquivar (soft delete)** — a política sai do painel e do site, mas o **registro é preservado** (conteúdo, histórico de versões e auditoria continuam no sistema). Rastreabilidade mantida.
 - **Excluir em definitivo (hard delete)** — a política e **todo o seu histórico de versões são apagados** do sistema. **Você perde a rastreabilidade** de qual texto esteve no ar e quando. É irreversível.

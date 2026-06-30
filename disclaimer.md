@@ -10,7 +10,7 @@ permalink: /disclaimer/
 
 O **Bússola LGPD** é uma **ferramenta de apoio à gestão** da conformidade com a LGPD (Lei nº 13.709/2018). Em resumo:
 
-- **Não garante** a conformidade jurídica da sua OSC, **não substitui** o aconselhamento de um advogado nem o papel do **Encarregado (DPO)** e **não isenta** a OSC de responsabilidade legal.
+- **Não garante** a conformidade jurídica da sua OSC, **não substitui** o aconselhamento de um advogado nem o papel do **Encarregado** e **não isenta** a OSC de responsabilidade legal.
 - A **responsabilidade jurídica** por tudo o que for produzido e tratado com a ferramenta é **integralmente da OSC** (controladora dos dados). A **RIT** e a **[V3RTECH](https://v3rtech.com.br/){:target="_blank" rel="noopener"}** atuam apenas como **fornecedoras da ferramenta**.
 - O **Índice de Conformidade** e demais indicadores servem **apenas para controle interno de progresso** — **não** são certificado ou atestado perante a ANPD, financiadores ou terceiros.
 

@@ -46,9 +46,9 @@ A lei é fiscalizada pela **ANPD — Autoridade Nacional de Proteção de Dados*
 >
 > É **quem trata dados em nome do controlador**, seguindo suas instruções — por exemplo, a plataforma de e-mail marketing, o sistema de gestão, o serviço de nuvem. Sua OSC continua responsável por escolher operadores confiáveis.
 
-> 📖 **Encarregado (DPO)**
+> 📖 **Encarregado**
 >
-> É a pessoa (ou setor) que faz a **ponte entre a OSC, os titulares e a ANPD**. Recebe reclamações, presta esclarecimentos e orienta a equipe. Não precisa ser advogado nem ter dedicação exclusiva — mas precisa existir e estar acessível. No Bússola LGPD, é o "DPO" que você cadastra em Configurações.
+> É a pessoa (ou setor) que faz a **ponte entre a OSC, os titulares e a ANPD**. Recebe reclamações, presta esclarecimentos e orienta a equipe. Não precisa ser advogado nem ter dedicação exclusiva — mas precisa existir e estar acessível. No Bússola LGPD, é o "Encarregado" que você cadastra em Configurações.
 
 ## As bases legais (Art. 7º e 11)
 

@@ -8,14 +8,14 @@ permalink: /papeis/
 
 O Bússola LGPD é usado por pessoas diferentes, com objetivos diferentes. Saber em qual papel você está ajuda a achar rápido o que precisa.
 
-## Encarregado (DPO) / Administrador da OSC
+## Encarregado / Administrador da OSC
 
-É quem **opera** o plugin no painel do WordPress: cadastra o DPO, cria e publica políticas, mantém o inventário, atende aos pedidos dos titulares e registra incidentes. Na maioria das OSCs, é a mesma pessoa que assume o papel de Encarregado.
+É quem **opera** o plugin no painel do WordPress: define o **Encarregado** (em inglês, *DPO — Data Protection Officer*), cria e publica políticas, mantém o inventário, atende aos pedidos dos titulares e registra incidentes. Na maioria das OSCs, é a mesma pessoa que assume o papel de Encarregado.
 
 **Trilha sugerida:**
 
 1. [Primeiros Passos](/primeiros-passos/)
-2. [Configurar o Encarregado (DPO)](/guias/configurar-dpo/)
+2. [Configurar o Encarregado](/guias/configurar-dpo/)
 3. [Publicar uma política](/guias/publicar-politica/)
 4. [Publicar a Central de Privacidade](/guias/publicar-central-privacidade/)
 5. [Atender uma solicitação de titular](/guias/atender-solicitacao/)

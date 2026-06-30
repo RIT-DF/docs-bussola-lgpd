@@ -24,7 +24,7 @@ Se a sua OSC trabalha com **crianças e adolescentes** — projetos sociais, esp
 
 ## Antes de começar
 
-Tenha o **Encarregado (DPO)** já cadastrado — vários dos passos abaixo usam esse contato. Se ainda não fez, comece por [Configurar o Encarregado (DPO)](/guias/configurar-dpo/).
+Tenha o **Encarregado** já cadastrado — vários dos passos abaixo usam esse contato. Se ainda não fez, comece por [Configurar o Encarregado](/guias/configurar-dpo/).
 
 ## Passo 1 — Descobrir o que se aplica a você (enquadramento)
 

@@ -1,5 +1,5 @@
 ---
-title: "Ações do DPO"
+title: "Ações do Encarregado"
 nav_order: 12
 parent: "Módulos"
 permalink: /modulos/acoes-dpo/
@@ -10,11 +10,11 @@ last_verified: 2026-06-28
 status: publicado
 ---
 
-# Ações do DPO
+# Ações do Encarregado
 
-O módulo **Ações do DPO** é o lugar onde o **encarregado** (DPO) registra as iniciativas que realiza ao longo do tempo — um **diário de accountability** da organização. É a resposta para a pergunta que um financiador, uma auditoria ou a ANPD podem fazer: *"o que vocês têm feito, na prática, pela proteção de dados?"*
+O módulo **Ações do Encarregado** é o lugar onde o **encarregado** registra as iniciativas que realiza ao longo do tempo — um **diário de accountability** da organização. É a resposta para a pergunta que um financiador, uma auditoria ou a ANPD podem fazer: *"o que vocês têm feito, na prática, pela proteção de dados?"*
 
-[![Lista de ações do DPO](/assets/screenshots/blgpd-dpo-01-lista.png)](/assets/screenshots/blgpd-dpo-01-lista.png)
+[![Lista de ações do Encarregado](/assets/screenshots/blgpd-dpo-01-lista.png)](/assets/screenshots/blgpd-dpo-01-lista.png)
 *Cada ação registra tipo, data, título e — quando você quiser — status, responsável, evidência e vínculo.*
 
 > 💡 **Por que isso importa**
@@ -61,7 +61,7 @@ Opcionalmente, uma ação pode **apontar para outro item** do sistema — um **I
 
 O botão **📄 Relatório** abre uma visão **imprimível (PDF)** com o cabeçalho da organização e as ações do período/tipo que você filtrar. É o documento que você entrega a um financiador, leva a uma auditoria ou guarda como evidência.
 
-[![Relatório de ações do DPO](/assets/screenshots/blgpd-dpo-03-relatorio.png)](/assets/screenshots/blgpd-dpo-03-relatorio.png)
+[![Relatório de ações do Encarregado](/assets/screenshots/blgpd-dpo-03-relatorio.png)](/assets/screenshots/blgpd-dpo-03-relatorio.png)
 *Relatório imprimível, com filtro por período e tipo.*
 
 > ⚠️ **Atenção**
@@ -70,4 +70,4 @@ O botão **📄 Relatório** abre uma visão **imprimível (PDF)** com o cabeça
 
 ## Como fazer
 
-➡️ Passo a passo em **[Registrar uma ação do DPO](/guias/registrar-acoes-dpo/)**.
+➡️ Passo a passo em **[Registrar uma ação do Encarregado](/guias/registrar-acoes-dpo/)**.

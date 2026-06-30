@@ -104,7 +104,7 @@ permalink: /
   <a class="module-card" href="/modulos/configuracoes/">
     <div class="module-card-icon">⚙️</div>
     <div class="module-card-title">Configurações</div>
-    <div class="module-card-desc">Dados da OSC, encarregado (DPO), enquadramento e preferências</div>
+    <div class="module-card-desc">Dados da OSC, encarregado, enquadramento e preferências</div>
   </a>
 </div>
 

@@ -31,7 +31,7 @@ A Central de Privacidade é a página pública onde o titular lê suas política
 
 Para inserir a Central (ou só o formulário) em outra página, inclusive em construtores como Elementor, use os shortcodes:
 
-- `[bussola_lgpd_privacidade]` — a Central completa (políticas + DPO + formulário + cookies). **Recomendado.**
+- `[bussola_lgpd_privacidade]` — a Central completa (políticas + Encarregado + formulário + cookies). **Recomendado.**
 - `[bussola_lgpd_solicitacao]` — apenas o formulário de pedidos (ideal numa página de Contato).
 - `[bussola_lgpd_politica id="1"]` — uma política específica, pelo seu ID (mostrado na lista de [Políticas](/modulos/politicas/)).
 - `[bussola_lgpd_dpo]` — o contato/identidade do Encarregado.

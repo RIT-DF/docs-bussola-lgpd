@@ -14,9 +14,25 @@ Sim. A LGPD não tem isenção por porte ou por ser entidade sem fins lucrativos
 
 Não para **usar** a ferramenta. Mas as **decisões jurídicas** (qual base legal, conteúdo final das políticas, casos sensíveis) devem ser validadas, idealmente, por apoio jurídico. O plugin organiza; a responsabilidade é da OSC. Veja o [Aviso legal](/disclaimer/).
 
-## O Encarregado (DPO) precisa ser advogado?
+## O Encarregado precisa ser advogado?
 
 Não. O Encarregado pode ser um voluntário, funcionário ou setor. Precisa estar acessível aos titulares e à ANPD e ter respaldo interno. Veja [Papéis](/papeis/).
+
+## Posso dar acesso ao plugin para mais de uma pessoa da minha equipe?
+
+Sim. Na tela **Equipe / Acessos** (visível só para o administrador do WordPress), você define um papel para cada usuário — **Encarregado**, **Atendente** ou **Auditor** — sem precisar torná-lo administrador do site. Veja [Equipe / Acessos](/modulos/equipe-acessos/).
+
+## Qual a diferença entre o Atendente e o Encarregado?
+
+O **Encarregado** opera toda a conformidade (políticas, ROPA, incidentes, configurações…) e assina as ações irreversíveis (excluir dados de um pedido, comunicar um incidente aos titulares). O **Atendente** faz a triagem do dia a dia — recebe e responde pedidos, registra incidentes, cuida de consentimentos e denúncias —, mas as ações irreversíveis ficam bloqueadas para ele, que envolve o Encarregado nessas situações. Veja [Equipe / Acessos](/modulos/equipe-acessos/).
+
+## Posso dar acesso de leitura a um conselheiro ou financiador sem que ele altere nada?
+
+Sim. O papel **Auditor** dá acesso **somente leitura** a todos os módulos: a pessoa consulta painel, inventário, relatórios e mapa de conformidade, mas não cria, edita nem exclui nada. É o caminho indicado para prestação de contas ou revisão externa. Veja [Equipe / Acessos](/modulos/equipe-acessos/).
+
+## Quem já usa o plugin precisa fazer algo depois dessa atualização?
+
+Não. Nada muda nas instalações existentes: o administrador do WordPress continua com acesso total e o controle por papéis só passa a valer quando você decidir atribuir papéis a outras pessoas em **Equipe / Acessos**.
 
 ## Qual o prazo para responder um pedido de titular?
 
@@ -26,7 +42,7 @@ A referência usada no plugin é de **15 dias**. O módulo de [Atendimentos](/mo
 
 É uma confirmação por e-mail: quando alguém abre um pedido, o plugin envia um link de confirmação para o e-mail informado. O pedido só entra na fila **depois** que a pessoa clica no link. Isso evita pedidos falsos e confirma que o e-mail pertence a quem pediu. Veja [Como o titular exerce seus direitos](/guias/titular-exercer-direitos/).
 
-## O titular consegue resolver sozinho, sem o DPO?
+## O titular consegue resolver sozinho, sem o Encarregado?
 
 Para pedidos **simples e seguros** (acesso/confirmação, portabilidade, informação sobre compartilhamento), sim — é o **auto-atendimento (self-service)**: após confirmar o e-mail, a pessoa já recebe o resultado. Pedidos de **exclusão/anonimização** continuam passando pelo Encarregado, por serem irreversíveis. Veja [Atendimentos](/modulos/atendimentos/).
 
@@ -100,7 +116,7 @@ A comunicação à ANPD e aos titulares cabe quando o incidente puder acarretar 
 
 ## Qual a diferença entre o "Verificado" e o "Atestado" no Mapa de Conformidade?
 
-**Verificado** é o que a ferramenta **confere automaticamente** (ex.: Política de Privacidade ativa, DPO configurado, Central publicada) — é o que forma o percentual do anel. **Atestado** é a parte **autodeclarada** pela sua OSC: você afirma que cumpriu algo que o sistema não tem como checar sozinho. Os atestados aparecem separados, em roxo ("Atestado: X de 4"), e **não inflam** o percentual verificado. Veja [Painel e Mapa de Conformidade](/modulos/painel/).
+**Verificado** é o que a ferramenta **confere automaticamente** (ex.: Política de Privacidade ativa, Encarregado configurado, Central publicada) — é o que forma o percentual do anel. **Atestado** é a parte **autodeclarada** pela sua OSC: você afirma que cumpriu algo que o sistema não tem como checar sozinho. Os atestados aparecem separados, em roxo ("Atestado: X de 4"), e **não inflam** o percentual verificado. Veja [Painel e Mapa de Conformidade](/modulos/painel/).
 
 ## Como envio uma sugestão ou relato um problema do plugin?
 

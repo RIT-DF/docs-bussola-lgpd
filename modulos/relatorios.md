@@ -21,7 +21,7 @@ Dado registrado só vale se vira **informação para prestar contas**. Este mód
 
 Acessível pelo botão **Exportar Relatório** no [Painel](/modulos/painel/), o relatório consolida num documento pronto para imprimir ou salvar em PDF:
 
-- **Status de Conformidade** — política publicada, DPO nomeado, inventário mapeado, banner de cookies.
+- **Status de Conformidade** — política publicada, Encarregado nomeado, inventário mapeado, banner de cookies.
 - **Gestão de Direitos (DSAR)** — total de pedidos, concluídos, pendentes (no prazo e atrasados) e tempo médio de resposta.
 - **Transparência** — visualizações da Central de Privacidade.
 

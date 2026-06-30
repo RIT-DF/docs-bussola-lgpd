@@ -21,7 +21,7 @@ O uso da ferramenta — incluindo instalação, configuração e operação no s
 O Bússola LGPD é instrumento de apoio e **NÃO**:
 
 - **garante** a conformidade jurídica da OSC com a LGPD;
-- **substitui** a análise e o aconselhamento de um advogado ou profissional jurídico qualificado, nem o papel do **Encarregado (DPO)**;
+- **substitui** a análise e o aconselhamento de um advogado ou profissional jurídico qualificado, nem o papel do **Encarregado**;
 - **decide** por você qual base legal aplicar, nem produz documentos juridicamente validados para o caso concreto;
 - **isenta** a OSC de qualquer responsabilidade legal.
 

@@ -8,6 +8,18 @@ permalink: /novidades/
 
 O que mudou no Bússola LGPD, em linguagem leve. Para o histórico técnico completo, fale com a equipe de implantação.
 
+## Versão 1.41 — Controle de quem faz o quê na equipe
+
+O Bússola LGPD ganhou a tela **Equipe / Acessos**. Antes, ou a pessoa era administradora do WordPress (e via tudo) ou não entrava no plugin. Agora o administrador pode **dar acesso ao plugin a outras pessoas da equipe sem torná-las administradoras do site**, escolhendo um papel para cada uma:
+
+- **Encarregado** — opera toda a conformidade; não faz migração nem desinstalação.
+- **Atendente** — cuida do dia a dia com os titulares (atendimentos, consentimentos, denúncias, incidentes); não executa exclusões de dados nem comunica incidentes (isso fica com o Encarregado).
+- **Auditor** — **somente leitura** em tudo; ideal para financiadores, conselheiros e revisores externos.
+
+O administrador do WordPress continua com acesso total, e nada muda nas instalações que já estão no ar — o controle por papéis só "liga" quando o administrador atribui papéis. A tela tem **busca e paginação**, pensada para sites com muitos usuários, e é **exclusiva do administrador**.
+
+> Em **Equipe / Acessos** no menu (visível só para administradores). Detalhes em [Equipe / Acessos](/modulos/equipe-acessos/).
+
 ## Versão 1.40 — O Verificador agora lembra do que você já verificou
 
 O **Verificador de Formulários** passou a **salvar o resultado** de cada verificação.
@@ -89,23 +101,23 @@ O atendimento às solicitações de titulares (DSAR) ganhou mais segurança e me
 
 > Veja [Atendimentos (DSAR)](/modulos/atendimentos/) e o passo a passo em [Atender uma solicitação](/guias/atender-solicitacao/). A ferramenta **ajuda** o Encarregado a atender; **não** substitui a análise dele nem garante conformidade.
 
-## Versão 1.30 — Ações do DPO
+## Versão 1.30 — Ações do Encarregado
 
 Um novo módulo para o **encarregado registrar o que faz** — e ter, a qualquer momento, um relatório pronto para prestação de contas.
 
-- **Registro de Ações do DPO** — anote projetos, capacitações, pontos de atenção, auditorias, contatos com a ANPD, reuniões e anotações. Por padrão é leve (tipo, título, descrição, data); quando quiser planejar, há **status, prazo e responsável** opcionais.
+- **Registro de Ações do Encarregado** — anote projetos, capacitações, pontos de atenção, auditorias, contatos com a ANPD, reuniões e anotações. Por padrão é leve (tipo, título, descrição, data); quando quiser planejar, há **status, prazo e responsável** opcionais.
 - **Evidência protegida** — anexe um arquivo (PDF, imagem, documento) que fica em **área protegida** (não acessível por link público, diferente da galeria de mídia) **ou** informe um **link**, com um botão para **verificar** se ele responde.
 - **Vínculo opcional** — ligue uma ação a um Incidente, RIPD ou atividade do Inventário (ROPA) para dar rastreabilidade.
 - **Relatório imprimível** — gere um PDF com o cabeçalho da organização e as ações do período/tipo que escolher — ideal para financiadores, auditoria ou a ANPD.
 
-> Em **Ações do DPO** (entre Retenção e Configurações no menu). Passo a passo em [Registrar uma ação do DPO](/guias/registrar-acoes-dpo/); detalhes em [Ações do DPO](/modulos/acoes-dpo/). O módulo **ajuda** a demonstrar o trabalho do encarregado; **não** garante conformidade nem substitui assessoria jurídica.
+> Em **Ações do Encarregado** (entre Retenção e Configurações no menu). Passo a passo em [Registrar uma ação do Encarregado](/guias/registrar-acoes-dpo/); detalhes em [Ações do Encarregado](/modulos/acoes-dpo/). O módulo **ajuda** a demonstrar o trabalho do encarregado; **não** garante conformidade nem substitui assessoria jurídica.
 
 ## Versão 1.29 — Assistente de Políticas
 
 Completando a família de assistentes (Inventário e RIPD), agora **criar uma Política de Privacidade ou Termos de Uso** também é um passo a passo guiado — sem encarar a folha em branco.
 
-- **Assistente de Políticas** — escolha o tipo (**Privacidade** ou **Termos de Uso**), responda a uma **triagem** de perguntas simples e o assistente monta um **rascunho sob medida** a partir dos dados que o plugin já tem (organização, **DPO**, **Inventário/ROPA**, perfil de menores).
-- **Confere o essencial antes de começar** — se faltar a **razão social** ou o **Encarregado (DPO)**, o assistente interrompe e leva você às Configurações (a política precisa identificar o controlador e o contato do DPO). Inventário vazio? Ele só avisa — você pode seguir.
+- **Assistente de Políticas** — escolha o tipo (**Privacidade** ou **Termos de Uso**), responda a uma **triagem** de perguntas simples e o assistente monta um **rascunho sob medida** a partir dos dados que o plugin já tem (organização, **Encarregado**, **Inventário/ROPA**, perfil de menores).
+- **Confere o essencial antes de começar** — se faltar a **razão social** ou o **Encarregado**, o assistente interrompe e leva você às Configurações (a política precisa identificar o controlador e o contato do Encarregado). Inventário vazio? Ele só avisa — você pode seguir.
 - **Sugestões e revisão** — na Política de Privacidade, ele aponta cláusulas que talvez faltem e confere se o texto está **coerente com o seu Inventário (ROPA)**.
 - **Você decide quando publicar** — o padrão é **salvar como rascunho** para aprovação interna; publicar é uma escolha explícita. O texto é um ponto de partida (modelos de mercado) e **não substitui revisão jurídica**.
 - **Novo cadastro da Organização** — em Configurações há uma aba **Organização** (razão social, CNPJ, endereço, contato), reaproveitada nas políticas e nos relatórios.
@@ -117,9 +129,9 @@ Completando a família de assistentes (Inventário e RIPD), agora **criar uma Po
 Depois do Assistente de Inventário, agora o **Relatório de Impacto (RIPD)** também tem um assistente — e o documento mais técnico da LGPD fica acessível para quem não é da área.
 
 - **Assistente do RIPD** — em vez de encarar um documento em branco, você responde uma **triagem** de perguntas sim/não e o assistente diz **se vale fazer o RIPD** e por quê. Em seguida, monta um **rascunho** a partir do seu Inventário: já traz a **matriz de risco pré-preenchida** (com probabilidade, severidade, mitigação e risco residual sugeridos) e a **necessidade/proporcionalidade** redigida a partir das atividades. Você revisa tudo e finaliza no editor.
-- **O parecer e a decisão continuam seus** — os campos de **Parecer do Encarregado (DPO)** e **Decisão** ficam por sua conta (com exemplos de redação como referência): o assistente organiza, mas a análise final é do DPO.
+- **O parecer e a decisão continuam seus** — os campos de **Parecer do Encarregado** e **Decisão** ficam por sua conta (com exemplos de redação como referência): o assistente organiza, mas a análise final é do Encarregado.
 - **Não duplica trabalho** — se a atividade escolhida já tiver um RIPD, o assistente avisa e sugere revisar o existente.
-- **Termos de Uso** — o manual ganhou uma página de **[Termos de Uso](/termos-de-uso/)**, deixando claro que a ferramenta **ajuda, mas não substitui** o DPO nem garante conformidade, e que a responsabilidade é da OSC.
+- **Termos de Uso** — o manual ganhou uma página de **[Termos de Uso](/termos-de-uso/)**, deixando claro que a ferramenta **ajuda, mas não substitui** o Encarregado nem garante conformidade, e que a responsabilidade é da OSC.
 - **Visual mais consistente** — botões, links e destaques de toda a interface passaram a usar as cores oficiais da identidade visual.
 
 > Em **RIPD**, botão **✨ Assistente de RIPD**. Passo a passo em [Fazer um RIPD com o Assistente](/guias/fazer-ripd-assistente/); detalhes do módulo em [RIPD](/modulos/ripd/). O assistente **ajuda** a elaborar o RIPD; **não** é parecer jurídico.
@@ -187,7 +199,7 @@ Chegou o apoio ao **ECA Digital** (Lei 15.211/2025), a lei que protege crianças
 
 ## Versão 1.6 — Excluir políticas (com cuidado)
 
-- **Excluir política** — além de **inativar** (que só tira do site e é reversível), agora dá para **excluir** uma política de vez. O comportamento segue o **Modo de Exclusão** configurado em Configurações → Identidade (DPO): *arquivar* (mantém o registro para auditoria, mas some do painel) ou *excluir em definitivo* (apaga também o histórico de versões — **perde-se a rastreabilidade** de qual texto esteve no ar e quando). Antes de excluir, o sistema mostra um aviso claro e recomenda usar **Inativar** quando o objetivo é apenas tirar do site. Os **consentimentos já coletados nunca são apagados**, em nenhuma modalidade. Veja [Políticas › Excluir](/modulos/politicas/#excluir-uma-politica).
+- **Excluir política** — além de **inativar** (que só tira do site e é reversível), agora dá para **excluir** uma política de vez. O comportamento segue o **Modo de Exclusão** configurado em Configurações → Identidade: *arquivar* (mantém o registro para auditoria, mas some do painel) ou *excluir em definitivo* (apaga também o histórico de versões — **perde-se a rastreabilidade** de qual texto esteve no ar e quando). Antes de excluir, o sistema mostra um aviso claro e recomenda usar **Inativar** quando o objetivo é apenas tirar do site. Os **consentimentos já coletados nunca são apagados**, em nenhuma modalidade. Veja [Políticas › Excluir](/modulos/politicas/#excluir-uma-politica).
 - **Correção visual (1.6.1)** — políticas externas (por link) deixaram de exibir, na lista, os avisos de "versões publicadas / nenhuma versão ativa" (que só fazem sentido para políticas internas) — evitando a impressão de que estariam incompletas.
 
 ## Versão 1.5 — Ative e desative políticas sem apagar nada
@@ -241,8 +253,8 @@ Veja o passo a passo em [Retenção & Expurgo](/modulos/retencao/).
 A primeira versão do produto entrega a base da conformidade para OSCs:
 
 - **Painel de conformidade** com Índice (verificado + autodeclarado), indicadores de atendimentos (DSAR) e visualizações das políticas.
-- **Gestão de políticas** com versionamento, aceite por versão, editor com checklist da LGPD, **Assistente** que pré-preenche a partir do DPO e do inventário, e **Galeria de Modelos**.
-- **Central de Privacidade pública** gerada automaticamente, com políticas ativas, identidade do DPO e formulário de pedidos.
+- **Gestão de políticas** com versionamento, aceite por versão, editor com checklist da LGPD, **Assistente** que pré-preenche a partir do Encarregado e do inventário, e **Galeria de Modelos**.
+- **Central de Privacidade pública** gerada automaticamente, com políticas ativas, identidade do Encarregado e formulário de pedidos.
 - **Atendimentos (DSAR)** com duplo opt-in, controle de prazo (SLA), **execução assistida** (localizar, exportar e eliminar sob comando do Encarregado) e **auto-atendimento** para pedidos simples.
 - **Consentimento**: banner de cookies (scripts só carregam com consentimento) e conectores para formulários populares.
 - **Incidentes**: registro e comunicação rastreável aos titulares afetados.

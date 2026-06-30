@@ -19,7 +19,7 @@ O ECA Digital (art. 16) pede que pais, responsáveis e os próprios menores poss
 Há um **shortcode** dedicado: `[bussola_lgpd_transparencia_menores]`. Coloque-o na sua **Central de Privacidade** (ou em outra página pública). Quando o enquadramento indica dados de menores, ele exibe um **card** com:
 
 - uma explicação acessível sobre o compromisso com a proteção de crianças;
-- o **contato do Encarregado (DPO)**;
+- o **contato do Encarregado**;
 - links para a **Política de Privacidade** e para abrir uma **solicitação de direitos**.
 
 <!-- screenshot: eca-05 — card público de transparência aos pais -->

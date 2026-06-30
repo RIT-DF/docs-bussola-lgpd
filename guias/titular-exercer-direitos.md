@@ -20,7 +20,7 @@ Esta página é para **você, titular** — a pessoa cujos dados uma OSC trata. 
 
 ## Onde fazer
 
-Acesse a **Central de Privacidade** no site da organização (geralmente um link "Privacidade" no rodapé, num endereço como `site.org/central-de-privacidade/`). Lá você encontra as políticas, o contato do Encarregado (DPO) e o formulário.
+Acesse a **Central de Privacidade** no site da organização (geralmente um link "Privacidade" no rodapé, num endereço como `site.org/central-de-privacidade/`). Lá você encontra as políticas, o contato do Encarregado e o formulário.
 
 ## Passo a passo
 
@@ -42,7 +42,7 @@ Acesse a **Central de Privacidade** no site da organização (geralmente um link
 
 ## O que acontece depois
 
-Ao confirmar o e-mail, você verá a mensagem de que o pedido foi **encaminhado ao Encarregado (DPO)** e será analisado — o prazo de referência é de **15 dias úteis**. **A resposta chega por e-mail**, no endereço que você informou.
+Ao confirmar o e-mail, você verá a mensagem de que o pedido foi **encaminhado ao Encarregado** e será analisado — o prazo de referência é de **15 dias úteis**. **A resposta chega por e-mail**, no endereço que você informou.
 
 > 💡 **Por que não é na hora?**
 >
@@ -56,4 +56,4 @@ Na primeira visita ao site, você decide sobre cookies: **Aceitar Todos**, **Rec
 
 ## Não obteve resposta?
 
-Fale com o **Encarregado (DPO)** pelo e-mail informado na Central. Se ainda assim não for atendido, você pode recorrer à [ANPD](https://www.gov.br/anpd/pt-br){:target="_blank" rel="noopener"}.
+Fale com o **Encarregado** pelo e-mail informado na Central. Se ainda assim não for atendido, você pode recorrer à [ANPD](https://www.gov.br/anpd/pt-br){:target="_blank" rel="noopener"}.

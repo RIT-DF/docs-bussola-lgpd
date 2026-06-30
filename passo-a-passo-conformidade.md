@@ -20,11 +20,11 @@ Antes de qualquer planilha, a diretoria precisa comprar a ideia. Adequação à 
 >
 > Apresente a LGPD ao conselho não como "risco de multa", mas como **confiança e profissionalismo**. Financiadores cada vez mais perguntam sobre proteção de dados. Estar organizado é diferencial de captação.
 
-## Etapa 1 — Nomeie o Encarregado (DPO)
+## Etapa 1 — Nomeie o Encarregado
 
 Escolha quem vai responder pelos dados na sua OSC. Pode ser um voluntário, um funcionário ou um setor. O importante é que a pessoa esteja **acessível** e tenha **respaldo** para cobrar as áreas.
 
-**No plugin:** cadastre o Encarregado em **Configurações → Identidade (DPO)**. Esses dados ficarão visíveis na Central de Privacidade. → [Guia](/guias/configurar-dpo/)
+**No plugin:** cadastre o Encarregado em **Configurações → Identidade**. Esses dados ficarão visíveis na Central de Privacidade. → [Guia](/guias/configurar-dpo/)
 
 ## Etapa 2 — Mapeie os dados (Inventário / ROPA)
 
@@ -55,7 +55,7 @@ Para cada atividade do inventário, escolha a base legal mais adequada (veja [Co
 
 Com o inventário e as bases definidas, escreva sua **Política de Privacidade** — o documento que explica ao público, em linguagem clara, o que você faz com os dados dele. A LGPD valoriza **transparência**: a pessoa tem direito de saber.
 
-**No plugin:** o módulo **[Políticas](/modulos/politicas/)** tem um **Assistente** que monta um rascunho a partir do DPO e do inventário, um **editor** com checklist dos itens obrigatórios e **versionamento** (toda mudança gera uma nova versão, com histórico). → [Guia](/guias/publicar-politica/)
+**No plugin:** o módulo **[Políticas](/modulos/politicas/)** tem um **Assistente** que monta um rascunho a partir do Encarregado e do inventário, um **editor** com checklist dos itens obrigatórios e **versionamento** (toda mudança gera uma nova versão, com histórico). → [Guia](/guias/publicar-politica/)
 
 > ✅ **Boas práticas**
 >

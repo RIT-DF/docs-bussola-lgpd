@@ -1,5 +1,5 @@
 ---
-title: "Registrar uma ação do DPO"
+title: "Registrar uma ação do Encarregado"
 nav_order: 11
 parent: "Guias por tarefa"
 permalink: /guias/registrar-acoes-dpo/
@@ -11,13 +11,13 @@ last_verified: 2026-06-28
 status: publicado
 ---
 
-# Registrar uma ação do DPO
+# Registrar uma ação do Encarregado
 
-Use o módulo **Ações do DPO** para documentar, em poucos cliques, o que o encarregado vem fazendo — e ter um relatório pronto para prestação de contas.
+Use o módulo **Ações do Encarregado** para documentar, em poucos cliques, o que o encarregado vem fazendo — e ter um relatório pronto para prestação de contas.
 
 ## Registrar uma ação
 
-1. No menu, abra **Ações do DPO**.
+1. No menu, abra **Ações do Encarregado**.
 2. No formulário **Registrar nova ação**, preencha:
    - **Tipo** (projeto, capacitação, ponto de atenção, anotação, revisão, auditoria, contato com a ANPD, reunião…).
    - **Título** (obrigatório) e **Descrição**.
@@ -44,7 +44,7 @@ Em **Vínculo**, você pode ligar a ação a um **Incidente**, **RIPD**, **ativi
 
 ## Gerar o relatório
 
-1. Em **Ações do DPO**, clique em **📄 Relatório**.
+1. Em **Ações do Encarregado**, clique em **📄 Relatório**.
 2. Filtre por **período** e/ou **tipo**.
 3. Clique em **Imprimir / Baixar PDF** — sai só o relatório, com o cabeçalho da organização, pronto para entregar a um financiador ou auditoria.
 
