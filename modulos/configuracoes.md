@@ -5,7 +5,7 @@ parent: "Módulos"
 permalink: /modulos/configuracoes/
 role: encarregado
 routes: ["#/settings"]
-screenshots: [blgpd-04b-dsar-declaracao-escopo, blgpd-08-settings-dpo, blgpd-08b-settings-cookies, blgpd-08c-settings-webhooks, blgpd-08d-settings-paginas, blgpd-08f-settings-aparencia, blgpd-08g-settings-aparencia-custom, blgpd-08e-settings-saida, blgpd-08i-settings-import, blgpd-08h-settings-desinstalacao]
+screenshots: [blgpd-04b-dsar-declaracao-escopo, blgpd-69-config-encarregado, blgpd-70-encarregado-autofill, blgpd-08b-settings-cookies, blgpd-08c-settings-webhooks, blgpd-08d-settings-paginas, blgpd-08f-settings-aparencia, blgpd-08g-settings-aparencia-custom, blgpd-08e-settings-saida, blgpd-08i-settings-import, blgpd-08h-settings-desinstalacao]
 last_verified: 2026-06-28
 status: publicado
 ---
@@ -49,10 +49,19 @@ A pergunta **"A organização trata dados pessoais fora deste site?"** (Não / S
 
 ## Encarregado
 
-[![Configurações — Identidade do Encarregado](/assets/screenshots/blgpd-08-settings-dpo.png)](/assets/screenshots/blgpd-08-settings-dpo.png)
-*Dados do Encarregado, prefixo de versão e modo de exclusão de políticas.*
+[![Configurações — Encarregado, com aviso de distinção](/assets/screenshots/blgpd-69-config-encarregado.png)](/assets/screenshots/blgpd-69-config-encarregado.png)
+*Aba Encarregado: a designação formal (art. 41), com o aviso que a diferencia do papel de acesso de mesmo nome.*
 
 Aqui você cadastra o **Encarregado** — nome/setor, e-mail e telefone, que aparecem publicamente na Central. Também define o **prefixo de versionamento** das políticas (ex.: "v") e o **Modo de Exclusão de Políticas** (soft delete, que mantém logs, ou hard delete, que apaga em definitivo). A **logo** da organização fica na aba **Organização**.
+
+> ⚠️ **Designação formal ≠ papel de acesso**
+>
+> Esta tela define a designação **formal** do Encarregado (art. 41) — o contato **publicado** aos titulares e à ANPD —, que pode até ser alguém **sem usuário no WordPress** (um jurídico externo, um comitê, um e-mail). Não confunda com o **papel de acesso** "Encarregado" em [Equipe / Acessos](/modulos/equipe-acessos/), que apenas concede permissões no painel.
+
+**Atalho:** o botão **"Preencher a partir de um usuário do WordPress"** busca um usuário e preenche nome e e-mail automaticamente (você ainda pode editar; o telefone segue manual).
+
+[![Preencher o Encarregado a partir de um usuário do WordPress](/assets/screenshots/blgpd-70-encarregado-autofill.png)](/assets/screenshots/blgpd-70-encarregado-autofill.png)
+*Busca de usuário do WordPress para preencher os campos do Encarregado.*
 
 ➡️ Passo a passo em **[Configurar o Encarregado](/guias/configurar-dpo/)**.
 

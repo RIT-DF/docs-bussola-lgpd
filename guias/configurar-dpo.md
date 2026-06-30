@@ -6,7 +6,7 @@ permalink: /guias/configurar-dpo/
 task: configurar-dpo
 role: encarregado
 routes: ["#/settings"]
-screenshots: [blgpd-08-settings-dpo]
+screenshots: [blgpd-08-settings-dpo, blgpd-70-encarregado-autofill]
 last_verified: 2026-06-24
 status: publicado
 ---
@@ -21,13 +21,19 @@ O Encarregado é o contato de privacidade da sua OSC. Cadastrá-lo é o **primei
 ## Passo a passo
 
 1. No painel, abra **Bússola LGPD → Configurações**.
-2. Na aba **Identidade**, preencha:
+2. Na aba **Encarregado**, preencha:
    - **Nome ou Setor** — quem responde pela privacidade (ex.: "Encarregado de Dados" ou "Setor de Privacidade").
    - **E-mail de Contato** — por onde o titular fala com a OSC.
    - **Telefone** (opcional).
    - **Logo da Organização** — aparece nos relatórios PDF e na Central de Privacidade.
    - **Prefixo de Versionamento** — o prefixo usado nas versões das políticas (ex.: "v").
 3. Clique em **Salvar Identidade**.
+
+> 💡 **Atalho:** se o Encarregado já é um usuário do site, clique em **"Preencher a partir de um usuário do WordPress"**, busque a pessoa e o nome e o e-mail entram sozinhos (você ainda pode editar).
+>
+> ![Preencher a partir de um usuário do WordPress](/assets/screenshots/blgpd-70-encarregado-autofill.png)
+
+> ⚠️ **Não confunda com o papel de acesso.** Esta tela é a designação **formal** do Encarregado (o contato publicado). Dar a alguém o **papel** "Encarregado" em [Equipe / Acessos](/modulos/equipe-acessos/) é outra coisa: concede permissões no painel, sem efeito formal. Pode ser a mesma pessoa — só são cadastros diferentes.
 
 > ✅ **Boas práticas**
 >

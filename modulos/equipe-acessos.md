@@ -5,7 +5,7 @@ parent: "Módulos"
 permalink: /modulos/equipe-acessos/
 role: admin
 routes: ["#/access"]
-screenshots: [blgpd-60-equipe-acessos, blgpd-61-equipe-toast, blgpd-62-auditor-menu, blgpd-63-auditor-ropa, blgpd-64-auditor-settings, blgpd-65-atendente-menu, blgpd-66-atendente-dsar, blgpd-67-atendente-incidentes, blgpd-68-admin-menu-completo]
+screenshots: [blgpd-60-equipe-acessos, blgpd-61-equipe-toast, blgpd-62-auditor-menu, blgpd-63-auditor-ropa, blgpd-64-auditor-settings, blgpd-65-atendente-menu, blgpd-66-atendente-dsar, blgpd-67-atendente-incidentes, blgpd-68-admin-menu-completo, blgpd-71-acessos-distincao]
 last_verified: 2026-06-30
 status: publicado
 ---
@@ -40,6 +40,13 @@ São **três papéis** atribuíveis (mais o administrador do WordPress, que tem 
 > ✅ **Boas práticas**
 >
 > Em OSCs pequenas, onde uma pessoa acumula funções, o papel **Encarregado** cobre tudo que o trabalho de privacidade exige, sem precisar dar a ela acesso de administrador do site. Reserve o administrador do WordPress para quem realmente faz manutenção técnica.
+
+> ⚠️ **"Encarregado" aqui é o papel de acesso, não a designação formal**
+>
+> O papel **Encarregado** desta tela concede **permissões** no painel. Ele **não** é a designação formal do Encarregado da organização (art. 41) — essa, o contato publicado aos titulares, fica em [Configurações → Encarregado](/modulos/configuracoes/#encarregado). Costuma ser a mesma pessoa, mas são cadastros diferentes. A própria tela traz esse aviso:
+
+[![Aviso da distinção em Equipe / Acessos](/assets/screenshots/blgpd-71-acessos-distincao.png)](/assets/screenshots/blgpd-71-acessos-distincao.png)
+*Equipe / Acessos: nota que distingue o papel de acesso da designação formal do Encarregado.*
 
 ---
 

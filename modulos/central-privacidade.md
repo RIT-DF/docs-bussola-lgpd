@@ -5,7 +5,7 @@ parent: "Módulos"
 permalink: /modulos/central-privacidade/
 role: titular
 routes: ["/central-de-privacidade/"]
-screenshots: [blgpd-22-dsar-form, blgpd-08d-settings-paginas]
+screenshots: [blgpd-22-dsar-form, blgpd-72-central-encarregado, blgpd-08d-settings-paginas]
 last_verified: 2026-06-24
 status: publicado
 ---
@@ -22,6 +22,9 @@ A **Central de Privacidade** é a página **pública** do seu site onde o titula
 - **Exercício de Direitos** — um formulário para abrir pedidos (acesso, correção, exclusão, portabilidade, revogação, informação sobre compartilhamento, outro).
 - **Identidade de Privacidade** — nome/setor, e-mail e telefone do Encarregado, para contato direto.
 - **Política de Privacidade** — a **versão ativa**, exibida na íntegra. Só políticas ativas aparecem — uma política [inativada](/modulos/politicas/#inativar-e-reativar-uma-politica) some da Central automaticamente.
+
+[![Contato do Encarregado na Central pública](/assets/screenshots/blgpd-72-central-encarregado.png)](/assets/screenshots/blgpd-72-central-encarregado.png)
+*O bloco de contato traz o **Encarregado** (com a sigla "DPO" só como equivalência na 1ª menção). Esses são os dados cadastrados em [Configurações → Encarregado](/modulos/configuracoes/#encarregado).*
 - **Banner de cookies** — na primeira visita (veja [Consentimento & Cookies](/modulos/consentimento/)).
 
 ## Como publicar
